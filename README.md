@@ -70,7 +70,7 @@ Lines converted to UTO long after opening, such as Guangzhou Line 7
 
 ## Findings
 
-![Share of new metro lines that are automated, by year](charts/automated_share_by_year.svg)
+![Share of new metro lines that are automated, by year](charts/automated_share_by_year_2016_to_2026.svg)
 
 Of the **361 new lines** opened from 2016-01-01 through 2026-09-29
 that are new-build, fully grade-separated, and not mainline,
@@ -97,12 +97,14 @@ that are new-build, fully grade-separated, and not mainline,
 The same, split into mainland China and everywhere else
 (including Hong Kong and Macau, which CAMET doesn't cover):
 
-![Share of new metro lines in mainland China that are automated, by year](charts/automated_share_by_year_china.svg)
+![Share of new metro lines in mainland China that are automated, by year](charts/automated_share_by_year_china_2016_to_2026.svg)
 
-![Share of new metro lines outside mainland China that are automated, by year](charts/automated_share_by_year_ex_china.svg)
+![Share of new metro lines outside mainland China that are automated, by year](charts/automated_share_by_year_ex_china_2016_to_2026.svg)
 
-The numbers per year are in `data/automated_share_by_year.csv`,
-`data/automated_share_by_year_china.csv`, and `data/automated_share_by_year_ex_china.csv`.
+Each chart also has a `2016_to_2025` version with full years only,
+in which 118 of 340 new lines (35%) are automated worldwide.
+The numbers per year are in `data/automated_share_by_year*.csv`,
+named like the charts.
 
 ### Caveats
 
@@ -160,8 +162,10 @@ The numbers per year are in `data/automated_share_by_year.csv`,
 ## Layout
 
 - `data/urban_rail_openings.csv`: the full openings list, sorted by date.
-- `data/automated_share_by_year.csv`: the numbers behind the chart.
-- `charts/automated_share_by_year.svg`: the chart above.
+- `data/automated_share_by_year*.csv`: the numbers behind the charts.
+- `charts/automated_share_by_year*.svg`: the charts,
+  worldwide, for mainland China (`_china`), and for everywhere else (`_ex_china`),
+  each for 2016–2025 (`_2016_to_2025`) and 2016–2026 (`_2016_to_2026`).
 - `data/curation/`: the hand-kept tables the openings list is built from:
   `events.csv` (each UrbanRail.net opening, reviewed),
   `cities.csv` (city and country names),

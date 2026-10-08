@@ -4,14 +4,17 @@ Usage: python plot_share.py
 
 Reads data/urban_rail_openings.csv and, for each region
 (worldwide, mainland China, and outside mainland China), writes:
-- data/automated_share_by_year{suffix}.csv: the numbers behind the chart.
-- charts/automated_share_by_year{suffix}.svg: a bar chart of the share per year.
+- data/automated_share_by_year{suffix}_{range}.csv: the numbers behind the chart.
+- charts/automated_share_by_year{suffix}_{range}.svg: a bar chart of the share per year.
+Each comes in two ranges: 2016_to_2025 (full years only)
+and 2016_to_2026 (including the current, partial year).
 
 A line counts if it is new-build, fully grade-separated, and not mainline.
 """
 
 import csv
 from collections import Counter
+from datetime import date
 from html import escape
 from pathlib import Path
 
@@ -40,7 +43,7 @@ def counted(r):
     return r["new_build"] == "yes" and r["grade_separated"] == "yes" and r["mainline"] == "no"
 
 
-def tally(in_region):
+def tally(in_region, last_year):
     total = Counter()
     automated = Counter()
     last_date = ""
@@ -49,6 +52,8 @@ def tally(in_region):
             if not counted(r) or not in_region(r["country"]):
                 continue
             year = r["opening_date"][:4]
+            if year > last_year:
+                continue
             total[year] += 1
             automated[year] += r["automated"] == "yes"
             last_date = max(last_date, r["opening_date"])
@@ -80,7 +85,10 @@ def write_svg(rows, last_date, svg, region):
     bar_w = step * (1 - BAR_GAP)
     n_all = sum(n for _, n, _ in rows)
     a_all = sum(a for _, _, a in rows)
+    first_year = rows[0][0]
     last_year = rows[-1][0]
+    # Only the current year can be incomplete.
+    partial_year = str(date.today().year)
 
     def y_of(share):
         return TOP + plot_h * (1 - share)
@@ -105,7 +113,7 @@ def write_svg(rows, last_date, svg, region):
         f"Automated share of new metro lines, {region}</text>",
         f'<text class="t2" x="{LEFT}" y="50" font-size="13">'
         f"Above GoA2 among new-build, grade-separated, non-mainline lines; "
-        f"{a_all} of {n_all} ({a_all / n_all:.0%}) since 2016</text>",
+        f"{a_all} of {n_all} ({a_all / n_all:.0%}) in {first_year}–{last_year}</text>",
     ]
     for share in (0, 0.25, 0.5, 0.75):
         y = y_of(share)
@@ -120,7 +128,7 @@ def write_svg(rows, last_date, svg, region):
         x = LEFT + i * step + (step - bar_w) / 2
         y = y_of(share)
         cx = x + bar_w / 2
-        partial = year == last_year
+        partial = year == partial_year
         label = f"{year}: {a} of {n} new lines automated ({share:.0%})"
         if partial:
             label += f", through {last_date}"
@@ -148,8 +156,9 @@ def write_svg(rows, last_date, svg, region):
         )
     out.append(
         f'<text class="t2" x="{LEFT}" y="{HEIGHT - 10}" font-size="11">'
-        f"Below each year: automated/new lines. * {last_year} through {last_date}. "
-        "Sources: UrbanRail.net, CAMET.</text>"
+        "Below each year: automated/new lines. "
+        + (f"* {partial_year} through {last_date}. " if last_year == partial_year else "")
+        + "Sources: UrbanRail.net, CAMET.</text>"
     )
     out.append("</svg>")
     svg.parent.mkdir(exist_ok=True)
@@ -157,13 +166,16 @@ def write_svg(rows, last_date, svg, region):
 
 
 def main():
-    for suffix, (region, in_region) in REGIONS.items():
-        rows, last_date = tally(in_region)
-        write_table(rows, ROOT / "data" / f"automated_share_by_year{suffix}.csv")
-        write_svg(rows, last_date, ROOT / "charts" / f"automated_share_by_year{suffix}.svg", region)
-        print(region)
-        for year, n, a in rows:
-            print(f"  {year} {a}/{n} {a / n:.0%}")
+    for last_year in ("2025", "2026"):
+        span = f"2016_to_{last_year}"
+        for suffix, (region, in_region) in REGIONS.items():
+            rows, last_date = tally(in_region, last_year)
+            name = f"automated_share_by_year{suffix}_{span}"
+            write_table(rows, ROOT / "data" / f"{name}.csv")
+            write_svg(rows, last_date, ROOT / "charts" / f"{name}.svg", region)
+            n = sum(n for _, n, _ in rows)
+            a = sum(a for _, _, a in rows)
+            print(f"{name}: {a}/{n} {a / n:.0%}")
 
 
 if __name__ == "__main__":
