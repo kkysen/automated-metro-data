@@ -8,6 +8,7 @@ a date, a city link, the line and its termini, the length, and an optional
 """
 
 import csv
+import hashlib
 import html
 import re
 import sys
@@ -35,7 +36,7 @@ def segments(desc):
     out = []
     pos = 0
     for m in SEG_RE.finditer(desc):
-        seg = re.sub(r"^[\s;,&+|]+", "", m.group(1)).strip()
+        seg = re.sub(r"^[\s;,&+|\-\u2013]+", "", m.group(1)).strip()
         out.append((seg, m.group(2) or ""))
         pos = m.end()
     tail = desc[pos:].strip()
@@ -112,8 +113,13 @@ def main():
             if key not in rows or (r["new_flag"] and not rows[key]["new_flag"]):
                 rows[key] = r
     rows = sorted(rows.values(), key=lambda r: (r["date"], r["city"]))
+    for r in rows:
+        # A stable ID for hand-kept overrides to refer to.
+        key = f'{r["date"]}|{r["city"]}|{r["description"]}'.encode()
+        r["id"] = hashlib.sha1(key).hexdigest()[:8]
     with open(out, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        fields = ["id"] + [k for k in rows[0] if k != "id"]
+        w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         w.writerows(rows)
 
