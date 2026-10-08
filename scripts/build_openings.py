@@ -30,7 +30,10 @@ DEFAULTS = {
 }
 # China's suburban lines (市域快轨) are metro-standard, not mainline.
 CHINA_SUBURBAN = ("suburban metro", "no", "yes", "2")
-DEFAULT_BASIS = "default for the mode, not individually verified"
+DEFAULT_BASIS = "mode default; unverified"
+# CAMET lists every FAO line opened since 2021, and its FAO totals
+# leave no room for unlisted ones before that.
+CHINA_NOT_FAO = "CAMET: not FAO (inferred from its FAO tables and totals)"
 
 FIELDS = [
     "opening_date",
@@ -71,6 +74,8 @@ def main():
         if e["urbanrail_mode"] == "s-bahn" and country == "China":
             mode, mainline, graded, goa = CHINA_SUBURBAN
         basis = DEFAULT_BASIS
+        if country == "China" and e["urbanrail_mode"] != "tram":
+            basis = CHINA_NOT_FAO
         override = lines.get((e["city"], e["line"]))
         if override:
             used.add((e["city"], e["line"]))

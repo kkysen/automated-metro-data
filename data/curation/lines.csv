@@ -5,23 +5,23 @@ Beijing,Line 19,,,,4,CAMET: FAO (2021 table)
 Beijing,Line 11,,,,4,CAMET: FAO (2021 table)
 Beijing,Line 3,,,,4,CAMET: FAO (2024 table)
 Beijing,Line 12,,,,4,CAMET: FAO (2024 table)
-Beijing,Line S1,maglev,,,2,CAMET: not FAO
-Beijing,Daxing Airport Express,airport express metro,,,2,CAMET: not FAO
+Beijing,Line S1,maglev,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
+Beijing,Daxing Airport Express,airport express metro,,,4,listed as GoA4 in 2020 coverage; fills the gap in CAMET's pre-2021 FAO km total
 Shanghai,APM Pujiang Line,people mover,,,4,CAMET: FAO
 Shanghai,Line 10,,,,4,CAMET: FAO (since 2014)
 Shanghai,Line 14,,,,4,CAMET: FAO (2021 table)
 Shanghai,Line 15,,,,4,CAMET: FAO (2021 table)
 Shanghai,Line 18,,,,4,CAMET: FAO (2021 and 2025 tables)
-Shanghai,Line 17,,,,2,CAMET: not FAO
-Shanghai,Airport Link Line,suburban metro,,,2,CAMET: not FAO
+Shanghai,Line 17,,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
+Shanghai,Airport Link Line,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Guangzhou,Line 18,suburban metro,,,4,CAMET: designed for FAO; opened with drivers in 2021 and FAO from January 2023
 Guangzhou,Line 22,suburban metro,,,4,CAMET: FAO (2022 and 2025 tables)
 Guangzhou,Line 11,,,,4,CAMET: FAO (2024 table)
 Guangzhou,Line 10,,,,4,CAMET: FAO (2025 table)
 Guangzhou,Line 12,,,,4,CAMET: FAO (2025 table)
 Guangzhou,Line 7,,,,2,CAMET: opened GoA2 in 2016; converted to FAO in December 2024
-Guangzhou,Line 14,suburban metro,,,2,CAMET: not FAO
-Guangzhou,Line 21,suburban metro,,,2,CAMET: not FAO
+Guangzhou,Line 14,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
+Guangzhou,Line 21,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Guangzhou,Guangzhou East Ring Intercity,intercity rail,yes,yes,1,mainline intercity
 Guangzhou,Guangzhou–Foshan Circular Intercity (Foshan West–Dongguan West),intercity rail,yes,yes,1,mainline intercity
 Guangzhou,Guangzhou–Qingyuan Intercity,intercity rail,yes,yes,1,mainline intercity
@@ -34,13 +34,13 @@ Shenzhen,Line 12,,,,4,CAMET: FAO (2022 table)
 Shenzhen,Line 16,,,,4,CAMET: FAO (2022 table)
 Shenzhen,Line 6 Branch,,,,4,CAMET: FAO (2022 table)
 Shenzhen,Line 13,,,,4,CAMET: FAO (2024 table)
-Shenzhen,Pingshan SkyShuttle,people mover,,,2,CAMET: not listed as FAO
+Shenzhen,Pingshan SkyShuttle,automated guideway transit,,,4,"BYD SkyShuttle AGT with UTO, though not in CAMET's 2022 FAO table"
 Wuhan,Line 5,,,,4,CAMET: FAO (2021 table)
 Wuhan,Line 16,,,,4,CAMET: FAO (2021 table)
 Wuhan,Line 19,,,,4,CAMET: FAO (2023 summary)
 Wuhan,Optics Valley Sky Rail,suspended monorail,,,4,CAMET: FAO (2023 summary)
 Wuhan,Line 12,,,,4,CAMET: FAO (2026 H1 table)
-Wuhan,Yangluo Line,,,,2,CAMET: not FAO
+Wuhan,Yangluo Line,,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Wuhan,Optics Valley Tram L1,tram,,no,0,
 Wuhan,Optics Valley Tram L2,tram,,no,0,
 Nanjing,Line 7,,,,4,CAMET: FAO (2022 and 2024 tables)
@@ -48,13 +48,13 @@ Chengdu,Line 9,,,,4,CAMET: FAO
 Chengdu,Line 27,,,,4,CAMET: FAO (2024 table)
 Chengdu,Line 13,,,,4,CAMET: FAO (2025 table)
 Chengdu,Line 30,,,,4,CAMET: FAO (2025 table)
-Chengdu,Line 18,suburban metro,,,2,CAMET: not FAO
-Chengdu,Line 19,suburban metro,,,2,CAMET: not FAO
+Chengdu,Line 18,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
+Chengdu,Line 19,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Suzhou,Line 5,,,,4,CAMET: FAO (2021 table)
 Suzhou,Line 11 (S1),suburban metro,,,4,CAMET: FAO (2023 summary)
 Suzhou,Line 6,,,,4,CAMET: FAO (2024 table)
 Suzhou,Line 8,,,,4,CAMET: FAO (2024 table)
-Suzhou,Line 7,,,,2,CAMET: not FAO
+Suzhou,Line 7,,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Ningbo,Line 5,,,,4,CAMET: FAO (2021 table)
 Ningbo,Line 3,,,,2,CAMET: only phase 2 (2024) is FAO
 Ningbo,Line 8,,,,4,CAMET: FAO (2025 table)
@@ -66,7 +66,7 @@ Jinan,Line 4,,,,4,CAMET: FAO (2025 table)
 Jinan,Line 6,,,,4,CAMET: FAO (2025 table)
 Jinan,Line 8,,,,4,CAMET: FAO (2025 table)
 Jinan,Jinan SkyShuttle Line 1,people mover,,,4,CAMET: FAO (2025 table)
-Jinan,Line 1,suburban metro,,,2,CAMET: not FAO
+Jinan,Line 1,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Jinan,Jiyang Tram,tram,,no,0,
 Taiyuan,Line 2,,,,4,CAMET: FAO
 Taiyuan,Line 1,,,,4,CAMET: FAO (2025 table)
@@ -74,10 +74,10 @@ Wuhu,Line 1,monorail,,,4,CAMET: FAO (2021 table)
 Wuhu,Line 2,monorail,,,4,CAMET: FAO (2021 table)
 Chongqing,Bishan Yunba (SkyShuttle),people mover,,,4,CAMET: FAO (2021 table)
 Chongqing,Jiangtiao Line,suburban railway,yes,yes,1,China Railway suburban line
-Chongqing,Bitong Line,suburban metro,,,2,CAMET: not FAO
+Chongqing,Bitong Line,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Tianjin,Line 6,,,,2,CAMET: only phase 2 (2021) is FAO
 Changsha,Dawangshan SkyShuttle,people mover,,,4,CAMET: FAO (2023 summary)
-Changsha,Changsha Maglev Express,maglev,,,2,CAMET: not FAO
+Changsha,Changsha Maglev Express,maglev,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Xi'an,Line 16,,,,4,CAMET: FAO (2023 summary)
 Xi'an,Line 10,,,,4,CAMET: FAO (2024 table)
 Xi'an,Line 8,,,,4,CAMET: FAO (2024 table)
@@ -85,10 +85,10 @@ Xi'an,Line 15,,,,4,CAMET: FAO (2025 table)
 Xi'an,Gaoxin SkyShuttle,people mover,,,4,CAMET: FAO (2024 table)
 Shaoxing,Line 2,,,,4,CAMET: FAO (2023 summary)
 Fuzhou,Line 4,,,,4,CAMET: FAO (2023 summary and 2025 table)
-Fuzhou,Binhai Express,suburban metro,,,2,CAMET: not FAO
+Fuzhou,Binhai Express,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Zhengzhou,Line 12,,,,4,CAMET: FAO (2023 summary)
 Zhengzhou,Line 8,,,,4,CAMET: FAO (2024 table)
-Zhengzhou,Line 7,,,,2,CAMET: not FAO
+Zhengzhou,Line 7,,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
 Qingdao,Line 6,,,,4,CAMET: FAO (2024 table)
 Hefei,Line 8,,,,4,CAMET: FAO (2024 table)
 Hefei,Line 6,,,,4,CAMET: FAO (2025 table)
@@ -106,13 +106,13 @@ Xiamen,Line 4,,,,4,news reports at opening: fully automatic operation
 Xiamen,Line 6,,,,4,news reports at opening: GoA4 fully automatic operation
 Ningbo,Line 12,suburban metro,,,2,no fully automatic operation reported at opening; not yet in a CAMET table
 Nanjing,Line 6,,,,2,no fully automatic operation reported at opening; not yet in a CAMET table
-Hong Kong,South Island Line,,,,4,MTR: unattended operation
+Hong Kong,South Island Line,,,,4,MTR: UTO
 Hong Kong,Kwun Tong Line,,,,2,
 Hong Kong,Tuen Ma Line,metro,no,yes,2,
 Hong Kong,East Rail line,commuter rail,no,yes,2,
-Macau,Taipa Line,light metro,,,4,unattended operation
-Macau,Seac Pai Van Line,light metro,,,4,unattended operation
-Macau,Hengqin Line,light metro,,,4,unattended operation
+Macau,Taipa Line,light metro,,,4,UTO
+Macau,Seac Pai Van Line,light metro,,,4,UTO
+Macau,Hengqin Line,light metro,,,4,UTO
 Taipei,Circular Line,,,,4,driverless medium-capacity line
 Taipei,Sanying Line,,,,4,driverless medium-capacity line
 Taipei,Red Line,,,,2,
@@ -122,13 +122,13 @@ Taoyuan,Line A,airport express metro,,,2,
 Kaohsiung,Red Line,,,,2,
 New Taipei,Danhai LRT,light rail,,no,1,
 Taipei,Ankeng Line,light rail,,no,1,
-Incheon,Incheon Airport Maglev,maglev,,,4,unattended operation
-Incheon,Line 2,light metro,,,4,unattended operation
-Seoul,Ui LRT,light metro,,,4,unattended operation
-Gimpo,Gimpo Gold Line,light metro,,,4,unattended operation
-Seoul,Sillim Line,light metro,,,4,unattended operation
-Seoul,Shinbundang Line,,,,4,unattended operation
-Uijeongbu,Uijeongbu LRT,light metro,,,4,unattended operation
+Incheon,Incheon Airport Maglev,maglev,,,4,UTO
+Incheon,Line 2,light metro,,,4,UTO
+Seoul,Ui LRT,light metro,,,4,UTO
+Gimpo,Gimpo Gold Line,light metro,,,4,UTO
+Seoul,Sillim Line,light metro,,,4,UTO
+Seoul,Shinbundang Line,,,,4,UTO
+Uijeongbu,Uijeongbu LRT,light metro,,,4,UTO
 Seoul,GTX-A,regional express rail,no,yes,2,
 Seoul,Gyeonggang Line,commuter rail,yes,yes,1,
 Seoul,Seohae Line,commuter rail,yes,yes,1,
@@ -138,23 +138,23 @@ Seoul,Line 1,commuter rail,yes,yes,1,
 Incheon,Suin Line,commuter rail,yes,yes,1,
 Busan,Donghae Nambu Line,commuter rail,yes,yes,1,
 Incheon,AREX,airport railway,no,yes,2,
-Singapore,Thomson–East Coast Line,,,,4,unattended operation
-Singapore,Downtown Line,,,,4,unattended operation
-Singapore,North East Line,,,,4,unattended operation
-Singapore,Circle Line,,,,4,unattended operation
-Singapore,Punggol LRT,light metro (APM),,,4,unattended operation
+Singapore,Thomson–East Coast Line,,,,4,UTO
+Singapore,Downtown Line,,,,4,UTO
+Singapore,North East Line,,,,4,UTO
+Singapore,Circle Line,,,,4,UTO
+Singapore,Punggol LRT,light metro (APM),,,4,UTO
 Singapore,North–South Line,,,,2,ATO with train captains
 Singapore,East–West Line,,,,2,ATO with train captains
-Kuala Lumpur,Line 9,,,,4,unattended operation
-Kuala Lumpur,Putrajaya Line,,,,4,unattended operation
-Kuala Lumpur,Shah Alam Line (Line 11),light metro,,,4,unattended operation
-Kuala Lumpur,Kelana Jaya Line,light metro,,,4,unattended operation
+Kuala Lumpur,Line 9,,,,4,UTO
+Kuala Lumpur,Putrajaya Line,,,,4,UTO
+Kuala Lumpur,Shah Alam Line (Line 11),light metro,,,4,UTO
+Kuala Lumpur,Kelana Jaya Line,light metro,,,4,UTO
 Kuala Lumpur,Ampang Line,light metro,,,2,
 Kuala Lumpur,Sri Petaling Line,light metro,,,2,
 Kuala Lumpur,KTM Skypark Link,airport rail link,yes,yes,1,
-Bangkok,Gold Line,people mover,,,4,unattended operation
-Bangkok,Pink Line,monorail,,,4,unattended operation
-Bangkok,Yellow Line,monorail,,,4,unattended operation
+Bangkok,Gold Line,people mover,,,4,UTO
+Bangkok,Pink Line,monorail,,,4,UTO
+Bangkok,Yellow Line,monorail,,,4,UTO
 Bangkok,Purple Line,,,,2,
 Bangkok,Blue Line,,,,2,
 Bangkok,BTS Sukhumvit Line,,,,2,
@@ -166,59 +166,59 @@ Jakarta,MRT North–South Line,,,,2,
 Palembang,Palembang LRT,light rail,,yes,2,
 Manila,Line 1,light rail,,yes,2,
 Manila,Line 2,,,,2,
-Sydney,Sydney Metro North West,,,,4,unattended operation
-Sydney,M1,,,,4,unattended operation
-Copenhagen,M3,,,,4,unattended operation
-Copenhagen,M4,,,,4,unattended operation
-Milan,M4,,,,4,unattended operation
-Thessaloniki,Line 1,,,,4,unattended operation
-Thessaloniki,Line 2,,,,4,unattended operation
-Rennes,Line B,light metro,,,4,unattended operation (Cityval)
-Paris,M14,,,,4,unattended operation
-Paris,M4,,,,4,converted to unattended operation in 2022
-Lyon,Line B,,,,4,converted to unattended operation in 2022
-Barcelona,Line 9 Sud,,,,4,unattended operation
-Barcelona,Line 10 Sud,,,,4,unattended operation
-Barcelona,Line 10,,,,4,unattended operation
-Turin,M1,light metro (VAL),,,4,unattended operation
-Rome,Line C,,,,4,unattended operation
-Nuremberg,U3,,,,4,unattended operation
-Istanbul,M5,,,,4,unattended operation
-Istanbul,M7,,,,4,unattended operation
-Istanbul,M8,,,,4,unattended operation
-Istanbul,M9,,,,4,unattended operation
-Istanbul,M11,airport express metro,,,4,unattended operation
-Riyadh,Blue Line,,,,4,unattended operation
-Riyadh,Red Line,,,,4,unattended operation
-Riyadh,Orange Line,,,,4,unattended operation
-Riyadh,Yellow Line,,,,4,unattended operation
-Riyadh,Green Line,,,,4,unattended operation
-Riyadh,Purple Line,,,,4,unattended operation
-Doha,Red Line,,,,4,unattended operation
-Doha,Gold Line,,,,4,unattended operation
-Doha,Green Line,,,,4,unattended operation
-Dubai,Red Line,,,,4,unattended operation
-Honolulu,Skyline,,,,4,unattended operation
-Montreal,REM,light metro,,,4,unattended operation
-Vancouver,Millennium Line Evergreen Extension,light metro,,,4,unattended operation
-Vancouver,Canada Line,,,,4,unattended operation
-Santiago,Line 6,,,,4,unattended operation
-Santiago,Line 3,,,,4,unattended operation
-Lima,Line 2,,,,4,unattended operation
-São Paulo,Line 4,,,,4,unattended operation
-São Paulo,Line 15,monorail,,,4,unattended operation
-São Paulo,Line 17,monorail,,,4,unattended operation
-São Paulo,Line 6,,,,4,designed for unattended operation
+Sydney,Sydney Metro North West,,,,4,UTO
+Sydney,M1,,,,4,UTO
+Copenhagen,M3,,,,4,UTO
+Copenhagen,M4,,,,4,UTO
+Milan,M4,,,,4,UTO
+Thessaloniki,Line 1,,,,4,UTO
+Thessaloniki,Line 2,,,,4,UTO
+Rennes,Line B,light metro,,,4,UTO (Cityval)
+Paris,M14,,,,4,UTO
+Paris,M4,,,,4,converted to UTO in 2022
+Lyon,Line B,,,,4,converted to UTO in 2022
+Barcelona,Line 9 Sud,,,,4,UTO
+Barcelona,Line 10 Sud,,,,4,UTO
+Barcelona,Line 10,,,,4,UTO
+Turin,M1,light metro (VAL),,,4,UTO
+Rome,Line C,,,,4,UTO
+Nuremberg,U3,,,,4,UTO
+Istanbul,M5,,,,4,UTO
+Istanbul,M7,,,,4,UTO
+Istanbul,M8,,,,4,UTO
+Istanbul,M9,,,,4,UTO
+Istanbul,M11,airport express metro,,,4,UTO
+Riyadh,Blue Line,,,,4,UTO
+Riyadh,Red Line,,,,4,UTO
+Riyadh,Orange Line,,,,4,UTO
+Riyadh,Yellow Line,,,,4,UTO
+Riyadh,Green Line,,,,4,UTO
+Riyadh,Purple Line,,,,4,UTO
+Doha,Red Line,,,,4,UTO
+Doha,Gold Line,,,,4,UTO
+Doha,Green Line,,,,4,UTO
+Dubai,Red Line,,,,4,UTO
+Honolulu,Skyline,,,,4,UTO
+Montreal,REM,light metro,,,4,UTO
+Vancouver,Millennium Line Evergreen Extension,light metro,,,4,UTO
+Vancouver,Canada Line,,,,4,UTO
+Santiago,Line 6,,,,4,UTO
+Santiago,Line 3,,,,4,UTO
+Lima,Line 2,,,,4,UTO
+São Paulo,Line 4,,,,4,UTO
+São Paulo,Line 15,monorail,,,4,UTO
+São Paulo,Line 17,monorail,,,4,UTO
+São Paulo,Line 6,,,,4,designed for UTO
 São Paulo,Line 13 Jade,commuter rail,yes,yes,1,
 São Paulo,Line 9,commuter rail,yes,yes,1,
-Cairo,East Nile Monorail,monorail,,,4,unattended operation
+Cairo,East Nile Monorail,monorail,,,4,UTO
 Cairo,10th of Ramadan LRT,suburban rail (LRT),no,yes,2,
-Delhi,Magenta Line,,,,4,opened with drivers; unattended since December 2020
-Delhi,Pink Line,,,,4,opened with drivers; unattended since November 2021
+Delhi,Magenta Line,,,,4,opened with drivers; UTO since December 2020
+Delhi,Pink Line,,,,4,opened with drivers; UTO since November 2021
 Delhi,Namo Bharat (Delhi–Meerut RRTS),regional rail,no,yes,2,
 Delhi,Meerut Metro,,,,2,
 Mumbai,Mumbai Monorail,monorail,,,2,
-Phoenix,PHX,people mover,,,4,unattended operation
+Phoenix,PHX,people mover,,,4,UTO
 Istanbul,F4,funicular,,,4,
 Mexico City,El Insurgente,commuter rail,no,yes,2,
 Denver,A Line,commuter rail,,,,
