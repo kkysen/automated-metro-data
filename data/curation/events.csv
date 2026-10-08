@@ -543,7 +543,7 @@ dd360376,2019-12-31,tram,Magnitogorsk,,no,yes,2.2,Pros. Karla Marksa/ul. Truda -
 4f63b0d5,2020-01-10,tram,Port Louis,Line 2019,no,no,,2019,not an opening
 94ce6353,2020-01-10,tram,Port Louis,Metro Express,yes,yes,12.6,Port Louis Victoria - Rose Hill (12.6 km),
 9b5d6eea,2020-01-20,metro,Shijiazhuang,Line 3,no,yes,5.4,Line 3 Shierzhong – Xisanzhuang (5.4 km),
-563aa654,2020-01-28,metro,Nagpur,Aqua Line,no,yes,9.7,"Aqua Line Lokmanya Nagar - Sitabuldi (9.7 km, 6 stations only)",
+563aa654,2020-01-28,metro,Nagpur,Aqua Line,yes,yes,9.7,"Aqua Line Lokmanya Nagar - Sitabuldi (9.7 km, 6 stations only)",first opening of the Aqua Line
 862bb950,2020-01-31,metro,Singapore,Thomson–East Coast Line,yes,yes,3.2,TEL Woodlands North – Woodlands South (3.2 km),
 9ebb83f3,2020-01-31,metro,Singapore,TEL,yes,no,,TEL Woodlands North - Woodlands South,duplicate of 862bb950
 d1376607,2020-01-31,metro,Taipei,Circular Line,yes,yes,15.4,Yellow (Circular) Line New Taipei Industrial Park – Dapinglin (15.4 km),
@@ -1392,8 +1392,8 @@ a5062a73,2026-03-28,s-bahn,Berlin,S15,no,yes,2.2,S15 Wedding – Hauptbahnhof (2
 2f60aef6,2026-03-28,light-rail,Seattle,2 Line,no,yes,12.8,Line 2 International District/Chinatown — South Bellvue (12.8 km),
 8b2fb83f,2026-03-31,monorail,São Paulo,Line 17,yes,yes,6.0,Line 17 Morumbi — Aeroporto de Congonhas (6 km; limited service),
 f3a578ea,2026-04-05,tram,Birmingham,,no,yes,0.5,Bull St/Corporation St — Millennium Point (0.5 km),
-87b7e23f,2026-04-08,metro,Mumbai,Line 9,no,yes,3.6,Line 9 Dahisar East — Kashigaon (3.6 km),
-ea398fee,2026-04-08,metro,Mumbai,Line 2B,no,yes,5.4,Line 2B Diamond Garden — Mandale (5.4 km),
+87b7e23f,2026-04-08,metro,Mumbai,Line 9,yes,yes,3.6,Line 9 Dahisar East — Kashigaon (3.6 km),"first opening of Line 9, numbered and planned as its own line though it continues Line 7"
+ea398fee,2026-04-08,metro,Mumbai,Line 2B,yes,yes,5.4,Line 2B Diamond Garden — Mandale (5.4 km),first opening of Line 2B
 437d8ade,2026-04-18,tram,Prague,,no,yes,0.5,Lihovar — Dvorce/Kublov (0.5 km),
 db797a9e,2026-04-22,s-bahn,Nanjing,S2,yes,yes,54.2,S2 Xishanqiao — Taibai (54.2 km),
 77378f52,2026-04-26,s-bahn,Jinhua,Jinyi Line,no,yes,3.6,Lingyun — Yiwu Railway Station (3.6 km),
