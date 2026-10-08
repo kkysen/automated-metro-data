@@ -61,21 +61,21 @@ and conversions to full automation are rare.
 
 ![Share of new metro lines that are automated, by year](charts/automated_share_by_year.svg)
 
-Of the **360 new lines** opened from 2016-01-01 through 2026-09-29
+Of the **363 new lines** opened from 2016-01-01 through 2026-09-29
 that are new-build, fully grade-separated, and not mainline,
-**121 (34%) are automated** at GoA3 or GoA4.
+**123 (34%) are automated** at GoA3 or GoA4.
 
 - **The share has risen sharply.**
-  It was 17% (29 of 167) for lines opened in 2016–2020,
-  48% (92 of 193) in 2021–2026,
-  and 56% (48 of 85) in 2024–2026.
+  It was 18% (30 of 168) for lines opened in 2016–2020,
+  48% (93 of 195) in 2021–2026,
+  and 55% (48 of 87) in 2024–2026.
 - **China drove the rise.**
-  China opened 236 of the 360 lines.
-  Its automated share went from 5% (5 of 107) in 2016–2020
+  China opened 236 of the 363 lines.
+  Its automated share went from 6% (6 of 107) in 2016–2020
   to 62% (33 of 53) in 2024–2026,
   as fully automated operation became the default for new Chinese metro lines.
 - **Elsewhere the share has been steadier and higher.**
-  Outside China, 43% of new lines (53 of 124) are automated,
+  Outside China, 42% of new lines (53 of 127) are automated,
   and 54% (51 of 94) excluding India,
   whose new lines run with drivers
   except for Delhi's Magenta and Pink lines.
@@ -99,14 +99,19 @@ The numbers per year are in `data/automated_share_by_year.csv`.
 - **The GoA of each automated line has a stated basis** (`goa_basis`).
   For mainland China it is CAMET's FAO designation,
   whose tables list every FAO line opened since 2021,
-  so lines missing from them are not automated.
-  For 2016–2020 it is CAMET's FAO totals,
-  which leave room for only seven FAO lines (five of them opened since 2016).
+  so lines missing from them are not automated,
+  except lines built for FAO that CAMET designated later
+  (Guangzhou Line 18, designated in 2023)
+  and the Pingshan SkyShuttle, an automated people mover.
+  CAMET doesn't list FAO lines for 2016–2020,
+  but its FAO km totals match eight pre-2021 lines,
+  six of them opened since 2016,
+  including the Daxing Airport Express.
   The seven Chinese lines opened in the second half of 2026 aren't in a CAMET table yet;
   their GoA comes from news coverage of their openings.
   Lines elsewhere are tagged from known operating practice.
   Lines not individually reviewed get the default for their mode,
-  marked "default for the mode, not individually verified";
+  marked "mode default; unverified";
   that covers no automated lines, but GoA1 vs. GoA2 among them is not reliable.
 
 ## Sources
