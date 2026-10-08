@@ -119,9 +119,9 @@ def write_svg(rows, last_date, svg, region, unit, unknown_km):
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" '
         f'width="{WIDTH}" height="{HEIGHT}" role="img" aria-labelledby="t d" '
         'font-family="system-ui, -apple-system, Segoe UI, sans-serif">',
-        f'<title id="t">Share of new metro lines {region} that are automated (above GoA2), by year</title>',
-        f'<desc id="d">{a_all} of {n_all} new grade-separated, non-mainline urban rail lines '
-        f"opened from 2016 to {last_date} are automated.</desc>",
+        f'<title id="t">Share of new metro lines {region} that are automated (&gt; GoA2), by year</title>',
+        f'<desc id="d">{fmt(a_all)}/{fmt(n_all)} new grade-separated, non-mainline urban rail lines '
+        f"opened in 2016 to {last_date} are automated.</desc>",
         "<style>",
         ".bg{fill:#fcfcfb}.bar{fill:#2a78d6}.bar.partial{fill-opacity:.55}",
         ".grid{stroke:#e4e3df;stroke-width:1}.axis{stroke:#a3a29c;stroke-width:1}",
@@ -134,9 +134,9 @@ def write_svg(rows, last_date, svg, region, unit, unknown_km):
         f'<text class="t1" x="{LEFT}" y="28" font-size="17" font-weight="600">'
         f"Automated share of new metro {'km' if unit == 'km' else 'lines'}, {region}</text>",
         f'<text class="t2" x="{LEFT}" y="50" font-size="13">'
-        f"Above GoA2; {'grade-separated, non-mainline openings' if unit == 'km' else 'new-build, grade-separated, non-mainline lines'}; "
-        f"{fmt(a_all)} of {fmt(n_all)}{' km' if unit == 'km' else ''} "
-        f"({a_all / n_all:.0%}) in {first_year}–{last_year}</text>",
+        f"&gt; GoA2; {'grade-separated, non-mainline openings' if unit == 'km' else 'new-build, grade-separated, non-mainline lines'}; "
+        f"{fmt(a_all)}/{fmt(n_all)}{' km' if unit == 'km' else ''} "
+        f"({a_all / n_all:.0%}) in {first_year} to {last_year}</text>",
     ]
     for share in (0, 0.25, 0.5, 0.75):
         y = y_of(share)
@@ -152,7 +152,7 @@ def write_svg(rows, last_date, svg, region, unit, unknown_km):
         y = y_of(share)
         cx = x + bar_w / 2
         partial = year == partial_year
-        label = f"{year}: {fmt(a)} of {fmt(n)} new {unit} automated ({share:.0%})"
+        label = f"{year}: {fmt(a)}/{fmt(n)} new {unit} automated ({share:.0%})"
         if partial:
             label += f", through {last_date}"
         out.append(f"<g><title>{escape(label)}</title>")
