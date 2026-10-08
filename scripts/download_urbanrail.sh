@@ -1,18 +1,23 @@
 #!/usr/bin/env bash
-# Download UrbanRail.net's yearly lists of new openings into data/raw/urbanrail/.
+# Download UrbanRail.net's yearly lists of new openings since 2009 into data/raw/urbanrail/.
 set -euo pipefail
 
 main() {
     local root
     root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
     local out="${root}/data/raw/urbanrail"
-    local first_year=2016
+    local first_year=2009
     local last_year
     last_year="$(date +%Y)"
     mkdir -p "${out}"
     local year
     for ((year = first_year; year < last_year; year++)); do
-        curl -fsSL -o "${out}/news${year}.htm" "https://www.urbanrail.net/news${year}.htm"
+        local page="news${year}.htm"
+        # 2009 and 2010 share one page.
+        if ((year == 2009 || year == 2010)); then
+            page="news2009-2010.htm"
+        fi
+        curl -fsSL -o "${out}/${page}" "https://www.urbanrail.net/${page}"
     done
     # The current year lives on the main news page.
     curl -fsSL -o "${out}/news${last_year}.htm" "https://www.urbanrail.net/news.htm"
