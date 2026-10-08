@@ -26,7 +26,7 @@ though the length at first opening is kept where known.
 ### The full openings list
 
 To decide which openings are new lines, every opening has to be classified anyway,
-so `data/openings.csv` lists **every** urban rail opening since 2016-01-01
+so `data/urban_rail_openings.csv` lists **every** urban rail opening since 2016-01-01
 that UrbanRail.net records (metro, light rail, tram, monorail, people mover,
 and purpose-built suburban rail), one row per opened line or section,
 sorted by opening date.
@@ -75,13 +75,11 @@ and conversions to full automation are rare.
 - `scripts/`: download and parse scripts.
 - `data/raw/`: downloaded source pages and reports.
 - `data/`: generated and curated CSVs.
-- `new_metro_lines_goa4.xlsx`: the earlier spreadsheet this work started from,
-  with GoA4-only, km-based estimates.
 
 ## Status
 
 Work in progress.
-The earlier spreadsheet found that about 20% of new km in China
+An earlier, GoA4-only, km-based spreadsheet found that about 20% of new km in China
 and about 48% of new lines elsewhere were GoA4 over the decade,
 with the current annual rate near 50%.
 Those figures are being redone by line count, with GoA3 included,
