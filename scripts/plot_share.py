@@ -6,7 +6,7 @@ Reads data/urban_rail_openings.csv and, for each region
 (worldwide, mainland China, and outside mainland China), writes:
 - data/automated{measure}_share_by_year{suffix}_{range}.csv: the numbers behind the chart.
 - charts/automated{measure}_share_by_year{suffix}_{range}.svg: a bar chart of the share per year.
-- charts/png/automated{measure}_share_by_year{suffix}_{range}.png: the same at 2x, for apps without SVG support.
+- charts/automated{measure}_share_by_year{suffix}_{range}.png: the same at 2x, for apps without SVG support.
   These aren't committed, and need ImageMagick (`magick`).
 The measure is either the count of new lines (no {measure} part)
 or km (`_km`) of all openings, new lines and extensions alike;
@@ -198,8 +198,7 @@ def write_svg(rows, last_date, svg, region, unit, unknown_km):
 
 
 def write_png(svg):
-    png = svg.parent / "png" / svg.with_suffix(".png").name
-    png.parent.mkdir(exist_ok=True)
+    png = svg.with_suffix(".png")
     # 192 dpi is twice the SVG's size, so it stays sharp on high-DPI screens.
     subprocess.run(["magick", "-density", "192", svg, png], check=True)
 
