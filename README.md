@@ -16,8 +16,14 @@ A line is counted if it is:
   A line that opens in stages is counted once, at its first opening.
 - **Fully grade-separated**: metro, grade-separated light rail, monorail,
   and automated people movers count; trams and street-running light rail do not.
-- **Non-mainline**: metro-standard suburban lines (such as China's 市域快轨) count;
-  services on mainline railways (such as S-Bahn, RER or commuter rail) do not.
+- **Non-mainline**: lines built to railway standards are mainline and don't count,
+  such as S-Bahn, RER, commuter rail, and China's 市域(郊)铁路 (suburban railways,
+  designed under the railway standard TB 10624).
+  Suburban lines built to urban rail standards, like a metro, do count,
+  such as China's 市域快轨 (suburban rapid rail).
+  In China, the two are told apart by the line's official category, top speed,
+  and who built it;
+  Shanghai's Airport Link Line and Ningbo Line 12 are the 市域(郊)铁路 among the new lines.
 - **Opened between 2016-01-01 and today**.
 
 Lines are counted **by line**, not by km,
@@ -66,18 +72,18 @@ Lines converted to UTO long after opening, such as Guangzhou Line 7
 
 ![Share of new metro lines that are automated, by year](charts/automated_share_by_year.svg)
 
-Of the **363 new lines** opened from 2016-01-01 through 2026-09-29
+Of the **361 new lines** opened from 2016-01-01 through 2026-09-29
 that are new-build, fully grade-separated, and not mainline,
 **131 (36%) are automated** above GoA2.
 
 - **The share has risen sharply.**
   It was 18% (30 of 168) for lines opened in 2016–2020,
-  52% (101 of 195) in 2021–2026,
-  and 62% (54 of 87) in 2024–2026.
+  52% (101 of 193) in 2021–2026,
+  and 64% (54 of 85) in 2024–2026.
 - **China drove the rise.**
-  China opened 236 of the 363 lines.
+  China opened 234 of the 361 lines.
   Its automated share went from 6% (6 of 107) in 2016–2020
-  to 62% (33 of 53) in 2024–2026,
+  to 65% (33 of 51) in 2024–2026,
   as fully automated operation became the default for new Chinese metro lines.
 - **Elsewhere the share has been steadier and higher.**
   Outside China, 48% of new lines (61 of 127) are automated,
@@ -105,9 +111,9 @@ The numbers per year are in `data/automated_share_by_year.csv`,
   Chinese cities rush to open lines before the year ends,
   so 25–64% of each year's new Chinese lines open in December;
   none of 2026's December openings are in yet.
-  With only 11 Chinese lines so far,
+  With only 10 Chinese lines so far,
   a few non-automated ones (Changchun Lines 5 and 7, Nanjing Line 6,
-  and three suburban lines) pull its share down to 45%,
+  and two suburban lines) pull its share down to 50%,
   against 79% in 2025.
   The GoA of Chinese lines opened since July 2026 also comes from news coverage of their openings,
   since CAMET's next per-line table (around January 2027) isn't out yet.
