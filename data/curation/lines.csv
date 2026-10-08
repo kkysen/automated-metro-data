@@ -1,271 +1,271 @@
-city,line,mode,mainline,grade_separated,goa,goa_basis
-Beijing,Yanfang Line,,,,4,CAMET: FAO
-Beijing,Line 17,,,,4,CAMET: FAO (2021 table)
-Beijing,Line 19,,,,4,CAMET: FAO (2021 table)
-Beijing,Line 11,,,,4,CAMET: FAO (2021 table)
-Beijing,Line 3,,,,4,CAMET: FAO (2024 table)
-Beijing,Line 12,,,,4,CAMET: FAO (2024 table)
-Beijing,Line S1,maglev,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Beijing,Daxing Airport Express,airport express metro,,,4,listed as GoA4 in 2020 coverage; fills the gap in CAMET's pre-2021 FAO km total
-Shanghai,APM Pujiang Line,people mover,,,4,CAMET: FAO
-Shanghai,Line 10,,,,4,CAMET: FAO (since 2014)
-Shanghai,Line 14,,,,4,CAMET: FAO (2021 table)
-Shanghai,Line 15,,,,4,CAMET: FAO (2021 table)
-Shanghai,Line 18,,,,4,CAMET: FAO (2021 and 2025 tables)
-Shanghai,Line 17,,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Shanghai,Airport Link Line,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Guangzhou,Line 18,suburban metro,,,4,CAMET: designed for FAO; opened with drivers in 2021 and FAO from January 2023
-Guangzhou,Line 22,suburban metro,,,4,CAMET: FAO (2022 and 2025 tables)
-Guangzhou,Line 11,,,,4,CAMET: FAO (2024 table)
-Guangzhou,Line 10,,,,4,CAMET: FAO (2025 table)
-Guangzhou,Line 12,,,,4,CAMET: FAO (2025 table)
-Guangzhou,Line 7,,,,2,CAMET: opened GoA2 in 2016; converted to FAO in December 2024
-Guangzhou,Line 14,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Guangzhou,Line 21,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Guangzhou,Guangzhou East Ring Intercity,intercity rail,yes,yes,1,mainline intercity
-Guangzhou,Guangzhou–Foshan Circular Intercity (Foshan West–Dongguan West),intercity rail,yes,yes,1,mainline intercity
-Guangzhou,Guangzhou–Qingyuan Intercity,intercity rail,yes,yes,1,mainline intercity
-Guangzhou,Guangzhou–Shenzhen Intercity,intercity rail,yes,yes,1,mainline intercity
+city,line,mode,mainline,grade_separated,GoA,GoA_basis
+Beijing,Yanfang Line,,,,GoA4,CAMET: FAO
+Beijing,Line 17,,,,GoA4,CAMET: FAO (2021 table)
+Beijing,Line 19,,,,GoA4,CAMET: FAO (2021 table)
+Beijing,Line 11,,,,GoA4,CAMET: FAO (2021 table)
+Beijing,Line 3,,,,GoA4,CAMET: FAO (2024 table)
+Beijing,Line 12,,,,GoA4,CAMET: FAO (2024 table)
+Beijing,Line S1,maglev,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Beijing,Daxing Airport Express,airport express metro,,,GoA4,listed as GoA4 in 2020 coverage; fills the gap in CAMET's pre-2021 FAO km total
+Shanghai,APM Pujiang Line,people mover,,,GoA4,CAMET: FAO
+Shanghai,Line 10,,,,GoA4,CAMET: FAO (since 2014)
+Shanghai,Line 14,,,,GoA4,CAMET: FAO (2021 table)
+Shanghai,Line 15,,,,GoA4,CAMET: FAO (2021 table)
+Shanghai,Line 18,,,,GoA4,CAMET: FAO (2021 and 2025 tables)
+Shanghai,Line 17,,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Shanghai,Airport Link Line,suburban metro,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Guangzhou,Line 18,suburban metro,,,GoA4,CAMET: designed for FAO; opened with drivers in 2021 and FAO from January 2023
+Guangzhou,Line 22,suburban metro,,,GoA4,CAMET: FAO (2022 and 2025 tables)
+Guangzhou,Line 11,,,,GoA4,CAMET: FAO (2024 table)
+Guangzhou,Line 10,,,,GoA4,CAMET: FAO (2025 table)
+Guangzhou,Line 12,,,,GoA4,CAMET: FAO (2025 table)
+Guangzhou,Line 7,,,,GoA2,CAMET: opened GoA2 in 2016; converted to FAO in December 2024
+Guangzhou,Line 14,suburban metro,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Guangzhou,Line 21,suburban metro,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Guangzhou,Guangzhou East Ring Intercity,intercity rail,yes,yes,GoA1,mainline intercity
+Guangzhou,Guangzhou–Foshan Circular Intercity (Foshan West–Dongguan West),intercity rail,yes,yes,GoA1,mainline intercity
+Guangzhou,Guangzhou–Qingyuan Intercity,intercity rail,yes,yes,GoA1,mainline intercity
+Guangzhou,Guangzhou–Shenzhen Intercity,intercity rail,yes,yes,GoA1,mainline intercity
 Guangzhou,Huangpu Tram Line 1,,,,,
 Guangzhou,Huangpu Tram Line 2,,,,,
-Shenzhen,Line 20,,,,4,CAMET: FAO (2021 table)
-Shenzhen,Line 14,,,,4,CAMET: FAO (2022 table)
-Shenzhen,Line 12,,,,4,CAMET: FAO (2022 table)
-Shenzhen,Line 16,,,,4,CAMET: FAO (2022 table)
-Shenzhen,Line 6 Branch,,,,4,CAMET: FAO (2022 table)
-Shenzhen,Line 13,,,,4,CAMET: FAO (2024 table)
-Shenzhen,Pingshan SkyShuttle,automated guideway transit,,,4,"BYD SkyShuttle AGT with UTO, though not in CAMET's 2022 FAO table"
-Wuhan,Line 5,,,,4,CAMET: FAO (2021 table)
-Wuhan,Line 16,,,,4,CAMET: FAO (2021 table)
-Wuhan,Line 19,,,,4,CAMET: FAO (2023 summary)
-Wuhan,Optics Valley Sky Rail,suspended monorail,,,4,CAMET: FAO (2023 summary)
-Wuhan,Line 12,,,,4,CAMET: FAO (2026 H1 table)
-Wuhan,Yangluo Line,,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Wuhan,Optics Valley Tram L1,tram,,no,0,
-Wuhan,Optics Valley Tram L2,tram,,no,0,
-Nanjing,Line 7,,,,4,CAMET: FAO (2022 and 2024 tables)
-Chengdu,Line 9,,,,4,CAMET: FAO
-Chengdu,Line 27,,,,4,CAMET: FAO (2024 table)
-Chengdu,Line 13,,,,4,CAMET: FAO (2025 table)
-Chengdu,Line 30,,,,4,CAMET: FAO (2025 table)
-Chengdu,Line 18,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Chengdu,Line 19,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Suzhou,Line 5,,,,4,CAMET: FAO (2021 table)
-Suzhou,Line 11 (S1),suburban metro,,,4,CAMET: FAO (2023 summary)
-Suzhou,Line 6,,,,4,CAMET: FAO (2024 table)
-Suzhou,Line 8,,,,4,CAMET: FAO (2024 table)
-Suzhou,Line 7,,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Ningbo,Line 5,,,,4,CAMET: FAO (2021 table)
-Ningbo,Line 3,,,,2,CAMET: only phase 2 (2024) is FAO
-Ningbo,Line 8,,,,4,CAMET: FAO (2025 table)
-Ningbo,Line 7,,,,4,CAMET: FAO (2025 table)
-Ningbo,Line 6,,,,4,CAMET: FAO (2026 H1 table)
-Nanning,Line 5,,,,4,CAMET: FAO (2021 table)
-Jinan,Line 2,,,,4,CAMET: FAO (2021 table)
-Jinan,Line 4,,,,4,CAMET: FAO (2025 table)
-Jinan,Line 6,,,,4,CAMET: FAO (2025 table)
-Jinan,Line 8,,,,4,CAMET: FAO (2025 table)
-Jinan,Jinan SkyShuttle Line 1,people mover,,,4,CAMET: FAO (2025 table)
-Jinan,Line 1,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Jinan,Jiyang Tram,tram,,no,0,
-Taiyuan,Line 2,,,,4,CAMET: FAO
-Taiyuan,Line 1,,,,4,CAMET: FAO (2025 table)
-Wuhu,Line 1,monorail,,,4,CAMET: FAO (2021 table)
-Wuhu,Line 2,monorail,,,4,CAMET: FAO (2021 table)
-Chongqing,Bishan Yunba (SkyShuttle),people mover,,,4,CAMET: FAO (2021 table)
-Chongqing,Jiangtiao Line,suburban railway,yes,yes,1,China Railway suburban line
-Chongqing,Bitong Line,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Tianjin,Line 6,,,,2,CAMET: only phase 2 (2021) is FAO
-Changsha,Dawangshan SkyShuttle,people mover,,,4,CAMET: FAO (2023 summary)
-Changsha,Changsha Maglev Express,maglev,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Xi'an,Line 16,,,,4,CAMET: FAO (2023 summary)
-Xi'an,Line 10,,,,4,CAMET: FAO (2024 table)
-Xi'an,Line 8,,,,4,CAMET: FAO (2024 table)
-Xi'an,Line 15,,,,4,CAMET: FAO (2025 table)
-Xi'an,Gaoxin SkyShuttle,people mover,,,4,CAMET: FAO (2024 table)
-Shaoxing,Line 2,,,,4,CAMET: FAO (2023 summary)
-Fuzhou,Line 4,,,,4,CAMET: FAO (2023 summary and 2025 table)
-Fuzhou,Binhai Express,suburban metro,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Zhengzhou,Line 12,,,,4,CAMET: FAO (2023 summary)
-Zhengzhou,Line 8,,,,4,CAMET: FAO (2024 table)
-Zhengzhou,Line 7,,,,2,CAMET: not FAO (inferred from its FAO tables and totals)
-Qingdao,Line 6,,,,4,CAMET: FAO (2024 table)
-Hefei,Line 8,,,,4,CAMET: FAO (2024 table)
-Hefei,Line 6,,,,4,CAMET: FAO (2025 table)
-Xuzhou,Line 6,,,,4,CAMET: FAO (2025 table)
-Dongguan,Line 1,,,,4,CAMET: FAO (2025 table)
-Foshan,Nanhai New Transit,light rail,,yes,2,
-Huangshi,Huangshi Tram,tram,,no,0,
-Changchun,Line 3,light rail,,no,1,
-Changchun,Line 4,light rail,,yes,1,
-Changchun,Line 8,light rail,,yes,1,
-Hefei,Line 7,,,,4,news reports at opening: GoA4 fully automatic operation
-Changchun,Line 5,,,,2,no fully automatic operation reported at opening; not yet in a CAMET table
-Changchun,Line 7,,,,2,no fully automatic operation reported at opening; not yet in a CAMET table
-Xiamen,Line 4,,,,4,news reports at opening: fully automatic operation
-Xiamen,Line 6,,,,4,news reports at opening: GoA4 fully automatic operation
-Ningbo,Line 12,suburban metro,,,2,no fully automatic operation reported at opening; not yet in a CAMET table
-Nanjing,Line 6,,,,2,no fully automatic operation reported at opening; not yet in a CAMET table
-Hong Kong,South Island Line,,,,4,MTR: UTO
-Hong Kong,Kwun Tong Line,,,,2,
-Hong Kong,Tuen Ma Line,metro,no,yes,2,
-Hong Kong,East Rail line,commuter rail,no,yes,2,
-Macau,Taipa Line,light metro,,,4,UTO
-Macau,Seac Pai Van Line,light metro,,,4,UTO
-Macau,Hengqin Line,light metro,,,4,UTO
-Taipei,Circular Line,,,,4,driverless medium-capacity line
-Taipei,Sanying Line,,,,4,driverless medium-capacity line
-Taipei,Red Line,,,,2,
-Taichung,Green Line,,,,4,driverless
-Taoyuan,Airport MRT,airport express metro,,,2,
-Taoyuan,Line A,airport express metro,,,2,
-Kaohsiung,Red Line,,,,2,
-New Taipei,Danhai LRT,light rail,,no,1,
-Taipei,Ankeng Line,light rail,,no,1,
-Incheon,Incheon Airport Maglev,maglev,,,4,UTO
-Incheon,Line 2,light metro,,,4,UTO
-Seoul,Ui LRT,light metro,,,4,UTO
-Gimpo,Gimpo Gold Line,light metro,,,4,UTO
-Seoul,Sillim Line,light metro,,,4,UTO
-Seoul,Shinbundang Line,,,,4,UTO
-Uijeongbu,Uijeongbu LRT,light metro,,,4,UTO
-Seoul,GTX-A,regional express rail,no,yes,2,
-Seoul,Gyeonggang Line,commuter rail,yes,yes,1,
-Seoul,Seohae Line,commuter rail,yes,yes,1,
-Seoul,Gyeongui–Jungang Line,commuter rail,yes,yes,1,
-Seoul,Suin-Bundang Line,commuter rail,yes,yes,1,
-Seoul,Line 1,commuter rail,yes,yes,1,
-Incheon,Suin Line,commuter rail,yes,yes,1,
-Busan,Donghae Nambu Line,commuter rail,yes,yes,1,
-Incheon,AREX,airport railway,no,yes,2,
-Singapore,Thomson–East Coast Line,,,,4,UTO
-Singapore,Downtown Line,,,,4,UTO
-Singapore,North East Line,,,,4,UTO
-Singapore,Circle Line,,,,4,UTO
-Singapore,Punggol LRT,light metro (APM),,,4,UTO
-Singapore,North–South Line,,,,2,ATO with train captains
-Singapore,East–West Line,,,,2,ATO with train captains
-Kuala Lumpur,Line 9,,,,4,UTO
-Kuala Lumpur,Putrajaya Line,,,,4,UTO
-Kuala Lumpur,Shah Alam Line (Line 11),light metro,,,4,UTO
-Kuala Lumpur,Kelana Jaya Line,light metro,,,4,UTO
-Kuala Lumpur,Ampang Line,light metro,,,2,
-Kuala Lumpur,Sri Petaling Line,light metro,,,2,
-Kuala Lumpur,KTM Skypark Link,airport rail link,yes,yes,1,
-Bangkok,Gold Line,people mover,,,4,UTO
-Bangkok,Pink Line,monorail,,,4,UTO
-Bangkok,Yellow Line,monorail,,,4,UTO
-Bangkok,Purple Line,,,,2,
-Bangkok,Blue Line,,,,2,
-Bangkok,BTS Sukhumvit Line,,,,2,
-Bangkok,SRT Dark Red Line,commuter rail,yes,yes,1,
-Bangkok,SRT Light Red Line,commuter rail,yes,yes,1,
-Jakarta,Jabodebek LRT,light metro,,,3,driverless with an attendant on board
-Jakarta,Jakarta LRT Line 1,light rail,,yes,2,
-Jakarta,MRT North–South Line,,,,2,
-Palembang,Palembang LRT,light rail,,yes,2,
-Manila,Line 1,light rail,,yes,2,
-Manila,Line 2,,,,2,
-Sydney,Sydney Metro North West,,,,4,UTO
-Sydney,M1,,,,4,UTO
-Copenhagen,M3,,,,4,UTO
-Copenhagen,M4,,,,4,UTO
-Milan,M4,,,,4,UTO
-Thessaloniki,Line 1,,,,4,UTO
-Thessaloniki,Line 2,,,,4,UTO
-Rennes,Line B,light metro,,,4,UTO (Cityval)
-Paris,M14,,,,4,UTO
-Paris,M4,,,,4,converted to UTO in 2022
-Lyon,Line B,,,,4,converted to UTO in 2022
-Barcelona,Line 9 Sud,,,,4,UTO
-Barcelona,Line 10 Sud,,,,4,UTO
-Barcelona,Line 10,,,,4,UTO
-Turin,M1,light metro (VAL),,,4,UTO
-Rome,Line C,,,,4,UTO
-Nuremberg,U3,,,,4,UTO
-Istanbul,M5,,,,4,UTO
-Istanbul,M7,,,,4,UTO
-Istanbul,M8,,,,4,UTO
-Istanbul,M9,,,,4,UTO
-Istanbul,M11,airport express metro,,,4,UTO
-Riyadh,Blue Line,,,,4,UTO
-Riyadh,Red Line,,,,4,UTO
-Riyadh,Orange Line,,,,4,UTO
-Riyadh,Yellow Line,,,,4,UTO
-Riyadh,Green Line,,,,4,UTO
-Riyadh,Purple Line,,,,4,UTO
-Doha,Red Line,,,,4,UTO
-Doha,Gold Line,,,,4,UTO
-Doha,Green Line,,,,4,UTO
-Dubai,Red Line,,,,4,UTO
-Honolulu,Skyline,,,,4,UTO
-Montreal,REM,light metro,,,4,UTO
-Vancouver,Millennium Line Evergreen Extension,light metro,,,4,UTO
-Vancouver,Canada Line,,,,4,UTO
-Santiago,Line 6,,,,4,UTO
-Santiago,Line 3,,,,4,UTO
-Lima,Line 2,,,,4,UTO
-São Paulo,Line 4,,,,4,UTO
-São Paulo,Line 15,monorail,,,4,UTO
-São Paulo,Line 17,monorail,,,4,UTO
-São Paulo,Line 6,,,,4,designed for UTO
-São Paulo,Line 13 Jade,commuter rail,yes,yes,1,
-São Paulo,Line 9,commuter rail,yes,yes,1,
-Cairo,East Nile Monorail,monorail,,,4,UTO
-Cairo,10th of Ramadan LRT,suburban rail (LRT),no,yes,2,
-Delhi,Magenta Line,,,,4,opened with drivers; UTO since December 2020
-Delhi,Pink Line,,,,4,opened with drivers; UTO since November 2021
-Delhi,Namo Bharat (Delhi–Meerut RRTS),regional rail,no,yes,2,
-Delhi,Meerut Metro,,,,2,
-Mumbai,Mumbai Monorail,monorail,,,2,
-Phoenix,PHX,people mover,,,4,UTO
-Istanbul,F4,funicular,,,4,
-Mexico City,El Insurgente,commuter rail,no,yes,2,
+Shenzhen,Line 20,,,,GoA4,CAMET: FAO (2021 table)
+Shenzhen,Line 14,,,,GoA4,CAMET: FAO (2022 table)
+Shenzhen,Line 12,,,,GoA4,CAMET: FAO (2022 table)
+Shenzhen,Line 16,,,,GoA4,CAMET: FAO (2022 table)
+Shenzhen,Line 6 Branch,,,,GoA4,CAMET: FAO (2022 table)
+Shenzhen,Line 13,,,,GoA4,CAMET: FAO (2024 table)
+Shenzhen,Pingshan SkyShuttle,automated guideway transit,,,GoA4,"BYD SkyShuttle AGT with UTO, though not in CAMET's 2022 FAO table"
+Wuhan,Line 5,,,,GoA4,CAMET: FAO (2021 table)
+Wuhan,Line 16,,,,GoA4,CAMET: FAO (2021 table)
+Wuhan,Line 19,,,,GoA4,CAMET: FAO (2023 summary)
+Wuhan,Optics Valley Sky Rail,suspended monorail,,,GoA4,CAMET: FAO (2023 summary)
+Wuhan,Line 12,,,,GoA4,CAMET: FAO (2026 H1 table)
+Wuhan,Yangluo Line,,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Wuhan,Optics Valley Tram L1,tram,,no,GoA0,
+Wuhan,Optics Valley Tram L2,tram,,no,GoA0,
+Nanjing,Line 7,,,,GoA4,CAMET: FAO (2022 and 2024 tables)
+Chengdu,Line 9,,,,GoA4,CAMET: FAO
+Chengdu,Line 27,,,,GoA4,CAMET: FAO (2024 table)
+Chengdu,Line 13,,,,GoA4,CAMET: FAO (2025 table)
+Chengdu,Line 30,,,,GoA4,CAMET: FAO (2025 table)
+Chengdu,Line 18,suburban metro,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Chengdu,Line 19,suburban metro,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Suzhou,Line 5,,,,GoA4,CAMET: FAO (2021 table)
+Suzhou,Line 11 (S1),suburban metro,,,GoA4,CAMET: FAO (2023 summary)
+Suzhou,Line 6,,,,GoA4,CAMET: FAO (2024 table)
+Suzhou,Line 8,,,,GoA4,CAMET: FAO (2024 table)
+Suzhou,Line 7,,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Ningbo,Line 5,,,,GoA4,CAMET: FAO (2021 table)
+Ningbo,Line 3,,,,GoA2,CAMET: only phase 2 (2024) is FAO
+Ningbo,Line 8,,,,GoA4,CAMET: FAO (2025 table)
+Ningbo,Line 7,,,,GoA4,CAMET: FAO (2025 table)
+Ningbo,Line 6,,,,GoA4,CAMET: FAO (2026 H1 table)
+Nanning,Line 5,,,,GoA4,CAMET: FAO (2021 table)
+Jinan,Line 2,,,,GoA4,CAMET: FAO (2021 table)
+Jinan,Line 4,,,,GoA4,CAMET: FAO (2025 table)
+Jinan,Line 6,,,,GoA4,CAMET: FAO (2025 table)
+Jinan,Line 8,,,,GoA4,CAMET: FAO (2025 table)
+Jinan,Jinan SkyShuttle Line 1,people mover,,,GoA4,CAMET: FAO (2025 table)
+Jinan,Line 1,suburban metro,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Jinan,Jiyang Tram,tram,,no,GoA0,
+Taiyuan,Line 2,,,,GoA4,CAMET: FAO
+Taiyuan,Line 1,,,,GoA4,CAMET: FAO (2025 table)
+Wuhu,Line 1,monorail,,,GoA4,CAMET: FAO (2021 table)
+Wuhu,Line 2,monorail,,,GoA4,CAMET: FAO (2021 table)
+Chongqing,Bishan Yunba (SkyShuttle),people mover,,,GoA4,CAMET: FAO (2021 table)
+Chongqing,Jiangtiao Line,suburban railway,yes,yes,GoA1,China Railway suburban line
+Chongqing,Bitong Line,suburban metro,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Tianjin,Line 6,,,,GoA2,CAMET: only phase 2 (2021) is FAO
+Changsha,Dawangshan SkyShuttle,people mover,,,GoA4,CAMET: FAO (2023 summary)
+Changsha,Changsha Maglev Express,maglev,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Xi'an,Line 16,,,,GoA4,CAMET: FAO (2023 summary)
+Xi'an,Line 10,,,,GoA4,CAMET: FAO (2024 table)
+Xi'an,Line 8,,,,GoA4,CAMET: FAO (2024 table)
+Xi'an,Line 15,,,,GoA4,CAMET: FAO (2025 table)
+Xi'an,Gaoxin SkyShuttle,people mover,,,GoA4,CAMET: FAO (2024 table)
+Shaoxing,Line 2,,,,GoA4,CAMET: FAO (2023 summary)
+Fuzhou,Line 4,,,,GoA4,CAMET: FAO (2023 summary and 2025 table)
+Fuzhou,Binhai Express,suburban metro,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Zhengzhou,Line 12,,,,GoA4,CAMET: FAO (2023 summary)
+Zhengzhou,Line 8,,,,GoA4,CAMET: FAO (2024 table)
+Zhengzhou,Line 7,,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Qingdao,Line 6,,,,GoA4,CAMET: FAO (2024 table)
+Hefei,Line 8,,,,GoA4,CAMET: FAO (2024 table)
+Hefei,Line 6,,,,GoA4,CAMET: FAO (2025 table)
+Xuzhou,Line 6,,,,GoA4,CAMET: FAO (2025 table)
+Dongguan,Line 1,,,,GoA4,CAMET: FAO (2025 table)
+Foshan,Nanhai New Transit,light rail,,yes,GoA2,
+Huangshi,Huangshi Tram,tram,,no,GoA0,
+Changchun,Line 3,light rail,,no,GoA1,
+Changchun,Line 4,light rail,,yes,GoA1,
+Changchun,Line 8,light rail,,yes,GoA1,
+Hefei,Line 7,,,,GoA4,news reports at opening: GoA4 fully automatic operation
+Changchun,Line 5,,,,GoA2,no fully automatic operation reported at opening; not yet in a CAMET table
+Changchun,Line 7,,,,GoA2,no fully automatic operation reported at opening; not yet in a CAMET table
+Xiamen,Line 4,,,,GoA4,news reports at opening: fully automatic operation
+Xiamen,Line 6,,,,GoA4,news reports at opening: GoA4 fully automatic operation
+Ningbo,Line 12,suburban metro,,,GoA2,no fully automatic operation reported at opening; not yet in a CAMET table
+Nanjing,Line 6,,,,GoA2,no fully automatic operation reported at opening; not yet in a CAMET table
+Hong Kong,South Island Line,,,,GoA4,MTR: UTO
+Hong Kong,Kwun Tong Line,,,,GoA2,
+Hong Kong,Tuen Ma Line,metro,no,yes,GoA2,
+Hong Kong,East Rail line,commuter rail,no,yes,GoA2,
+Macau,Taipa Line,light metro,,,GoA4,UTO
+Macau,Seac Pai Van Line,light metro,,,GoA4,UTO
+Macau,Hengqin Line,light metro,,,GoA4,UTO
+Taipei,Circular Line,,,,GoA4,driverless medium-capacity line
+Taipei,Sanying Line,,,,GoA4,driverless medium-capacity line
+Taipei,Red Line,,,,GoA2,
+Taichung,Green Line,,,,GoA4,driverless
+Taoyuan,Airport MRT,airport express metro,,,GoA2,
+Taoyuan,Line A,airport express metro,,,GoA2,
+Kaohsiung,Red Line,,,,GoA2,
+New Taipei,Danhai LRT,light rail,,no,GoA1,
+Taipei,Ankeng Line,light rail,,no,GoA1,
+Incheon,Incheon Airport Maglev,maglev,,,GoA4,UTO
+Incheon,Line 2,light metro,,,GoA4,UTO
+Seoul,Ui LRT,light metro,,,GoA4,UTO
+Gimpo,Gimpo Gold Line,light metro,,,GoA4,UTO
+Seoul,Sillim Line,light metro,,,GoA4,UTO
+Seoul,Shinbundang Line,,,,GoA4,UTO
+Uijeongbu,Uijeongbu LRT,light metro,,,GoA4,UTO
+Seoul,GTX-A,regional express rail,no,yes,GoA2,
+Seoul,Gyeonggang Line,commuter rail,yes,yes,GoA1,
+Seoul,Seohae Line,commuter rail,yes,yes,GoA1,
+Seoul,Gyeongui–Jungang Line,commuter rail,yes,yes,GoA1,
+Seoul,Suin-Bundang Line,commuter rail,yes,yes,GoA1,
+Seoul,Line 1,commuter rail,yes,yes,GoA1,
+Incheon,Suin Line,commuter rail,yes,yes,GoA1,
+Busan,Donghae Nambu Line,commuter rail,yes,yes,GoA1,
+Incheon,AREX,airport railway,no,yes,GoA2,
+Singapore,Thomson–East Coast Line,,,,GoA4,UTO
+Singapore,Downtown Line,,,,GoA4,UTO
+Singapore,North East Line,,,,GoA4,UTO
+Singapore,Circle Line,,,,GoA4,UTO
+Singapore,Punggol LRT,light metro (APM),,,GoA4,UTO
+Singapore,North–South Line,,,,GoA2,ATO with train captains
+Singapore,East–West Line,,,,GoA2,ATO with train captains
+Kuala Lumpur,Line 9,,,,GoA4,UTO
+Kuala Lumpur,Putrajaya Line,,,,GoA4,UTO
+Kuala Lumpur,Shah Alam Line (Line 11),light metro,,,GoA4,UTO
+Kuala Lumpur,Kelana Jaya Line,light metro,,,GoA4,UTO
+Kuala Lumpur,Ampang Line,light metro,,,GoA2,
+Kuala Lumpur,Sri Petaling Line,light metro,,,GoA2,
+Kuala Lumpur,KTM Skypark Link,airport rail link,yes,yes,GoA1,
+Bangkok,Gold Line,people mover,,,GoA4,UTO
+Bangkok,Pink Line,monorail,,,GoA4,UTO
+Bangkok,Yellow Line,monorail,,,GoA4,UTO
+Bangkok,Purple Line,,,,GoA2,
+Bangkok,Blue Line,,,,GoA2,
+Bangkok,BTS Sukhumvit Line,,,,GoA2,
+Bangkok,SRT Dark Red Line,commuter rail,yes,yes,GoA1,
+Bangkok,SRT Light Red Line,commuter rail,yes,yes,GoA1,
+Jakarta,Jabodebek LRT,light metro,,,GoA3,driverless with an attendant on board
+Jakarta,Jakarta LRT Line 1,light rail,,yes,GoA2,
+Jakarta,MRT North–South Line,,,,GoA2,
+Palembang,Palembang LRT,light rail,,yes,GoA2,
+Manila,Line 1,light rail,,yes,GoA2,
+Manila,Line 2,,,,GoA2,
+Sydney,Sydney Metro North West,,,,GoA4,UTO
+Sydney,M1,,,,GoA4,UTO
+Copenhagen,M3,,,,GoA4,UTO
+Copenhagen,M4,,,,GoA4,UTO
+Milan,M4,,,,GoA4,UTO
+Thessaloniki,Line 1,,,,GoA4,UTO
+Thessaloniki,Line 2,,,,GoA4,UTO
+Rennes,Line B,light metro,,,GoA4,UTO (Cityval)
+Paris,M14,,,,GoA4,UTO
+Paris,M4,,,,GoA4,converted to UTO in 2022
+Lyon,Line B,,,,GoA4,converted to UTO in 2022
+Barcelona,Line 9 Sud,,,,GoA4,UTO
+Barcelona,Line 10 Sud,,,,GoA4,UTO
+Barcelona,Line 10,,,,GoA4,UTO
+Turin,M1,light metro (VAL),,,GoA4,UTO
+Rome,Line C,,,,GoA4,UTO
+Nuremberg,U3,,,,GoA4,UTO
+Istanbul,M5,,,,GoA4,UTO
+Istanbul,M7,,,,GoA4,UTO
+Istanbul,M8,,,,GoA4,UTO
+Istanbul,M9,,,,GoA4,UTO
+Istanbul,M11,airport express metro,,,GoA4,UTO
+Riyadh,Blue Line,,,,GoA4,UTO
+Riyadh,Red Line,,,,GoA4,UTO
+Riyadh,Orange Line,,,,GoA4,UTO
+Riyadh,Yellow Line,,,,GoA4,UTO
+Riyadh,Green Line,,,,GoA4,UTO
+Riyadh,Purple Line,,,,GoA4,UTO
+Doha,Red Line,,,,GoA4,UTO
+Doha,Gold Line,,,,GoA4,UTO
+Doha,Green Line,,,,GoA4,UTO
+Dubai,Red Line,,,,GoA4,UTO
+Honolulu,Skyline,,,,GoA4,UTO
+Montreal,REM,light metro,,,GoA4,UTO
+Vancouver,Millennium Line Evergreen Extension,light metro,,,GoA4,UTO
+Vancouver,Canada Line,,,,GoA4,UTO
+Santiago,Line 6,,,,GoA4,UTO
+Santiago,Line 3,,,,GoA4,UTO
+Lima,Line 2,,,,GoA4,UTO
+São Paulo,Line 4,,,,GoA4,UTO
+São Paulo,Line 15,monorail,,,GoA4,UTO
+São Paulo,Line 17,monorail,,,GoA4,UTO
+São Paulo,Line 6,,,,GoA4,designed for UTO
+São Paulo,Line 13 Jade,commuter rail,yes,yes,GoA1,
+São Paulo,Line 9,commuter rail,yes,yes,GoA1,
+Cairo,East Nile Monorail,monorail,,,GoA4,UTO
+Cairo,10th of Ramadan LRT,suburban rail (LRT),no,yes,GoA2,
+Delhi,Magenta Line,,,,GoA4,opened with drivers; UTO since December 2020
+Delhi,Pink Line,,,,GoA4,opened with drivers; UTO since November 2021
+Delhi,Namo Bharat (Delhi–Meerut RRTS),regional rail,no,yes,GoA2,
+Delhi,Meerut Metro,,,,GoA2,
+Mumbai,Mumbai Monorail,monorail,,,GoA2,
+Phoenix,PHX,people mover,,,GoA4,UTO
+Istanbul,F4,funicular,,,GoA4,
+Mexico City,El Insurgente,commuter rail,no,yes,GoA2,
 Denver,A Line,commuter rail,,,,
 Denver,Line B,commuter rail,,,,
 Denver,Line G,commuter rail,,,,
 Denver,N Line,commuter rail,,,,
 Brisbane,Redcliffe Peninsula line,commuter rail,,,,
-London,Elizabeth Line,commuter rail (cross-city),yes,yes,2,
-Geneva,Léman Express (CEVA),commuter rail,yes,yes,1,
-Dakar,TER Dakar,commuter rail,yes,no,1,
-Lagos,Red Line,commuter rail,no,yes,1,dedicated commuter railway
-Lagos,Blue Line,,,,2,
-Tunis,RFR Line E,commuter rail,yes,yes,1,
-Moscow,Line 14 Moscow Central Circle,urban rail ring,yes,yes,1,
+London,Elizabeth Line,commuter rail (cross-city),yes,yes,GoA2,
+Geneva,Léman Express (CEVA),commuter rail,yes,yes,GoA1,
+Dakar,TER Dakar,commuter rail,yes,no,GoA1,
+Lagos,Red Line,commuter rail,no,yes,GoA1,dedicated commuter railway
+Lagos,Blue Line,,,,GoA2,
+Tunis,RFR Line E,commuter rail,yes,yes,GoA1,
+Moscow,Line 14 Moscow Central Circle,urban rail ring,yes,yes,GoA1,
 Moscow,MCD-3,commuter rail,,,,
 Moscow,MCD-4,commuter rail,,,,
 Santiago,Metrotrén Nos,commuter rail,,,,
-Ottawa,Confederation Line,light rail,,yes,2,
-Toronto,Line 5,light rail,,no,1,
-Toronto,Line 6 Finch West,light rail,,no,1,
-Tel Aviv,Red Line,light rail,,no,2,
-Lusail,Lusail Tram Orange Line,tram,,no,1,
-Abuja,Abuja Light Rail Line 1,light rail,,yes,2,
-Astana,Astana LRT,light rail,,yes,2,
-Port Louis,Metro Express,light rail,,no,1,
-Cochabamba,Mi Tren Red Line,light rail,,no,1,
-Cochabamba,Mi Tren Green Line,light rail,,no,1,
-Paris,T12,tram-train,,no,1,
-Paris,T13,tram-train,,no,1,
-Los Angeles,K Line,light rail,,no,1,
-Guadalajara,Line 4,light rail,,no,1,
-Antalya,AntRay T3,light rail,,no,1,
-Seattle,1 Line,light rail,,no,1,
-Seattle,2 Line,light rail,,no,1,
-Aarhus,Aarhus Letbane,light rail,,no,1,
-Copenhagen,Hovedstadens Letbane,light rail,,no,1,
-Kolkata,Line 1,,,,1,
-Jinan,Jiyang Tram,tram,,no,0,
-Bilbao,Line 3,,,,2,
-Bucharest,M5,,,,2,
-Sofia,M3,,,,2,
-Panama City,Line 2,,,,2,
-Quito,Line 1,,,,2,
-Hanoi,Line 2A,,,,2,
-Hanoi,Line 3,,,,2,
-Ho Chi Minh City,Line 1,,,,2,
-Dhaka,Line 6,,,,2,
-Lahore,Orange Line,,,,2,
-Mumbai,Line 3,,,,2,UTO-ready but run with drivers
-Bengaluru,Yellow Line,,,,2,UTO-ready but run with drivers
+Ottawa,Confederation Line,light rail,,yes,GoA2,
+Toronto,Line 5,light rail,,no,GoA1,
+Toronto,Line 6 Finch West,light rail,,no,GoA1,
+Tel Aviv,Red Line,light rail,,no,GoA2,
+Lusail,Lusail Tram Orange Line,tram,,no,GoA1,
+Abuja,Abuja Light Rail Line 1,light rail,,yes,GoA2,
+Astana,Astana LRT,light rail,,yes,GoA2,
+Port Louis,Metro Express,light rail,,no,GoA1,
+Cochabamba,Mi Tren Red Line,light rail,,no,GoA1,
+Cochabamba,Mi Tren Green Line,light rail,,no,GoA1,
+Paris,T12,tram-train,,no,GoA1,
+Paris,T13,tram-train,,no,GoA1,
+Los Angeles,K Line,light rail,,no,GoA1,
+Guadalajara,Line 4,light rail,,no,GoA1,
+Antalya,AntRay T3,light rail,,no,GoA1,
+Seattle,1 Line,light rail,,no,GoA1,
+Seattle,2 Line,light rail,,no,GoA1,
+Aarhus,Aarhus Letbane,light rail,,no,GoA1,
+Copenhagen,Hovedstadens Letbane,light rail,,no,GoA1,
+Kolkata,Line 1,,,,GoA1,
+Jinan,Jiyang Tram,tram,,no,GoA0,
+Bilbao,Line 3,,,,GoA2,
+Bucharest,M5,,,,GoA2,
+Sofia,M3,,,,GoA2,
+Panama City,Line 2,,,,GoA2,
+Quito,Line 1,,,,GoA2,
+Hanoi,Line 2A,,,,GoA2,
+Hanoi,Line 3,,,,GoA2,
+Ho Chi Minh City,Line 1,,,,GoA2,
+Dhaka,Line 6,,,,GoA2,
+Lahore,Orange Line,,,,GoA2,
+Mumbai,Line 3,,,,GoA2,UTO-ready but run with drivers
+Bengaluru,Yellow Line,,,,GoA2,UTO-ready but run with drivers

@@ -104,7 +104,7 @@ The numbers per year are in `data/automated_share_by_year.csv`,
   lines that took over an existing service (Xi'an Line 14),
   and conversions of existing railways (Aarhus, Rotterdam's Hoekse Lijn), which are not counted.
   Each such call is explained in the `note` column.
-- **The GoA of each automated line has a stated basis** (`goa_basis`).
+- **The GoA of each automated line has a stated basis** (`GoA_basis`).
   For mainland China it is CAMET's FAO designation,
   whose tables list every FAO line opened since 2021,
   so lines missing from them are not automated,

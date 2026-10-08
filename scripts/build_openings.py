@@ -18,18 +18,18 @@ ROOT = Path(__file__).resolve().parent.parent
 CURATION = ROOT / "data" / "curation"
 OUT = ROOT / "data" / "urban_rail_openings.csv"
 
-# (mode, mainline, grade_separated, goa) for each UrbanRail.net mode icon.
+# (mode, mainline, grade_separated, GoA) for each UrbanRail.net mode icon.
 # Trams run on sight (GoA0); other lines default to the most common level.
 DEFAULTS = {
-    "metro": ("metro", "no", "yes", "2"),
-    "light-rail": ("light rail", "no", "no", "1"),
-    "tram": ("tram", "no", "no", "0"),
-    "monorail": ("monorail", "no", "yes", "2"),
-    "people-mover": ("people mover", "no", "yes", "4"),
-    "s-bahn": ("commuter rail", "yes", "no", "1"),
+    "metro": ("metro", "no", "yes", "GoA2"),
+    "light-rail": ("light rail", "no", "no", "GoA1"),
+    "tram": ("tram", "no", "no", "GoA0"),
+    "monorail": ("monorail", "no", "yes", "GoA2"),
+    "people-mover": ("people mover", "no", "yes", "GoA4"),
+    "s-bahn": ("commuter rail", "yes", "no", "GoA1"),
 }
 # China's suburban lines (市域快轨) are metro-standard, not mainline.
-CHINA_SUBURBAN = ("suburban metro", "no", "yes", "2")
+CHINA_SUBURBAN = ("suburban metro", "no", "yes", "GoA2")
 DEFAULT_BASIS = "mode default; unverified"
 # CAMET lists every FAO line opened since 2021, and its FAO totals
 # leave no room for unlisted ones before that.
@@ -45,9 +45,9 @@ FIELDS = [
     "mainline",
     "grade_separated",
     "new_build",
-    "goa",
+    "GoA",
     "automated",
-    "goa_basis",
+    "GoA_basis",
     "description",
     "note",
     "urbanrail_id",
@@ -82,10 +82,10 @@ def main():
             mode = override["mode"] or mode
             mainline = override["mainline"] or mainline
             graded = override["grade_separated"] or graded
-            if override["goa"] or override["goa_basis"]:
-                goa = override["goa"]
-                basis = override["goa_basis"]
-        automated = "" if goa == "" else ("yes" if int(goa) >= 3 else "no")
+            if override["GoA"] or override["GoA_basis"]:
+                goa = override["GoA"]
+                basis = override["GoA_basis"]
+        automated = "" if goa == "" else ("yes" if int(goa.removeprefix("GoA")) >= 3 else "no")
         out.append({
             "opening_date": e["date"],
             "country": country,
@@ -96,9 +96,9 @@ def main():
             "mainline": mainline,
             "grade_separated": graded,
             "new_build": e["new_build"],
-            "goa": goa,
+            "GoA": goa,
             "automated": automated,
-            "goa_basis": basis,
+            "GoA_basis": basis,
             "description": e["description"],
             "note": e["note"],
             "urbanrail_id": "" if e["id"].startswith("x") else e["id"],
