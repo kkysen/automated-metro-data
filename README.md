@@ -57,30 +57,94 @@ but lack the obstacle and track-intrusion detection, FAO depots, and safety cert
 that unattended operation needs,
 and conversions to full automation are rare.
 
+## Findings
+
+![Share of new metro lines that are automated, by year](charts/automated_share_by_year.svg)
+
+Of the **360 new lines** opened from 2016-01-01 through 2026-09-29
+that are new-build, fully grade-separated, and not mainline,
+**121 (34%) are automated** at GoA3 or GoA4.
+
+- **The share has risen sharply.**
+  It was 17% (29 of 167) for lines opened in 2016–2020,
+  48% (92 of 193) in 2021–2026,
+  and 56% (48 of 85) in 2024–2026.
+- **China drove the rise.**
+  China opened 236 of the 360 lines.
+  Its automated share went from 5% (5 of 107) in 2016–2020
+  to 62% (33 of 53) in 2024–2026,
+  as fully automated operation became the default for new Chinese metro lines.
+- **Elsewhere the share has been steadier and higher.**
+  Outside China, 43% of new lines (53 of 124) are automated,
+  and 54% (51 of 94) excluding India,
+  whose new lines run with drivers
+  except for Delhi's Magenta and Pink lines.
+- Almost all automated lines are GoA4;
+  the only GoA3 line is Jakarta's Jabodebek LRT.
+
+The numbers per year are in `data/automated_share_by_year.csv`.
+
+### Caveats
+
+- **The line list is only as complete as UrbanRail.net.**
+  China's lines were cross-checked against CAMET's per-year counts
+  and per-line tables (2023 onward),
+  which added one missing line (the Hangzhou–Haining intercity).
+  Lines elsewhere were not cross-checked against a second source.
+- **What counts as a new line is a judgment call** in edge cases,
+  such as separately run branches (Shenzhen Line 6 Branch, Thessaloniki Line 2),
+  lines that took over an existing service (Xi'an Line 14),
+  and conversions of existing railways (Aarhus, Rotterdam's Hoekse Lijn), which are not counted.
+  Each such call is explained in the `note` column.
+- **The GoA of each automated line has a stated basis** (`goa_basis`).
+  For mainland China it is CAMET's FAO designation,
+  whose tables list every FAO line opened since 2021,
+  so lines missing from them are not automated.
+  For 2016–2020 it is CAMET's FAO totals,
+  which leave room for only seven FAO lines (five of them opened since 2016).
+  The seven Chinese lines opened in the second half of 2026 aren't in a CAMET table yet;
+  their GoA comes from news coverage of their openings.
+  Lines elsewhere are tagged from known operating practice.
+  Lines not individually reviewed get the default for their mode,
+  marked "default for the mode, not individually verified";
+  that covers no automated lines, but GoA1 vs. GoA2 among them is not reliable.
+
 ## Sources
 
 - [UrbanRail.net](https://www.urbanrail.net/news.htm):
   a year-by-year log of every opening worldwide,
   which flags entirely new lines.
-  `scripts/download_urbanrail.sh` downloads it,
-  and `scripts/parse_urbanrail.py` turns it into a CSV of opening events.
-- [CAMET](https://www.camet.org.cn/) (China Urban Rail Transit Association) annual reports,
-  whose Appendix Table 2 (附表2) lists every new line in mainland China
-  and marks the FAO ones.
-- Wikipedia and operator sources for the GoA of lines outside China.
+- [CAMET](https://www.camet.org.cn/) (China Urban Rail Transit Association) reports:
+  its bulletins' appendix table (附表2) lists every new line in mainland China
+  and marks the FAO ones,
+  and its annual reports list the new FAO lines for 2021 and 2022.
+- News coverage of openings, for GoA where CAMET has nothing yet.
 - [UITP Statistics Brief on metro automation](https://cms.uitp.org/wp/wp-content/uploads/2020/06/Statistics-Brief-Metro-automation_final_web03.pdf) (2019).
 
 ## Layout
 
-- `scripts/`: download and parse scripts.
+- `data/urban_rail_openings.csv`: the full openings list, sorted by date.
+- `data/automated_share_by_year.csv`: the numbers behind the chart.
+- `charts/automated_share_by_year.svg`: the chart above.
+- `data/curation/`: the hand-kept tables the openings list is built from:
+  `events.csv` (each UrbanRail.net opening, reviewed),
+  `cities.csv` (city and country names),
+  and `lines.csv` (per-line mode, mainline, grade separation, and GoA).
+- `data/urbanrail_events.csv` and `data/camet_new_lines.csv`: parsed source data.
 - `data/raw/`: downloaded source pages and reports.
-- `data/`: generated and curated CSVs.
+- `scripts/`: download, parse, build, and chart scripts.
 
-## Status
+## Rebuilding
 
-Work in progress.
-An earlier, GoA4-only, km-based spreadsheet found that about 20% of new km in China
-and about 48% of new lines elsewhere were GoA4 over the decade,
-with the current annual rate near 50%.
-Those figures are being redone by line count, with GoA3 included,
-from the per-line sources above.
+```sh
+./scripts/download_urbanrail.sh
+./scripts/download_camet.sh
+uv run --with beautifulsoup4 python scripts/parse_urbanrail.py data/urbanrail_events.csv data/raw/urbanrail/*.htm
+uv run --with pdfplumber python scripts/parse_camet.py data/camet_new_lines.csv data/raw/camet/camet-*.pdf
+uv run python scripts/build_openings.py
+uv run python scripts/plot_share.py
+```
+
+Re-parsing UrbanRail.net keeps each event's ID,
+so the reviews in `data/curation/events.csv` still apply;
+new events need reviewing and adding there.
