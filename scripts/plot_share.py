@@ -6,9 +6,9 @@ Reads data/urban_rail_openings.csv and, for each region
 (worldwide, mainland China, and outside mainland China), writes:
 - data/automated{measure}_share_by_year{suffix}_{range}.csv: the numbers behind the chart.
 - charts/automated{measure}_share_by_year{suffix}_{range}.svg: a bar chart of the share per year.
-The measure is either line count (no {measure} part, for continuity)
-or km (`km`), the length of each line at its first opening;
-lines without a known length are left out of the km charts.
+The measure is either the count of new lines (no {measure} part)
+or km (`_km`) of all openings, new lines and extensions alike;
+openings without a known length are left out of the km charts.
 Each comes in two ranges: 2016_to_2025 (full years only)
 and 2016_to_2026 (including the current, partial year).
 
@@ -42,8 +42,17 @@ BOTTOM = 80
 BAR_GAP = 0.3
 
 
-def counted(r):
-    return r["new_build"] == "yes" and r["grade_separated"] == "yes" and r["mainline"] == "no"
+def counted(r, by_km):
+    """Whether an opening counts: new lines by count, or any new km by length.
+
+    Counting by km includes extensions, which take their line's GoA,
+    but not in-fill stations, which add no length.
+    """
+    if r["grade_separated"] != "yes" or r["mainline"] != "no":
+        return False
+    if by_km:
+        return "in-fill" not in r["note"]
+    return r["new_build"] == "yes"
 
 
 def tally(in_region, last_year, by_km):
@@ -53,7 +62,7 @@ def tally(in_region, last_year, by_km):
     last_date = ""
     with open(OPENINGS, newline="") as f:
         for r in csv.DictReader(f):
-            if not counted(r) or not in_region(r["country"]):
+            if not counted(r, by_km) or not in_region(r["country"]):
                 continue
             year = r["opening_date"][:4]
             if year > last_year:
@@ -125,7 +134,7 @@ def write_svg(rows, last_date, svg, region, unit, unknown_km):
         f'<text class="t1" x="{LEFT}" y="28" font-size="17" font-weight="600">'
         f"Automated share of new metro {'km' if unit == 'km' else 'lines'}, {region}</text>",
         f'<text class="t2" x="{LEFT}" y="50" font-size="13">'
-        f"Above GoA2; new-build, grade-separated, non-mainline lines; "
+        f"Above GoA2; {'grade-separated, non-mainline openings' if unit == 'km' else 'new-build, grade-separated, non-mainline lines'}; "
         f"{fmt(a_all)} of {fmt(n_all)}{' km' if unit == 'km' else ''} "
         f"({a_all / n_all:.0%}) in {first_year}–{last_year}</text>",
     ]
@@ -170,7 +179,7 @@ def write_svg(rows, last_date, svg, region, unit, unknown_km):
         )
     footer = [f"Below each year: automated/new {unit}."]
     if unit == "km":
-        footer[0] += f" Length at first opening; {unknown_km} lines of unknown length left out."
+        footer[0] += f" New lines and extensions; {unknown_km} openings of unknown length left out."
     footer.append(
         (f"* {partial_year} through {last_date}. " if last_year == partial_year else "")
         + "Sources: UrbanRail.net, CAMET."

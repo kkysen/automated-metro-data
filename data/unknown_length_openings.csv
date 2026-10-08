@@ -1,0 +1,109 @@
+opening_date,country,city,line,new_build,GoA,description
+2016-01-29,China,Dalian,Line 1,no,GoA2,Line 1 Fuguojie - Exhibition Center
+2016-01-30,South Korea,Seoul,Shinbundang Line,no,GoA4,Shin Bundang Line Jeongja - Gwanggyo
+2016-02-03,South Korea,Incheon,Incheon Airport Maglev,yes,GoA4,Airport Maglev Incheon Int'l Airport - Yongyu
+2016-02-06,Iran,Mashhad,Line 1,no,GoA2,Line 1 Ghadir - Airport
+2016-03-15,Iran,Tehran,Line 4,no,GoA2,Line 4 Bimeh station and Mehr Abad Airport branch
+2016-03-31,Malaysia,Kuala Lumpur,Ampang Line,no,GoA2,Ampang Line (4) - Kinrara BK5 - Putra Heights
+2016-03-31,Malaysia,Kuala Lumpur,Sri Petaling Line,no,GoA2,Sri Petaling Line (4) - Kinrara BK5 - Bandar Puteri
+2016-04-03,Norway,Oslo,Løren line,no,GoA2,Sinsen - Økern
+2016-04-13,Portugal,Lisbon,Blue Line,no,GoA2,Blue Line Amadora Este - Reboleira
+2016-04-19,Azerbaijan,Baku,M3 Purple Line,yes,GoA2,M3 Memar Acami - Avtovagzal
+2016-04-26,China,Shanghai,Line 11,no,GoA2,Line 11 Kangxin Highway - Disney Resort
+2016-04-30,India,Bengaluru,Purple Line,no,GoA2,Purple Line Magadi Road - M.G. Road
+2016-05-18,China,Fuzhou,Line 1,yes,GoA2,Line 1 Sanchajie - Fuzhou South Railway Station
+2016-05-27,China,Dongguan,Line 2,yes,GoA2,Line 2 Dongguan Railway Station - Humen Railway Station
+2016-06-28,China,Changsha,Line 1,yes,GoA2,Line 1 Kaifu District Government - Shangshuangtang
+2016-06-28,China,Nanning,Line 1,yes,GoA2,Line 1 Nanhu - Nanning East Railway Station
+2016-06-28,China,Shenzhen,Line 11,yes,GoA2,Line 11 Futian - Bitou
+2016-06-30,Malaysia,Kuala Lumpur,Kelana Jaya Line,no,GoA4,Kelana Jaya Line (5) - Kelana Jaya - Putra Heights
+2016-06-30,Malaysia,Kuala Lumpur,Sri Petaling Line,no,GoA2,Sri Petaling Line (4) - Bandar Puteri - Putra Heights
+2016-07-30,South Korea,Incheon,Line 2,yes,GoA4,Line 2 Oryu-dong - Unyeon
+2016-07-31,China,Chengdu,Line 3,yes,GoA2,Line 3 Chengdu Junqu General Hospital - Taipingyuan
+2016-08-01,Brazil,Rio de Janeiro,Line 4,yes,GoA2,Line 4 Ipanema/General Osório - Jardim Oceânico  (Limited Olympic service!)
+2016-08-06,China,Tianjin,Line 6,yes,GoA2,Line 6 Changhong Gongyuan - Nancuiping
+2016-08-19,China,Zhengzhou,Line 2,yes,GoA2,Line 2 Liuzhuang - Nansihuan
+2016-08-25,Ukraine,Kharkiv,M3,no,GoA2,M3 Oleksiivska - Peremoha
+2016-09-08,South Korea,Daegu,Line 1,no,GoA2,Line 1 Daegok - Seolhwa-Myeonggok
+2016-09-16,Russia,Moscow,Line 10,no,GoA2,Line 10 Mar'ina Roshcha - Petrovsko-Razumovskaya
+2016-09-21,India,Chennai,Blue Line,yes,GoA2,Blue Line Little Mount - Chennai International Airport
+2016-09-24,China,Suzhou,Line 2,no,GoA2,Line 2 Suzhou North Railway Station - Qihe and Baodaiqiao South - Sangtian Dao
+2016-12-28,China,Chongqing,Line 3,no,GoA2,Line 3 Bijin - Jurenba
+2016-12-28,China,Guangzhou,Guangfo Line,no,GoA2,GF Line Kuiqi Lu - Xinchengdong
+2016-12-28,China,Guangzhou,Line 6,no,GoA2,Line 6 Changban - Xiangxue
+2016-12-28,China,Wuhan,Line 2,no,GoA2,Line 2 Jinyintan - Tianhe Int'l Airport
+2016-12-31,China,Beijing,Line 16,yes,GoA2,Line 16 Beianhe - Xiyuan
+2016-12-31,China,Tianjin,Line 6,no,GoA2,Line 6 Changhong Gongyuan - South Sunzhuang
+2017-01-01,United States,New York City,Q (Second Avenue Subway),no,GoA2,Q Line 57th St/7th Av - Lexington Av/63rd - 96th (Second Avenue Subway; 4.4 km)) 2016:
+2017-01-05,Turkey,Ankara,M4,yes,GoA2,M4 Atatürk Kültür Merkezi - Sehitler-Gazino
+2017-02-20,Iran,Mashhad,Line 2,yes,GoA2,Line 2 Shohada - Kashfrood
+2017-03-02,Taiwan,Taoyuan,Airport MRT,yes,GoA2,Airport MRT Taipei Main Station - Taoyuan International Airport - Huanbei
+2017-03-16,Russia,Moscow,Line 8A Solntsevskaya,no,GoA2,Line 8A Park Pobedy - Ramenki
+2017-03-25,United States,San Francisco,BART Fremont–Warm Springs,no,GoA2,BART Fremont - Warm Springs/South Fremont
+2017-04-03,Thailand,Bangkok,BTS Sukhumvit Line,no,GoA2,Sukhumvit Line Bearing (E14) - Samrong (E15)
+2017-04-20,Iran,Shiraz,Line 1,no,GoA2,Line 1 Namazi - Zandiyeh (without intermediate stations)
+2017-07-20,Iran,Isfahan,Line 1,no,GoA2,Line 1 Takhti - Azadi
+2017-08-11,Thailand,Bangkok,Blue Line,no,GoA2,Blue Line Bang Sue - Tao Poon
+2017-08-18,Iran,Shiraz,Line 1,no,GoA2,Line 1 Vali-e Asr - Shahid Dastgheyb
+2017-08-29,China,Kunming,Line 6,no,GoA2,and Line 6 (full operation)
+2017-12-06,China,Nanjing,S3,yes,GoA2,S3 Nanjing South Railway Station - Gaojiachong
+2017-12-30,China,Shanghai,Line 17,yes,GoA2,Line 17 Hongqiao Railway Station - Oriental Land
+2017-12-31,Russia,Moscow,Line 2,no,GoA2,Line 2 Rechnoy Vokzal - Khovrino (without Belomorskaya )
+2018-04-06,Brazil,São Paulo,Line 15,no,GoA4,Line 15 Oratório - Vila União
+2018-04-10,Algeria,Algiers,Line 1,no,GoA2,Tafourah (Grande Poste) - Place des Martyrs (without intermediate station) & Haï El Badr - Ain Naadja
+2018-06-28,China,Dalian,Line 2,no,GoA2,Line 2 Airport - Xinzhaizi
+2018-07-10,Iran,Isfahan,Line 1,no,GoA2,Line 1 Azadi - Soffeh; + Imam Hossein & Enghelab stations
+2018-08-31,Brazil,São Paulo,Line 5,no,GoA2,Line 5 Moema - AACD-Servidor
+2018-12-03,China,Tianjin,Line 1,no,GoA2,Line 1 Shuanglin (now underground) - Lilou
+2018-12-24,China,Chongqing,Line 5,no,GoA2,Line 5 Dalongshan - Dashiba
+2018-12-28,China,Chongqing,Loop Line,yes,GoA2,Loop Line Chongqing Library - Haixialu via North Railway Station ( 34.3 km )
+2018-12-28,China,Guangzhou,Guangfo Line,no,GoA2,GuangFo Line Yangang - Lijiao
+2018-12-30,China,Beijing,Line 8,no,GoA2,Line 8 Nanluoguxiang - National Art Museum
+2019-01-11,China,Chongqing,Line 4,no,GoA2,Line 4 North Station - Min'andadao (+ Loop station)
+2019-04-10,China,Harbin,Line 1,no,GoA2,Line 1 Harbin South Railway Station - Xinjiang Street
+2019-05-08,Qatar,Doha,Red Line,yes,GoA4,Red Line Al Qassar - Al Wakra
+2019-07-27,Iran,Mashhad,Line 2,no,GoA2,Line 2 Shariati - Shahid Kaveh
+2019-08-26,Brazil,São Paulo,Line 15,no,GoA4,Line 15 Vila União - Jardim Planalto
+2019-09-19,China,Zhengzhou,Line 14,yes,GoA2,Line 14 Tielu - Olympic Sports Center (xx km)
+2019-12-16,Brazil,São Paulo,Line 15,no,GoA4,Line 15 Jardim Planalto - São Mateus (limited service)
+2019-12-16,China,Qingdao,Line 2,no,GoA2,Line 2 Zhiquan Road - Taishan Road
+2019-12-16,France,Marseille,Line 2,no,GoA2,Line 2 Bougainville - Gèze
+2019-12-28,China,Beijing,Line 7 / Batong Line,no,GoA2,Line 7 Jiaohuachang - Huazhuang and Batong Line Tuqiao - Huazhuang + Line 13 Qinghe station
+2019-12-28,China,Tianjin,Line 1,no,GoA2,Line 1 Lilou - Donggulu
+2019-12-30,China,Chongqing,Line 1,no,GoA2,Line 1 Jiandingpo - Bishan
+2020-02-15,Thailand,Bangkok,Blue Line,no,GoA2,Blue Line Tao Poon - Tha Phra (free shuttle service)
+2020-08-29,Uzbekistan,Tashkent,Yunusobod Line,no,GoA2,Yunusobod Line Shahriston – Turkeston
+2020-10-28,China,Shenzhen,"Lines 2/8, 3, and others",no,GoA2,Line 2/8 Xinxiu - Yantian Road ; Line 3 Yitian - Futian Bonded Area ; Line 4 Qinghu - Niuhu
+2020-12-26,Uzbekistan,Tashkent,Chilonzor Line,no,GoA2,Chilonzor Line Olmazor - Qipchoq (5-bekat)
+2021-03-28,China,Luoyang,Line 1,yes,GoA2,Line 1 Hongshan – Yangwan
+2021-04-01,Russia,Moscow,Line 11 Big Circle Line,no,GoA2,Line 11 Khoroshyovskaya – Mnyovniki
+2021-12-31,China,Beijing,Capital Airport Express,no,GoA2,Capital Airport Express Dongzhimen – Beixinqiao
+2022-04-29,China,Fuzhou,Line 5,yes,GoA2,Line 5 Ancient Luozhou Town – Jingxi Houyu
+2022-04-29,China,Shaoxing,Line 1,no,GoA2,Line 1 China Textile City – Fangquan
+2022-05-31,France,Paris,Line 12,no,GoA2,Line 12 Front Populaire – Mairie d'Aubervilliers
+2022-06-24,China,Hangzhou,Line 10,no,GoA2,Line 10 Cuibai Road – Xueyuan Road
+2022-12-11,India,Nagpur,Aqua Line,no,GoA2,Aqua Line Sitabuldi – Prajapati Nagar & Orange Line Kasturchand Park – Automotive Square
+2022-12-28,China,Jinhua,Jinyi Line,no,GoA2,Yidong Line Lingyun – Sports Center
+2023-01-02,Turkey,Istanbul,M7,no,GoA4,M7 Sisli-Mecidiyeköy – Yildiz
+2023-02-08,Iran,Shiraz,Line 2,yes,GoA2,"Line 2 Emam Hossein – Qahramanan (xx km, limited service! )"
+2023-10-10,Iran,Tehran,Lines 6 and 7,no,GoA2,Line 6 Shahid Sattari – Shahid Arman Aliverdi (Kouhsar) & Line 7 Shahid Dadman – Meydan-e Ketab
+2024-03-06,India,Agra,Yellow Line,yes,GoA2,(Yellow Line) Mankameshwar Mandir – Taj East Gate
+2024-03-06,India,Kolkata,Line 2,no,GoA2,Line 2 Howrah Maidan – Esplanade & Line 3 Taratala – Majerhat (limited service)
+2024-03-16,Iran,Tehran,Line 4,no,GoA2,Line 4 Allameh Ja'fari – Ayatollah Kashani
+2024-07-01,China,Tianjin,Line 1,no,GoA2,Line 1 Donggulu – Shuangqiaohe
+2024-12-01,Saudi Arabia,Riyadh,Purple Line,yes,GoA4,Purple Line KAFD – An Naseem
+2024-12-01,Saudi Arabia,Riyadh,Yellow Line,yes,GoA4,Yellow Line KAFD – Airport T1-2
+2024-12-28,Russia,Moscow,Line 16,no,GoA2,Line 16 Tyutchevskaya – Novomoskovskaya
+2024-12-28,South Korea,Seoul,GTX-A,no,GoA2,GTX-A Seoul Station – Unjeongjungang
+2025-05-03,Iran,Mashhad,Line 2,no,GoA2,Line 2 Shahid Kaveh – Shahid Fakouri
+2025-06-28,South Korea,Incheon,Line 1,no,GoA2,Line 1 Gyeyang – Geomdan Lake Park
+2025-08-22,India,Kolkata,Yellow Line,yes,GoA2,YL Noapara – Jai Hind Bimanbandar (Green and Orange lines extended the same day)
+2025-12-26,Russia,Saint Petersburg,Line 6,yes,GoA2,Line 6 Putilovskaya — Yugo-Zapadnaya
+2026-07-01,China,Hefei,Line 7,yes,GoA4,Line 7 Feicui Gongyuan — Sheng Wenhuahefeiyiguan
+2026-07-02,Brazil,São Paulo,Line 6,yes,GoA4,Line 6 João Paulo I — Perdizes
+2026-07-02,India,Patna,Blue Line,no,GoA2,BL Bhootnath — Malahi Pakri
+2026-07-03,Brazil,Belo Horizonte,Linha 2,yes,GoA2,Linha 2 Nova Suíça — Amazonas  (limited service)
+2026-07-12,Singapore,Singapore,Circle Line,no,GoA4,Circle Line Harbour Front — Marina Bay
+2026-09-16,China,Xiamen,Line 4,yes,GoA4,[4] Jimei Software Park North — Qianwu
+2026-09-16,China,Xiamen,Line 6,yes,GoA4,[6] Jiaojiang Road — Huaqiao University
+2026-09-22,China,Qingdao,Line 8,no,GoA2,[8] Qingdao North Railway Station — May 4th Square

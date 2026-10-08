@@ -104,11 +104,14 @@ The same, split into mainland China and everywhere else
 Each chart also has a `2016_to_2025` version with full years only,
 in which 118 of 340 new lines (35%) are automated worldwide.
 Every chart also has a km version (`automated_km_share_*`),
-weighting each line by its length at first opening:
-2,660 of 7,903 km (34%) are automated worldwide in 2016–2026,
-29% in mainland China and 53% elsewhere.
-The 35 lines whose length UrbanRail.net doesn't give are left out of those,
-and lines opened in stages count only their first section.
+counting the km of every grade-separated, non-mainline opening,
+new lines and extensions alike, each extension taking its line's GoA:
+3,313 of 11,583 km (29%) opened in 2016–2026 are automated worldwide,
+23% in mainland China and 43% elsewhere.
+The km share is lower than the line share because extensions,
+mostly of older lines built before automation was common, add many non-automated km.
+108 openings of unknown length (35 new lines and 73 extensions,
+listed in `data/unknown_length_openings.csv`) are left out.
 The numbers per year are in `data/automated*_share_by_year*.csv`,
 named like the charts.
 

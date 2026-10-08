@@ -11,7 +11,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2016-02-10,Iran,Tehran,Line 3,metro,,no,yes,no,GoA2,no,mode default; unverified,M3 Mirzaye Shirazi station,in-fill station,3c2e5b2d
 2016-02-11,Iran,Shiraz,Line 1,metro,,no,yes,no,GoA2,no,mode default; unverified,Motahari station,in-fill station,7fb6e79a
 2016-02-12,Spain,Barcelona,Line 9 Sud,metro,20.0,no,yes,yes,GoA4,yes,UTO,L9 Sud Zona Universitària - Aeroport T1 (20 km),L9 Sud runs as a separate line from L9 Nord (opened 2009); counted as new,9a938cac
-2016-02-17,Italy,Palermo,Passante,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,"Passante Lolli , Guadagna & Maredolce stations",,6656cf9a
+2016-02-17,Italy,Palermo,Passante,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,"Passante Lolli , Guadagna & Maredolce stations",in-fill station,6656cf9a
 2016-02-20,Germany,Düsseldorf,Wehrhahn tunnel,tram,3.4,no,no,no,GoA0,no,mode default; unverified,tram tunnel Wehrhahn - Bilk (3.4 km),,c1665f40
 2016-02-26,Austria,Linz,Line 3,tram,,no,no,no,GoA0,no,mode default; unverified,Line 3 Doblerholz - Traunerkreuzung,,a8fd4332
 2016-02-27,South Korea,Incheon,Suin Line,commuter rail,,yes,yes,no,GoA1,no,,Suin Line Songdo - Incheon,,a99cc08c
@@ -36,7 +36,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2016-04-26,China,Shanghai,Line 11,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 11 Kangxin Highway - Disney Resort,,e1f6f030
 2016-04-28,China,Hangzhou,Line 2,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 2 Qianjiang Century City station,in-fill station,02987005
 2016-04-30,India,Bengaluru,Purple Line,metro,,no,yes,no,GoA2,no,mode default; unverified,Purple Line Magadi Road - M.G. Road,,5aa913c0
-2016-04-30,South Korea,Seoul,Gyeongui–Jungang Line,commuter rail,,yes,yes,no,GoA1,no,,Gyeongui–Jungang Line Hyochang Park station,,f68ad89c
+2016-04-30,South Korea,Seoul,Gyeongui–Jungang Line,commuter rail,,yes,yes,no,GoA1,no,,Gyeongui–Jungang Line Hyochang Park station,in-fill station,f68ad89c
 2016-05-06,China,Changsha,Changsha Maglev Express,maglev,18.5,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Maglev Line Changsha South Railway Station - Huanghua Airport (18.5 km),,c5e167b3
 2016-05-06,United States,Kansas City,KC Streetcar,tram,,no,no,yes,GoA0,no,mode default; unverified,Union Station - River Market,,0923eed3
 2016-05-13,Germany,Stuttgart,U12,tram,,no,no,no,GoA0,no,mode default; unverified,U12 Wallgraben - Dürrlewang,,1b05b9b6
@@ -252,7 +252,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2017-12-31,Russia,Moscow,Line 2,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 2 Rechnoy Vokzal - Khovrino (without Belomorskaya ),,168de1b7
 2018-01-07,Germany,Düsseldorf,U70/U76 Line 701,tram,1.8,no,no,no,GoA0,no,mode default; unverified,Line 701 Rath - Am Hülserhof (1.8 km),,c05e4bd6
 2018-01-09,China,Hangzhou,Line 4,metro,11.1,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 4 Jinjiang - Puyan (11.1 km),,7c7eb48d
-2018-01-23,Brazil,São Paulo,Line 4,metro,,no,yes,no,GoA4,yes,UTO,Line 4 Higienópolis-Mackenzie station,,d292c5f0
+2018-01-23,Brazil,São Paulo,Line 4,metro,,no,yes,no,GoA4,yes,UTO,Line 4 Higienópolis-Mackenzie station,in-fill station,d292c5f0
 2018-02-26,Russia,Moscow,Line 11 Big Circle Line,metro,10.5,no,yes,yes,GoA2,no,mode default; unverified,Line 11 Delovoy Tsentr - Petrovskiy Park (10.5 km),,95d4d015
 2018-03-02,Brazil,São Paulo,Line 5,metro,2.9,no,yes,no,GoA2,no,mode default; unverified,Line 5 Brooklin - Eucaliptos (2.9 km),,b198bd54
 2018-03-14,India,Delhi,Pink Line,metro,21.6,no,yes,yes,GoA4,yes,opened with drivers; UTO since November 2021,Line 7 (Pink Line) Majlis Park – Durgabai Deshmukh South Campus (21.6 km),,8dd8e02f
@@ -266,7 +266,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2018-03-31,China,Shanghai,APM Pujiang Line,people mover,6.7,no,yes,yes,GoA4,yes,CAMET: FAO,APM Pujiang Line Shendu Highway - Huizhen Road (6.7 km),,1b417652
 2018-04-01,China,Wuhan,Optics Valley Tram L1,tram,30.0,no,no,yes,GoA0,no,,Optics Valley Tram L1 Huazhong University - Fozuling,,d850db29
 2018-04-01,China,Wuhan,Optics Valley Tram L2,tram,,no,no,yes,GoA0,no,,Optics Valley Tram L2 Tangxunhu City Railway Station - Optics Valley Botanical Garden,split from a combined UrbanRail entry,
-2018-04-04,Brazil,São Paulo,Line 4,metro,,no,yes,no,GoA4,yes,UTO,Line 4 Oscar Freire station,,cc558983
+2018-04-04,Brazil,São Paulo,Line 4,metro,,no,yes,no,GoA4,yes,UTO,Line 4 Oscar Freire station,in-fill station,cc558983
 2018-04-05,Brazil,São Paulo,Line 5,metro,1.0,no,yes,no,GoA2,no,mode default; unverified,Line 5 Eucaliptos - Moema (1 km),,563d9dc7
 2018-04-06,Brazil,São Paulo,Line 15,monorail,,no,yes,no,GoA4,yes,UTO,Line 15 Oratório - Vila União,,3626249d
 2018-04-08,China,Shenyang,Line 2,metro,4.9,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 2 Hangkonghangtiandaxue - Putianlu (4.9 km),,03a9fd64
@@ -344,7 +344,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2018-12-09,Germany,Ulm,Line 2,tram,8.8,no,no,no,GoA0,no,mode default; unverified,Line 2 Kuhberg Schulzentrum - Etlinger Tor and Theater - Science Park II (8.8 km),,fe752cc5
 2018-12-14,United States,Oklahoma City,Loop Line,tram,8.0,no,no,yes,GoA0,no,mode default; unverified,Loop Line (8 km),,f4ee5c50
 2018-12-15,France,Nice,Line 2,tram,1.7,no,no,no,GoA0,no,mode default; unverified,Line 2 Grand Arénas (Pôle Intermodal) - Aéroport T2 (1.7 km),,09ff344d
-2018-12-20,Russia,Moscow,Line 2,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 2 Belomorskaya station,,1cc1b52e
+2018-12-20,Russia,Moscow,Line 2,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 2 Belomorskaya station,in-fill station,1cc1b52e
 2018-12-24,China,Chongqing,Line 5,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 5 Dalongshan - Dashiba,,a8788ff4
 2018-12-24,Taiwan,New Taipei,Danhai LRT,light rail,7.3,no,no,yes,GoA1,no,,Danhai LRT Hongshulin – Kanding (7.3 km),,575b8490
 2018-12-26,China,Chengdu,Chengdu Tram Line 2,tram,13.5,no,no,yes,GoA0,no,mode default; unverified,T2 Chenguang – Hexin Road (13.5 km),,9853bbaa
@@ -380,7 +380,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2019-02-11,Turkey,İzmit,,tram,2.2,no,no,no,GoA0,no,mode default; unverified,SekaPark - Plajyolu (2.2 km),,8b98fc89
 2019-02-17,Australia,Newcastle,Newcastle Light Rail,tram,2.6,no,no,yes,GoA0,no,mode default; unverified,Newcastle Interchange - Pacific Park (2.6 km),,92760a67
 2019-02-19,China,Wuhan,Line 2,metro,13.4,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 2 Optics Valley Square - Fozuling (13.4 km),,aaec6497
-2019-03-02,Spain,Barcelona,Line 10 Sud,metro,,no,yes,no,GoA4,yes,UTO,L10S Provençana station,,b7259892
+2019-03-02,Spain,Barcelona,Line 10 Sud,metro,,no,yes,no,GoA4,yes,UTO,L10S Provençana station,in-fill station,b7259892
 2019-03-03,India,Mumbai,Mumbai Monorail,monorail,10.7,no,yes,no,GoA2,no,,Monorail Wadala Depot - Jacob Circle (10.7 km),,1cf937fa
 2019-03-04,India,Ahmedabad,Blue Line,metro,6.5,no,yes,yes,GoA2,no,mode default; unverified,Line 1 Vastral Gam - Apparel Park (6.5 km),,b8d6a3d2
 2019-03-08,India,Delhi,Blue Line,metro,6.6,no,yes,no,GoA2,no,mode default; unverified,Blue Line Noida City Centre - Noida Electronic City (6.6 km),,d2212b0c
@@ -393,7 +393,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2019-03-16,Germany,Freiburg,,tram,1.9,no,no,no,GoA0,no,mode default; unverified,Reiterstraße - Siegesdenkmal (1.9 km),,7a463429
 2019-03-16,Germany,Freiburg,,tram,1.9,no,no,no,GoA0,no,mode default; unverified,Heinrich-von-Stephan-Str. - Europaplatz (1.9 km),,cf53d8aa
 2019-03-20,India,Hyderabad,Blue Line,metro,10.0,no,yes,no,GoA2,no,mode default; unverified,Blue Line Ameerpet - Hitec City (10 km),,88b27d34
-2019-03-23,Spain,Madrid,Line 7,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 7 Arroyofresno station,,64437e17
+2019-03-23,Spain,Madrid,Line 7,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 7 Arroyofresno station,in-fill station,64437e17
 2019-03-24,Indonesia,Jakarta,MRT North–South Line,metro,15.7,no,yes,yes,GoA2,no,,MRT Bunderan HI - Lebak Bulus (15.7 km),,ea69fe22
 2019-04-01,China,Jinan,Line 1,suburban metro,26.2,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Fangte - Gongyanyuan (26.2 km),,ec158dfd
 2019-04-07,Iran,Tehran,Line 6,metro,9.0,no,yes,yes,GoA2,no,mode default; unverified,Line 6 Shohada Square - Dowlat Abad (9 km),,a7bd8d91
@@ -466,7 +466,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2019-10-12,France,Paris,T1,tram,0.8,no,no,no,GoA0,no,mode default; unverified,T1 Asnières Les Courtilles – Asnières Quatre Routes (0.8 km),,62c23340
 2019-10-19,France,Avignon,Avignon Tramway T1,tram,5.2,no,no,yes,GoA0,no,mode default; unverified,T1 Saint Roch – Saint Chamand (5.2 km),,b4f8bb9d
 2019-10-26,Brazil,Rio de Janeiro,T3,tram,1.0,no,no,no,GoA0,no,mode default; unverified,T3 Candelária - Cristiano Ottoni (1 km),,8326603d
-2019-11-02,Singapore,Singapore,North–South Line,metro,,no,yes,no,GoA2,no,ATO with train captains,NSL Canberra station,,9f042947
+2019-11-02,Singapore,Singapore,North–South Line,metro,,no,yes,no,GoA2,no,ATO with train captains,NSL Canberra station,in-fill station,9f042947
 2019-11-06,China,Wuhan,Line 8,metro,4.8,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 8 Yezhi Lake - Military Athletes’ Village (4.8 km),,46dc18fb
 2019-11-13,France,Nice,Line 3,tram,3.8,no,no,no,GoA0,no,mode default; unverified,Line 3 Digue des Français - Saint-Isidore (3.8 km),,60317a15
 2019-11-16,France,Saint-Étienne,T3,tram,4.2,no,no,no,GoA0,no,mode default; unverified,T3 Châteauxcreux Gare - Roger Rocher (4.2 km),,d0b107d6
@@ -479,7 +479,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2019-12-04,Thailand,Bangkok,BTS Sukhumvit Line,metro,3.3,no,yes,no,GoA2,no,,Sukhumvit Line Ha Yaek Lat Phrao - Kasetsart University (3.3 km),,83479530
 2019-12-08,Belgium,Antwerp,Line 1,tram,3.5,no,no,no,GoA0,no,mode default; unverified,Line 1/24 Stadspark - Havenhuis (3.5 km),,53e1ed45
 2019-12-08,China,Shenzhen,Line 9,metro,10.8,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 9 Hongshuwan South - Qianwan (10.8 km),,6e93379b
-2019-12-09,Germany,Hamburg,U1,metro,,no,yes,no,GoA2,no,mode default; unverified,U1 Oldenfelde station,,da3c19ac
+2019-12-09,Germany,Hamburg,U1,metro,,no,yes,no,GoA2,no,mode default; unverified,U1 Oldenfelde station,in-fill station,da3c19ac
 2019-12-10,Macau,Macau,Taipa Line,light metro,9.3,no,yes,yes,GoA4,yes,UTO,Linha da Taipa Oceano - Terminal Marítimo da Taipa (9.3 km),,57472e7a
 2019-12-10,Qatar,Doha,Green Line,metro,22.0,no,yes,yes,GoA4,yes,UTO,Green Line Al Riffa - Al Mansoura (22 km),,a1761b03
 2019-12-10,Qatar,Doha,Red Line,metro,20.0,no,yes,no,GoA4,yes,UTO,Red Line Al Qassar - Lusail & Airport branch (~20 km),,b75e0888
@@ -488,8 +488,8 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2019-12-14,France,Bordeaux,Line D,tram,3.5,no,no,no,GoA0,no,mode default; unverified,Line D Quinconces - Mairie du Bouscat (3.5 km),,e3bc9867
 2019-12-14,France,Nice,Line 2,tram,1.6,no,no,no,GoA0,no,mode default; unverified,Line 2 Jean Médecin - Port Lympia (1.6 km),,837d5c73
 2019-12-14,France,Paris,T4,tram,,no,no,no,GoA0,no,mode default; unverified,T4 Gargan - Arboretum (Montfermeil),,535d25bd
-2019-12-15,Germany,Frankfurt,S8,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,S8/S9 Gateway Gardens station,,a237fddf
-2019-12-15,Germany,Hamburg,S3,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,S3/S31 Elbbrücken station,,982cf0fb
+2019-12-15,Germany,Frankfurt,S8,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,S8/S9 Gateway Gardens station,in-fill station,a237fddf
+2019-12-15,Germany,Hamburg,S3,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,S3/S31 Elbbrücken station,in-fill station,982cf0fb
 2019-12-15,Switzerland,Geneva,Line 17,tram,2.0,no,no,no,GoA0,no,mode default; unverified,Line 17 Moillesulaz - Annemasse-Parc-Montessuit (2 km),,41d971c6
 2019-12-15,Switzerland,Geneva,Léman Express (CEVA),commuter rail,,yes,yes,yes,GoA1,no,,Léman Express Genève Cornavin - Annemasse,new mainline cross-border link through Geneva,2c3eb7a0
 2019-12-16,Brazil,São Paulo,Line 15,monorail,,no,yes,no,GoA4,yes,UTO,Line 15 Jardim Planalto - São Mateus (limited service),,4135f15b
@@ -546,7 +546,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2020-05-25,Ecuador,Cuenca,Cuenca Tramway,tram,11.0,no,no,yes,GoA0,no,mode default; unverified,Control Sur - Parque Industrial (11 km),,dadb39b6
 2020-05-30,China,Ningbo,Line 2,metro,5.6,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 2 Qingshuipu – Congyuan Road (5.6 km),,09eb7279
 2020-06-05,Thailand,Bangkok,BTS Sukhumvit Line,metro,4.3,no,yes,no,GoA2,no,,Sukhumvit Line Kasetsart University – Wat Phra Sri Mahathat (4.3 km),,f2179700
-2020-06-06,Japan,Tokyo,Hibiya Line,metro,,no,yes,no,GoA2,no,mode default; unverified,Hibiya Line Toranomon Hills station,,77c0f3a6
+2020-06-06,Japan,Tokyo,Hibiya Line,metro,,no,yes,no,GoA2,no,mode default; unverified,Hibiya Line Toranomon Hills station,in-fill station,77c0f3a6
 2020-06-13,United States,San Francisco,BART,metro,16.0,no,yes,no,GoA2,no,mode default; unverified,BART Warm Springs/South Fremont – Berryessa/North San José (16 km),,4723bd98
 2020-06-28,China,Changsha,Line 3,metro,36.4,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 3 Shantang – Guangsheng (36.4 km),,2150c20e
 2020-06-28,China,Changsha,Line 5,metro,22.5,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 5 Shuiduhe – Maozhutang (22.5 km),,968d12ca
@@ -688,7 +688,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2021-07-04,Switzerland,Geneva,Line 14,tram,2.1,no,no,no,GoA0,no,mode default; unverified,Line 14 Bernex P+R – Bernex-Vailly (2.1 km),,c1172ac1
 2021-07-05,China,Shaoxing,Line 1,metro,20.3,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 1 Guniangqiao – China Textile City (20.3 km),,e0810980
 2021-07-05,Philippines,Manila,Line 2,metro,3.8,no,yes,no,GoA2,no,,Line 2 Santolan – Antipolo (3.8 km),,f894e189
-2021-07-25,Spain,Barcelona,Line 5,metro,,no,yes,no,GoA2,no,mode default; unverified,L5 Ernest Lluch (fill-in station),,4d4d89cc
+2021-07-25,Spain,Barcelona,Line 5,metro,,no,yes,no,GoA2,no,mode default; unverified,L5 Ernest Lluch (fill-in station),in-fill station,4d4d89cc
 2021-08-02,Thailand,Bangkok,SRT Dark Red Line,commuter rail,26.0,yes,yes,yes,GoA1,no,,SRT Red Line Bang Sue – Rangsit (26 km),,2915c879
 2021-08-02,Thailand,Bangkok,SRT Light Red Line,commuter rail,15.0,yes,yes,yes,GoA1,no,,Bang Sue – Taling Chan (15 km),,92ca205f
 2021-08-06,India,Delhi,Pink Line,metro,1.4,no,yes,no,GoA4,yes,opened with drivers; UTO since November 2021,Pink Line Mayur Vihar Pocket-1 - Trilokpuri Sanjay Lake (1.4 km),,cf98b070
@@ -740,7 +740,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2021-12-17,Brazil,São Paulo,Line 4,metro,1.5,no,yes,no,GoA4,yes,UTO,Line 4 São Paulo-Morumbi – Vila Sônia (1.5 km),,4786d486
 2021-12-17,China,Wuxi,Line 4,metro,25.4,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 4 Liutan – Wuxi Taihu International Expo Center (25.4 km),,043d115f
 2021-12-18,Poland,Szczecin,,tram,1.0,no,no,no,GoA0,no,mode default; unverified,Rondo Olszewskiego – Osiedle Zawadzkiego (1 km),,b18e8c96
-2021-12-18,South Korea,Seoul,Line 8,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 8 Namwirye in-fill station,,7c615df6
+2021-12-18,South Korea,Seoul,Line 8,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 8 Namwirye in-fill station,in-fill station,7c615df6
 2021-12-26,China,Hefei,Line 4,metro,41.4,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 4 Zongbaoqu – Qinglonggang (41.4 km),,d084ccb2
 2021-12-26,China,Luoyang,Line 2,metro,18.2,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 2 Erqiao Road – Balitang (18.2 km),,3b14231b
 2021-12-26,China,Nanchang,Line 4,metro,39.6,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 4 Baimashan – Yuweizhou (39.6 km),,9bb09e74
@@ -786,7 +786,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2022-03-19,South Korea,Seoul,Line 4,metro,14.2,no,yes,no,GoA2,no,mode default; unverified,Line 4 Danggogae – Jinjeop (14.2 km),,fdd7a751
 2022-03-21,United States,Boston,Green Line Extension,light rail,1.7,no,no,no,GoA1,no,mode default; unverified,Lechmere – Union Square (1.7 km),,090d5b86
 2022-03-25,Spain,Bilbao,,tram,2.3,no,no,no,GoA0,no,mode default; unverified,Atxuri – Bolueta (2.3 km),,63718670
-2022-03-29,India,Delhi,Green Line,metro,,no,yes,no,GoA2,no,mode default; unverified,Green Line Punjabi Bagh West station,,61d05d72
+2022-03-29,India,Delhi,Green Line,metro,,no,yes,no,GoA2,no,mode default; unverified,Green Line Punjabi Bagh West station,in-fill station,61d05d72
 2022-03-31,China,Guangzhou,Line 22,suburban metro,18.2,no,yes,yes,GoA4,yes,CAMET: FAO (2022 and 2025 tables),Line 22 Panyu Square – Chentougang (18.2 km),,0d63cd79
 2022-03-31,Russia,Krasnodar,,tram,2.5,no,no,no,GoA0,no,mode default; unverified,Solnechnaya – Ul. Petra Metal'nikova (2.5 km),,fd54425d
 2022-04-01,China,Hangzhou,Line 7,metro,6.0,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 7 Citizen Center – Wushan Square (6 km),,2847cf83
@@ -937,12 +937,12 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2023-05-09,China,Changsha,Dawangshan SkyShuttle,people mover,8.3,no,yes,yes,GoA4,yes,CAMET: FAO (2023 summary),Changsha Dawangshan SkyShuttle Shantang – Guanyingang (8.3 km),,89b73946
 2023-05-12,China,Zhengzhou,Line 14,metro,1.7,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 14 Olympic Sports Center - Lianhu (1.7 km),,3118ea2e
 2023-05-15,Poland,Wrocław,,tram,3.6,no,no,no,GoA0,no,mode default; unverified,Lines 18/19 Dmowskiego – Wejherowska (3.6 km),,f8a64a2a
-2023-05-19,United States,"Washington, D.C.",Yellow Line,metro,,no,yes,no,GoA2,no,mode default; unverified,YL/BL Potomac Yard station,,adb4e6fa
-2023-05-21,Germany,Hamburg,S1,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,S1 Ottensen station,,cd42e31b
+2023-05-19,United States,"Washington, D.C.",Yellow Line,metro,,no,yes,no,GoA2,no,mode default; unverified,YL/BL Potomac Yard station,in-fill station,adb4e6fa
+2023-05-21,Germany,Hamburg,S1,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,S1 Ottensen station,in-fill station,cd42e31b
 2023-05-27,Czechia,Prague,Line 17,tram,1.7,no,no,no,GoA0,no,mode default; unverified,Line 17 Levského – Libus (1.7 km),,52565eef
 2023-06-06,China,Changchun,Line 4,light rail,4.5,no,yes,no,GoA1,no,,Line 4 Tiangong Road – Tianxin Road (4.5 km),,4c755c57
 2023-06-07,United Kingdom,Edinburgh,,tram,4.7,no,no,no,GoA0,no,mode default; unverified,St. Andrew Square – Newhaven (4.7 km),,c8a616a8
-2023-06-11,Australia,Perth,Mandurah Line,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,Mandurah Line Lakelands station,,59a62b3d
+2023-06-11,Australia,Perth,Mandurah Line,commuter rail,,yes,no,no,GoA1,no,mode default; unverified,Mandurah Line Lakelands station,in-fill station,59a62b3d
 2023-06-14,Brazil,Salvador,Line 1,metro,1.5,no,yes,no,GoA2,no,mode default; unverified,Line 1 Pirajá – Campinas (1.5 km),,44f2fac2
 2023-06-16,United States,Los Angeles,Regional Connector,light rail,3.0,no,no,no,GoA1,no,mode default; unverified,"""Regional Connector"" Little Tokyo/Arts District – 7th St/Metro Center (3 km)",,bb43b9f9
 2023-06-19,Thailand,Bangkok,Yellow Line,monorail,30.4,no,yes,yes,GoA4,yes,UTO,Yellow Line Lat Phrao – Samrong (30.4 km),,9b888995
@@ -1102,7 +1102,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2024-06-23,Singapore,Singapore,Thomson–East Coast Line,metro,10.8,no,yes,no,GoA4,yes,UTO,TEL Gardens by the Bay – Bayshore (10.8 km),,ba481f6d
 2024-06-24,France,Paris,M14,metro,14.0,no,yes,no,GoA4,yes,UTO,M14 Mairie de St-Ouen – St-Denis-Pleyel & Olympiades – Aéroport d'Orly (14 km),,be82d11f
 2024-06-28,China,Changsha,Line 1,metro,9.9,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 1 Kaifu District Government – Jinpenqiu (9.9 km),,25c6dc52
-2024-06-28,China,Ningbo,Line 5,metro,,no,yes,no,GoA4,yes,CAMET: FAO (2021 table),Line 5 Xingzhuang Road – Luotuo Bridge,,3ca0caf6
+2024-06-28,China,Ningbo,Line 3,metro,9.32,no,yes,no,GoA2,no,CAMET: only phase 2 (2024) is FAO,Line 5 Xingzhuang Road – Luotuo Bridge,CAMET lists this as Line 3 phase 2 (9.32 km); UrbanRail.net calls it Line 5,3ca0caf6
 2024-06-28,Poland,Szczecin,Line 5,tram,0.8,no,no,no,GoA0,no,mode default; unverified,Line 5/7 Krzekowo – Osiedle Zawadzkiego (0.8 km),,49199691
 2024-06-28,Portugal,Porto,Line D,light rail,3.1,no,no,no,GoA1,no,mode default; unverified,Line D Santo Ovídio – Vila d'Este (3.1 km),,b942cd13
 2024-06-29,China,Suzhou,Line 6,metro,35.0,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 6 Suzhou Xinqu Railway Station – Sangtiandao (35 km),,a6d03702
@@ -1113,7 +1113,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2024-07-17,Italy,Naples,Line 6,metro,3.7,no,yes,no,GoA2,no,mode default; unverified,Line 6 [Mostra – ] Mergellina – Municipio (3.7 km),,3efee454
 2024-07-21,Netherlands,Amsterdam,Line 25,tram,5.4,no,no,no,GoA0,no,mode default; unverified,Line 25 Amstelveen Westwijk – Uithoorn Centrum (5.4 km),,83bc214d
 2024-07-22,Italy,Catania,Catania Metro,metro,1.3,no,yes,no,GoA2,no,mode default; unverified,Nesima – Monte Po (1.3 km),,8ab03408
-2024-08-06,United States,Chicago,Green Line,metro,,no,yes,no,GoA2,no,mode default; unverified,Green Line Damen station,,27c3c4e6
+2024-08-06,United States,Chicago,Green Line,metro,,no,yes,no,GoA2,no,mode default; unverified,Green Line Damen station,in-fill station,27c3c4e6
 2024-08-08,Vietnam,Hanoi,Line 3,metro,7.8,no,yes,yes,GoA2,no,,Line 3 Nhon – Cau Giay (7.8 km),,4ab2249b
 2024-08-10,South Korea,Seoul,Line 8,metro,12.4,no,yes,no,GoA2,no,mode default; unverified,Line 8 Amsa – Byeollae (12.4 km),,d6b15d7a
 2024-08-12,China,Xi'an,Gaoxin SkyShuttle,people mover,17.2,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),SkyShuttle Yuhuazhai – Hengye Dadao (17.2 km),,a14ffb5f
@@ -1167,16 +1167,16 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2024-12-08,India,Ahmedabad,Blue Line,metro,1.3,no,yes,no,GoA2,no,mode default; unverified,Blue Line Thaltej – Thaltej Gam (1.3 km),,2be516d0
 2024-12-09,Australia,Perth,Transperth,commuter rail,21.0,yes,no,no,GoA1,no,mode default; unverified,Bayswater – Ellenbrook (21 km),,a36dfa5e
 2024-12-10,Singapore,Singapore,North East Line,metro,1.7,no,yes,no,GoA4,yes,UTO,NEL Punggol – Punggol Coast (1.7 km),,abbe1106
-2024-12-15,China,Beijing,Changping Line,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Changping Line Xitucheng – Jimenqiao,,a45fce2c
+2024-12-15,China,Beijing,Changping Line,metro,0.7,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Changping Line Xitucheng – Jimenqiao,length from CAMET,a45fce2c
 2024-12-15,China,Beijing,Line 12,metro,26.8,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 12 Sijiqingqiao – Dongbabei (26.8 km),,23c5d7ba
 2024-12-15,China,Beijing,Line 3,metro,14.7,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 3 Dongsi Shitiao – Dongbabei (14.7 km),,f3b76b42
 2024-12-15,Saudi Arabia,Riyadh,Green Line,metro,12.6,no,yes,yes,GoA4,yes,UTO,Green Line Ministry of Education – National Museum (12.6 km),,32166eb6
 2024-12-15,Saudi Arabia,Riyadh,Red Line,metro,24.2,no,yes,yes,GoA4,yes,UTO,Red Line King Saud University – King Fahad Stadium (24.2 km),,83743f8d
-2024-12-18,China,Qingdao,Line 2,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 2 Taishan Road – Sichuan Road,,b0d79aa9
+2024-12-18,China,Qingdao,Line 2,metro,3.84,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 2 Taishan Road – Sichuan Road,length from CAMET,b0d79aa9
 2024-12-19,China,Chengdu,Line 27,metro,24.9,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 27 Shifo – Shuxin Road (24.9 km),,cb94f7b8
 2024-12-19,China,Chengdu,Line 8,metro,7.6,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 8 Guilong Road – Shilidian & Lianhua – Longgang (7.6 km),,4e9db565
 2024-12-20,Australia,Sydney,Parramatta Light Rail L4,tram,12.0,no,no,yes,GoA0,no,mode default; unverified,L4 Parramatta Light Rail Westmead – Carlingford (12 km),,4eba0c50
-2024-12-20,Canada,Vancouver,Canada Line,metro,,no,yes,no,GoA4,yes,UTO,Canada Line Capstan station,,24880adc
+2024-12-20,Canada,Vancouver,Canada Line,metro,,no,yes,no,GoA4,yes,UTO,Canada Line Capstan station,in-fill station,24880adc
 2024-12-21,South Korea,Daegu,Line 1,metro,8.7,no,yes,no,GoA2,no,mode default; unverified,Line 1 Ansim – Hayang (8.7 km),,6e2c3721
 2024-12-22,Vietnam,Ho Chi Minh City,Line 1,metro,19.7,no,yes,yes,GoA2,no,,Ben Thanh – Suoi Tien (19.7 km),,f6794bc0
 2024-12-26,China,Hefei,Line 8,metro,22.5,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 8 Yilijing – Beicheng Gaotiezhan (22.5 km),,0f1aba08
@@ -1186,13 +1186,13 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2024-12-27,Russia,Saint Petersburg,Line 4,metro,3.6,no,yes,no,GoA2,no,mode default; unverified,Line 4 Spasskaya – Gornyi Institut (3.6 km),,ba282f60
 2024-12-28,China,Guangzhou,Line 11,metro,44.2,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 11 Circle Line (44.2 km),,e151f41c
 2024-12-28,China,Guiyang,S1,suburban metro,30.3,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),S1 Wangchengpo – Zaojiaoba (30.3 km),,1817eefa
-2024-12-28,China,Nanjing,Line 7,metro,,no,yes,no,GoA4,yes,CAMET: FAO (2022 and 2024 tables),Line 7 Yingtiandajie – Mufuxilu,,dfd04742
+2024-12-28,China,Nanjing,Line 7,metro,10.99,no,yes,no,GoA4,yes,CAMET: FAO (2022 and 2024 tables),Line 7 Yingtiandajie – Mufuxilu,length from CAMET,dfd04742
 2024-12-28,China,Shenzhen,Line 11,metro,4.4,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 11 Gangxia North - Huaqiang South (4.4 km),,80aee140
 2024-12-28,China,Shenzhen,Line 12,metro,8.2,no,yes,no,GoA4,yes,CAMET: FAO (2022 table),Line 12 Waterlands Resort East - Songgang (8.2 km),,d30f99de
 2024-12-28,China,Shenzhen,Line 13,metro,6.4,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 13 Shenzhen Bay Checkpoint - Hi-Tech Central (xx km),,3ca4a6ee
 2024-12-28,China,Shenzhen,Line 3,metro,9.4,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 3 Shuanglong - Pingdi Liulian (9.4 km),,2f8e7d39
 2024-12-28,China,Shenzhen,Line 7,metro,2.5,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 7 Xili Lake - SZU Lihu Campus (2.5 km),,dbb90276
-2024-12-28,China,Tianjin,Line 11,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 11 Dongjiangdao – Shuishanggongyuanxilu,,eeb84e54
+2024-12-28,China,Tianjin,Line 11,metro,10.7,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 11 Dongjiangdao – Shuishanggongyuanxilu,length from CAMET,eeb84e54
 2024-12-28,Russia,Moscow,Line 16,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 16 Tyutchevskaya – Novomoskovskaya,,c432c10d
 2024-12-28,South Korea,Seoul,GTX-A,regional express rail,,no,yes,no,GoA2,no,,GTX-A Seoul Station – Unjeongjungang,,ff08fdd4
 2024-12-29,China,Zhengzhou,Line 7,metro,26.8,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 7 Dongzhao – Nangangliu (26.8 km),,991b48d2
@@ -1235,14 +1235,14 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2025-06-20,China,Guangzhou,Huangpu Tram Line 2,tram,4.9,no,no,yes,GoA0,no,mode default; unverified,Line 2 Xiangxue Subway Station – Kaiyuan Road East (4.9 km),,c69d59c0
 2025-06-26,North Korea,Wonsan,Wonsan Tram,tram,10.7,no,no,yes,GoA0,no,mode default; unverified,Loop Line (10.7 km),,d88c38d4
 2025-06-27,China,Chongqing,Line 6,metro,6.9,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 6 Liujiaping – Chongqingdong Railway Station (6.9 km),,c0d2b13b
-2025-06-28,China,Nanchang,Lines 1 and 2,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 1 Shuanggang – Changbei Airport & Yaohu Lake West – Maqiu Line 2 Xinjia'an – Nanchang East Railway Station,,1a2a5491
+2025-06-28,China,Nanchang,Lines 1 and 2,metro,31.75,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 1 Shuanggang – Changbei Airport & Yaohu Lake West – Maqiu Line 2 Xinjia'an – Nanchang East Railway Station,length from CAMET (16.97 + 4.36 + 10.42 km),1a2a5491
 2025-06-28,Poland,Warsaw,Line 19,tram,0.8,no,no,no,GoA0,no,mode default; unverified,Line 19 Sw. Bonifacego – Stegny (0.8 km),,21df88a7
 2025-06-28,South Korea,Incheon,Line 1,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 1 Gyeyang – Geomdan Lake Park,,40c9f251
 2025-06-29,China,Guangzhou,Line 10,metro,17.2,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 10 Xilang – Yangji East,,5028410c
 2025-06-29,China,Guangzhou,Line 12,metro,28.8,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 12 Xunfenggang – Guangzhou Gymnasium (west and east sections),split from a combined UrbanRail entry,
 2025-06-30,China,Ningbo,Line 8,metro,23.3,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 8 Kaiyuan Road – Hansong Road (23.3 km),,26d68db8
 2025-06-30,China,Shaoxing,Line 1,metro,3.2,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 1 Daqingsi – Exhibition and Convention Center (3.2 km),,102d6f42
-2025-06-30,China,Shenyang,Line 1,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 1 Limingguangchang – Shuangma,,abfc11a1
+2025-06-30,China,Shenyang,Line 1,metro,16.15,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 1 Limingguangchang – Shuangma,length from CAMET,abfc11a1
 2025-07-03,Spain,Palma,M1,metro,1.4,no,yes,no,GoA2,no,mode default; unverified,M1 UIB – ParcBit (1.4 km),,5640aad6
 2025-07-08,China,Tianjin,Line 4,metro,19.9,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 4 Xiaojie – Xizhan (19.9 km),,9aa37038
 2025-07-27,Slovakia,Bratislava,Line 3,tram,3.9,no,no,no,GoA0,no,mode default; unverified,Line 3 Jungmannova – Juzne mesto (3.9 km),,e0abad8c
@@ -1253,7 +1253,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2025-08-22,Turkey,İzmit,,tram,1.4,no,no,no,GoA0,no,mode default; unverified,Otogar – Sabanci MTAL (1.4 km),,f0d20cef
 2025-08-29,China,Ningbo,Line 7,metro,39.4,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 7 Yufan – Yunlong (39.4 km),,0f23d023
 2025-09-01,Austria,Vienna,Line 12,tram,2.0,no,no,no,GoA0,no,mode default; unverified,Line 12 Rebhanngasse – Hillerstraße (2 km),,afab0955
-2025-09-05,Russia,Novosibirsk,Leninskaya Line,metro,,no,yes,no,GoA2,no,mode default; unverified,Leninskaya Sportivnaya station,,b3a0bacd
+2025-09-05,Russia,Novosibirsk,Leninskaya Line,metro,,no,yes,no,GoA2,no,mode default; unverified,Leninskaya Sportivnaya station,in-fill station,b3a0bacd
 2025-09-06,Iran,Karaj,Line 2,metro,6.5,no,yes,no,GoA2,no,mode default; unverified,Line 2 Ayatallah Taleqani – Shahid Soltani (Karaj) (6.5 km),,c30d812e
 2025-09-10,Russia,Moscow,Line 90,tram,1.6,no,no,no,GoA0,no,mode default; unverified,Line 90 <M> Chistye Prudy – <M> Komsomolskaya (1.6 km),,c2ac8518
 2025-09-13,Russia,Moscow,Line 16,metro,9.7,no,yes,no,GoA2,no,mode default; unverified,Line 16 Novatorskaya – ZIL (9.7 km),,dac32845
@@ -1270,7 +1270,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2025-09-28,China,Xuzhou,Line 6,metro,22.9,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 6 Xuzhou Tongshan District Hospital of TCM – Xuzhoudong Railway Station (22.9 km),,ded20a9b
 2025-09-29,China,Fuzhou,Binhai Express,suburban metro,61.5,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Binhai Express Fuzhou Railway Station – Wenling (61.5 km),,79d47254
 2025-09-29,China,Guangzhou,Guangzhou East Ring Intercity,intercity rail,,yes,yes,yes,GoA1,no,mainline intercity,Guangdong Intercity Baiyun Airport North – Panyu / Guangzhoulianhuashan,,c792df48
-2025-09-29,China,Guangzhou,Lines 13 and 14,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 13 Yuzhu – Tianhe Park & Line 14 Jiahewanggang – Lejia Road,,a8e581ee
+2025-09-29,China,Guangzhou,Lines 13 and 14,metro,17.3,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 13 Yuzhu – Tianhe Park & Line 14 Jiahewanggang – Lejia Road,length from CAMET (8.30 + 9.00 km),a8e581ee
 2025-10-06,Austria,Vienna,Line 27,tram,2.1,no,no,no,GoA0,no,mode default; unverified,Line 27 Prinzgasse – Aspern Nord (2.1 km),,7a60bfc2
 2025-10-06,India,Patna,Blue Line,metro,3.1,no,yes,yes,GoA2,no,mode default; unverified,Blue Line Bhootnath – New ISBT (3.1 km),,c6643dff
 2025-10-09,India,Mumbai,Line 3,metro,11.0,no,yes,no,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 3 Acharya Atre Chowk – Cuffe Parade (11 km),,5f2d577a
@@ -1314,8 +1314,9 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2025-12-27,China,Jinan,Line 6,metro,19.5,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 6 Shandong University – Liangwang (19.5 km),,8f23e0bc
 2025-12-27,China,Jinan,Line 8,metro,25.3,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 8 Xingcun Lijiaoqiao East – Qingyuan Dajie (25.3 km),,4cb7f513
 2025-12-27,China,Shanghai,Line 18,metro,8.0,no,yes,no,GoA4,yes,CAMET: FAO (2021 and 2025 tables),Line 18 South Changjiang Road - Kangwen Road (8 km),,19e0efe3
-2025-12-28,China,Shenzhen,Lines 13 and 8,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 13 Hi-Tech Central — Shangwu & Line 8 Xiaomeisha — Xichong,,e71d7dca
-2025-12-28,China,Shenzhen,Lines 5 and 11,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 5 Huangbeiling — Grand Theater & Line 11 Huaqiang South — Hongling South,,4e0ad476
+2025-12-28,China,Shenzhen,Line 13,metro,16.08,no,yes,no,GoA4,yes,CAMET: FAO (2024 table),Line 13 Hi-Tech Central — Shangwu,split from a combined UrbanRail entry; length from CAMET,
+2025-12-28,China,Shenzhen,Line 8,metro,3.69,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 8 Xiaomeisha — Xichong,length from CAMET; split from a combined UrbanRail entry,e71d7dca
+2025-12-28,China,Shenzhen,Lines 5 and 11,metro,5.18,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 5 Huangbeiling — Grand Theater & Line 11 Huaqiang South — Hongling South,length from CAMET (2.88 + 2.30 km),4e0ad476
 2025-12-29,China,Guangzhou,Line 22,suburban metro,11.5,no,yes,no,GoA4,yes,CAMET: FAO (2022 and 2025 tables),Line 22 Chentougang – Fangcun (11.5 km),,0101fbe0
 2025-12-29,China,Xi'an,Line 15,metro,19.5,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 15 Xiliu – Dongzhaoyu (19.5 km),,dad14cfb
 2025-12-30,China,Jinan,Jiyang Tram,tram,36.1,no,no,yes,GoA0,no,,Jiyang Line Jinan North Railway Station – Jiyang North (36.1 km),,bff764b6

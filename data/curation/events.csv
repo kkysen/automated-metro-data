@@ -11,7 +11,7 @@ f63942aa,2016-02-06,s-bahn,İzmir,Izban South Line,no,yes,22.0,Izban South Line 
 3c2e5b2d,2016-02-10,metro,Tehran,Line 3,no,yes,,M3 Mirzaye Shirazi station,in-fill station
 7fb6e79a,2016-02-11,metro,Shiraz,Line 1,no,yes,,Motahari station,in-fill station
 9a938cac,2016-02-12,metro,Barcelona,Line 9 Sud,yes,yes,20.0,L9 Sud Zona Universitària - Aeroport T1 (20 km),L9 Sud runs as a separate line from L9 Nord (opened 2009); counted as new
-6656cf9a,2016-02-17,s-bahn,Palermo,Passante,no,yes,,"Passante Lolli , Guadagna & Maredolce stations",
+6656cf9a,2016-02-17,s-bahn,Palermo,Passante,no,yes,,"Passante Lolli , Guadagna & Maredolce stations",in-fill station
 c1665f40,2016-02-20,tram,Düsseldorf,Wehrhahn tunnel,no,yes,3.4,tram tunnel Wehrhahn - Bilk (3.4 km),
 a8fd4332,2016-02-26,tram,Linz,Line 3,no,yes,,Line 3 Doblerholz - Traunerkreuzung,
 a99cc08c,2016-02-27,s-bahn,Incheon,Suin Line,no,yes,,Suin Line Songdo - Incheon,
@@ -38,7 +38,7 @@ e118c11d,2016-04-23,tram,Strasbourg,Line A,no,yes,1.8,Line A Lixenbuhl - Graffen
 e1f6f030,2016-04-26,metro,Shanghai,Line 11,no,yes,,Line 11 Kangxin Highway - Disney Resort,
 02987005,2016-04-28,metro,Hangzhou,Line 2,no,yes,,Line 2 Qianjiang Century City station,in-fill station
 5aa913c0,2016-04-30,metro,Bengaluru,Purple Line,no,yes,,Purple Line Magadi Road - M.G. Road,
-f68ad89c,2016-04-30,s-bahn,Seoul,Gyeongui–Jungang Line,no,yes,,Gyeongui–Jungang Line Hyochang Park station,
+f68ad89c,2016-04-30,s-bahn,Seoul,Gyeongui–Jungang Line,no,yes,,Gyeongui–Jungang Line Hyochang Park station,in-fill station
 c5e167b3,2016-05-06,metro,Changsha,Changsha Maglev Express,yes,yes,18.5,Maglev Line Changsha South Railway Station - Huanghua Airport (18.5 km),
 0923eed3,2016-05-06,tram,Kansas City,KC Streetcar,yes,yes,,Union Station - River Market,
 1b05b9b6,2016-05-13,tram,Stuttgart,U12,no,yes,,U12 Wallgraben - Dürrlewang,
@@ -263,7 +263,7 @@ c287c886,2017-12-30,metro,Shanghai,Line 9,no,no,,Line 9 Middle Yanggao Rd - Cao 
 140ed1a4,2018-01-07,tram,Düsseldorf,Line 2017,no,no,,2017:,not an opening
 c05e4bd6,2018-01-07,tram,Düsseldorf,U70/U76 Line 701,no,yes,1.8,Line 701 Rath - Am Hülserhof (1.8 km),
 7c7eb48d,2018-01-09,metro,Hangzhou,Line 4,no,yes,11.1,Line 4 Jinjiang - Puyan (11.1 km),
-d292c5f0,2018-01-23,metro,São Paulo,Line 4,no,yes,,Line 4 Higienópolis-Mackenzie station,
+d292c5f0,2018-01-23,metro,São Paulo,Line 4,no,yes,,Line 4 Higienópolis-Mackenzie station,in-fill station
 95d4d015,2018-02-26,metro,Moscow,Line 11 Big Circle Line,yes,yes,10.5,Line 11 Delovoy Tsentr - Petrovskiy Park (10.5 km),
 b198bd54,2018-03-02,metro,São Paulo,Line 5,no,yes,2.9,Line 5 Brooklin - Eucaliptos (2.9 km),
 8dd8e02f,2018-03-14,metro,Delhi,Pink Line,yes,yes,21.6,Line 7 (Pink Line) Majlis Park – Durgabai Deshmukh South Campus (21.6 km),
@@ -278,7 +278,7 @@ cb107a48,2018-03-18,tram,Samarkand,Line 2,no,yes,5.0,Line 2 Temir Yo'l Vokzali -
 731dd47f,2018-03-31,s-bahn,São Paulo,,no,no,,- limited service,not an opening
 d850db29,2018-04-01,light-rail,Wuhan,Optics Valley Tram L1,yes,yes,30.0,Optics Valley Tram L1 Huazhong University - Fozuling,
 xa059ff6,2018-04-01,light-rail,Wuhan,Optics Valley Tram L2,yes,yes,,Optics Valley Tram L2 Tangxunhu City Railway Station - Optics Valley Botanical Garden,split from a combined UrbanRail entry
-cc558983,2018-04-04,metro,São Paulo,Line 4,no,yes,,Line 4 Oscar Freire station,
+cc558983,2018-04-04,metro,São Paulo,Line 4,no,yes,,Line 4 Oscar Freire station,in-fill station
 563d9dc7,2018-04-05,metro,São Paulo,Line 5,no,yes,1.0,Line 5 Eucaliptos - Moema (1 km),
 3626249d,2018-04-06,metro,São Paulo,Line 15,no,yes,,Line 15 Oratório - Vila União,
 03a9fd64,2018-04-08,metro,Shenyang,Line 2,no,yes,4.9,Line 2 Hangkonghangtiandaxue - Putianlu (4.9 km),
@@ -359,7 +359,7 @@ d6aa01d4,2018-12-03,metro,Tianjin,Line 1,no,yes,,Line 1 Shuanglin (now undergrou
 fe752cc5,2018-12-09,tram,Ulm,Line 2,no,yes,8.8,Line 2 Kuhberg Schulzentrum - Etlinger Tor and Theater - Science Park II (8.8 km),
 f4ee5c50,2018-12-14,tram,Oklahoma City,Loop Line,yes,yes,8.0,Loop Line (8 km),
 09ff344d,2018-12-15,tram,Nice,Line 2,no,yes,1.7,Line 2 Grand Arénas (Pôle Intermodal) - Aéroport T2 (1.7 km),
-1cc1b52e,2018-12-20,metro,Moscow,Line 2,no,yes,,Line 2 Belomorskaya station,
+1cc1b52e,2018-12-20,metro,Moscow,Line 2,no,yes,,Line 2 Belomorskaya station,in-fill station
 a8788ff4,2018-12-24,metro,Chongqing,Line 5,no,yes,,Line 5 Dalongshan - Dashiba,
 575b8490,2018-12-24,light-rail,New Taipei,Danhai LRT,yes,yes,7.3,Danhai LRT Hongshulin – Kanding (7.3 km),
 9853bbaa,2018-12-26,tram,Chengdu,Chengdu Tram Line 2,yes,yes,13.5,T2 Chenguang – Hexin Road (13.5 km),
@@ -398,7 +398,7 @@ fa8a738e,2019-02-12,tram,Florence,T2,no,no,,T2 Unità - Peretola Aeroporto,dupli
 92760a67,2019-02-17,tram,Newcastle,Newcastle Light Rail,yes,yes,2.6,Newcastle Interchange - Pacific Park (2.6 km),
 cad5f88c,2019-02-17,tram,Newcastle,,yes,no,2.6,Newcastle Interchange - Newcastle Beach (2.6 km),duplicate of 92760a67
 aaec6497,2019-02-19,metro,Wuhan,Line 2,no,yes,13.4,Line 2 Optics Valley Square - Fozuling (13.4 km),
-b7259892,2019-03-02,metro,Barcelona,Line 10 Sud,no,yes,,L10S Provençana station,
+b7259892,2019-03-02,metro,Barcelona,Line 10 Sud,no,yes,,L10S Provençana station,in-fill station
 1cf937fa,2019-03-03,metro,Mumbai,Mumbai Monorail,no,yes,10.7,Monorail Wadala Depot - Jacob Circle (10.7 km),
 b8d6a3d2,2019-03-04,metro,Ahmedabad,Blue Line,yes,yes,6.5,Line 1 Vastral Gam - Apparel Park (6.5 km),
 87975588,2019-03-08,metro,Delhi,Red Line,no,yes,9.4,Red Line Dilshad Garden-New Bus Adda (9.4 km),
@@ -412,7 +412,7 @@ d758d265,2019-03-08,metro,Lucknow,Red Line,no,yes,12.6,Red Line Charbagh - Munsh
 7a463429,2019-03-16,tram,Freiburg,,no,yes,1.9,Reiterstraße - Siegesdenkmal (1.9 km),
 cf53d8aa,2019-03-16,tram,Freiburg,,no,yes,1.9,Heinrich-von-Stephan-Str. - Europaplatz (1.9 km),
 88b27d34,2019-03-20,metro,Hyderabad,Blue Line,no,yes,10.0,Blue Line Ameerpet - Hitec City (10 km),
-64437e17,2019-03-23,metro,Madrid,Line 7,no,yes,,Line 7 Arroyofresno station,
+64437e17,2019-03-23,metro,Madrid,Line 7,no,yes,,Line 7 Arroyofresno station,in-fill station
 ea69fe22,2019-03-24,metro,Jakarta,MRT North–South Line,yes,yes,15.7,MRT Bunderan HI - Lebak Bulus (15.7 km),
 ec158dfd,2019-04-01,s-bahn,Jinan,Line 1,yes,yes,26.2,Fangte - Gongyanyuan (26.2 km),
 a7bd8d91,2019-04-07,metro,Tehran,Line 6,yes,yes,9.0,Line 6 Shohada Square - Dowlat Abad (9 km),
@@ -486,7 +486,7 @@ e633d9e2,2019-10-01,metro,Naha,Okinawa Monorail,no,yes,4.1,Monorail Shuri - Teda
 62c23340,2019-10-12,tram,Paris,T1,no,yes,0.8,T1 Asnières Les Courtilles – Asnières Quatre Routes (0.8 km),
 b4f8bb9d,2019-10-19,tram,Avignon,Avignon Tramway T1,yes,yes,5.2,T1 Saint Roch – Saint Chamand (5.2 km),
 8326603d,2019-10-26,tram,Rio de Janeiro,T3,no,yes,1.0,T3 Candelária - Cristiano Ottoni (1 km),
-9f042947,2019-11-02,metro,Singapore,North–South Line,no,yes,,NSL Canberra station,
+9f042947,2019-11-02,metro,Singapore,North–South Line,no,yes,,NSL Canberra station,in-fill station
 46dc18fb,2019-11-06,metro,Wuhan,Line 8,no,yes,4.8,Line 8 Yezhi Lake - Military Athletes’ Village (4.8 km),
 60317a15,2019-11-13,tram,Nice,Line 3,no,yes,3.8,Line 3 Digue des Français - Saint-Isidore (3.8 km),
 d0b107d6,2019-11-16,tram,Saint-Étienne,T3,no,yes,4.2,T3 Châteauxcreux Gare - Roger Rocher (4.2 km),
@@ -499,7 +499,7 @@ b8daa366,2019-12-02,tram,Vienna,Line D,no,yes,1.1,Line D Hauptbahnhof Ost - Absb
 83479530,2019-12-04,metro,Bangkok,BTS Sukhumvit Line,no,yes,3.3,Sukhumvit Line Ha Yaek Lat Phrao - Kasetsart University (3.3 km),
 53e1ed45,2019-12-08,tram,Antwerp,Line 1,no,yes,3.5,Line 1/24 Stadspark - Havenhuis (3.5 km),
 6e93379b,2019-12-08,metro,Shenzhen,Line 9,no,yes,10.8,Line 9 Hongshuwan South - Qianwan (10.8 km),
-da3c19ac,2019-12-09,metro,Hamburg,U1,no,yes,,U1 Oldenfelde station,
+da3c19ac,2019-12-09,metro,Hamburg,U1,no,yes,,U1 Oldenfelde station,in-fill station
 a1761b03,2019-12-10,metro,Doha,Green Line,yes,yes,22.0,Green Line Al Riffa - Al Mansoura (22 km),
 b75e0888,2019-12-10,metro,Doha,Red Line,no,yes,20.0,Red Line Al Qassar - Lusail & Airport branch (~20 km),
 57472e7a,2019-12-10,metro,Macau,Taipa Line,yes,yes,9.3,Linha da Taipa Oceano - Terminal Marítimo da Taipa (9.3 km),
@@ -508,10 +508,10 @@ e3bc9867,2019-12-14,tram,Bordeaux,Line D,no,yes,3.5,Line D Quinconces - Mairie d
 837d5c73,2019-12-14,tram,Nice,Line 2,no,yes,1.6,Line 2 Jean Médecin - Port Lympia (1.6 km),
 535d25bd,2019-12-14,tram,Paris,T4,no,yes,,T4 Gargan - Arboretum (Montfermeil),
 f25b3e03,2019-12-14,tram,Sydney,Line 2,no,yes,7.3,L2 Circular Quay - Randwick (7.3 km),
-a237fddf,2019-12-15,s-bahn,Frankfurt,S8,no,yes,,S8/S9 Gateway Gardens station,
+a237fddf,2019-12-15,s-bahn,Frankfurt,S8,no,yes,,S8/S9 Gateway Gardens station,in-fill station
 2c3eb7a0,2019-12-15,s-bahn,Geneva,Léman Express (CEVA),yes,yes,,Léman Express Genève Cornavin - Annemasse,new mainline cross-border link through Geneva
 41d971c6,2019-12-15,tram,Geneva,Line 17,no,yes,2.0,Line 17 Moillesulaz - Annemasse-Parc-Montessuit (2 km),
-982cf0fb,2019-12-15,s-bahn,Hamburg,S3,no,yes,,S3/S31 Elbbrücken station,
+982cf0fb,2019-12-15,s-bahn,Hamburg,S3,no,yes,,S3/S31 Elbbrücken station,in-fill station
 2068bbd4,2019-12-16,metro,Marseille,Line 2,no,yes,,Line 2 Bougainville - Gèze,
 c9ee0075,2019-12-16,tram,Plzeň,Line 4,no,yes,1.4,Line 4 Bory - Univerzita (1.4 km),
 b86f43be,2019-12-16,metro,Qingdao,Line 2,no,yes,,Line 2 Zhiquan Road - Taishan Road,
@@ -569,7 +569,7 @@ ba0407f3,2020-04-23,metro,Hangzhou,Line 16,yes,yes,35.0,L16 Lüting Road – Jiu
 dadb39b6,2020-05-25,tram,Cuenca,Cuenca Tramway,yes,yes,11.0,Control Sur - Parque Industrial (11 km),
 09eb7279,2020-05-30,metro,Ningbo,Line 2,no,yes,5.6,Line 2 Qingshuipu – Congyuan Road (5.6 km),
 f2179700,2020-06-05,metro,Bangkok,BTS Sukhumvit Line,no,yes,4.3,Sukhumvit Line Kasetsart University – Wat Phra Sri Mahathat (4.3 km),
-77c0f3a6,2020-06-06,metro,Tokyo,Hibiya Line,no,yes,,Hibiya Line Toranomon Hills station,
+77c0f3a6,2020-06-06,metro,Tokyo,Hibiya Line,no,yes,,Hibiya Line Toranomon Hills station,in-fill station
 4723bd98,2020-06-13,metro,San Francisco,BART,no,yes,16.0,BART Warm Springs/South Fremont – Berryessa/North San José (16 km),
 2150c20e,2020-06-28,metro,Changsha,Line 3,no,yes,36.4,Line 3 Shantang – Guangsheng (36.4 km),
 968d12ca,2020-06-28,metro,Changsha,Line 5,yes,yes,22.5,Line 5 Shuiduhe – Maozhutang (22.5 km),
@@ -716,7 +716,7 @@ xda7cca6,2021-06-28,s-bahn,Hangzhou,Hanghai Intercity,yes,yes,46.4,Hanghai Inter
 c1172ac1,2021-07-04,tram,Geneva,Line 14,no,yes,2.1,Line 14 Bernex P+R – Bernex-Vailly (2.1 km),
 f894e189,2021-07-05,metro,Manila,Line 2,no,yes,3.8,Line 2 Santolan – Antipolo (3.8 km),
 e0810980,2021-07-05,metro,Shaoxing,Line 1,yes,yes,20.3,Line 1 Guniangqiao – China Textile City (20.3 km),
-4d4d89cc,2021-07-25,metro,Barcelona,Line 5,no,yes,,L5 Ernest Lluch (fill-in station),
+4d4d89cc,2021-07-25,metro,Barcelona,Line 5,no,yes,,L5 Ernest Lluch (fill-in station),in-fill station
 2915c879,2021-08-02,s-bahn,Bangkok,SRT Dark Red Line,yes,yes,26.0,SRT Red Line Bang Sue – Rangsit (26 km),
 5e51079b,2021-08-02,s-bahn,Bangkok,,no,no,,"[trial operation, commercial operation from Nov 2021]",not an opening
 92ca205f,2021-08-02,s-bahn,Bangkok,SRT Light Red Line,yes,yes,15.0,Bang Sue – Taling Chan (15 km),
@@ -772,7 +772,7 @@ f69982c5,2021-12-15,tram,Oradea,,no,yes,3.8,Lines 5/7 Calea Aradului – Lotus (
 fbaef2b4,2021-12-16,metro,Nanning,Line 5,yes,yes,20.2,Line 5 Jinqiao Coach Station – Guokai Dadao (20.2 km),
 4786d486,2021-12-17,metro,São Paulo,Line 4,no,yes,1.5,Line 4 São Paulo-Morumbi – Vila Sônia (1.5 km),
 043d115f,2021-12-17,metro,Wuxi,Line 4,yes,yes,25.4,Line 4 Liutan – Wuxi Taihu International Expo Center (25.4 km),
-7c615df6,2021-12-18,metro,Seoul,Line 8,no,yes,,Line 8 Namwirye in-fill station,
+7c615df6,2021-12-18,metro,Seoul,Line 8,no,yes,,Line 8 Namwirye in-fill station,in-fill station
 b18e8c96,2021-12-18,tram,Szczecin,,no,yes,1.0,Rondo Olszewskiego – Osiedle Zawadzkiego (1 km),
 d084ccb2,2021-12-26,metro,Hefei,Line 4,yes,yes,41.4,Line 4 Zongbaoqu – Qinglonggang (41.4 km),
 3b14231b,2021-12-26,metro,Luoyang,Line 2,yes,yes,18.2,Line 2 Erqiao Road – Balitang (18.2 km),
@@ -819,7 +819,7 @@ c41e7a26,2022-03-06,metro,Pune,Purple Line,yes,yes,5.8,Pimpri – Phugewadi (5.8
 fdd7a751,2022-03-19,metro,Seoul,Line 4,no,yes,14.2,Line 4 Danggogae – Jinjeop (14.2 km),
 090d5b86,2022-03-21,light-rail,Boston,Green Line Extension,no,yes,1.7,Lechmere – Union Square (1.7 km),
 63718670,2022-03-25,tram,Bilbao,,no,yes,2.3,Atxuri – Bolueta (2.3 km),
-61d05d72,2022-03-29,metro,Delhi,Green Line,no,yes,,Green Line Punjabi Bagh West station,
+61d05d72,2022-03-29,metro,Delhi,Green Line,no,yes,,Green Line Punjabi Bagh West station,in-fill station
 0d63cd79,2022-03-31,s-bahn,Guangzhou,Line 22,yes,yes,18.2,Line 22 Panyu Square – Chentougang (18.2 km),
 fd54425d,2022-03-31,tram,Krasnodar,,no,yes,2.5,Solnechnaya – Ul. Petra Metal'nikova (2.5 km),
 2847cf83,2022-04-01,metro,Hangzhou,Line 7,no,yes,6.0,Line 7 Citizen Center – Wushan Square (6 km),
@@ -973,13 +973,13 @@ d86f8178,2023-04-29,tram,Bordeaux,,no,yes,4.7,Ligne A Quatre Chemins – Mérign
 89b73946,2023-05-09,people-mover,Changsha,Dawangshan SkyShuttle,yes,yes,8.3,Changsha Dawangshan SkyShuttle Shantang – Guanyingang (8.3 km),
 3118ea2e,2023-05-12,metro,Zhengzhou,Line 14,no,yes,1.7,Line 14 Olympic Sports Center - Lianhu (1.7 km),
 f8a64a2a,2023-05-15,tram,Wrocław,,no,yes,3.6,Lines 18/19 Dmowskiego – Wejherowska (3.6 km),
-adb4e6fa,2023-05-19,metro,"Washington, D.C.",Yellow Line,no,yes,,YL/BL Potomac Yard station,
-cd42e31b,2023-05-21,s-bahn,Hamburg,S1,no,yes,,S1 Ottensen station,
+adb4e6fa,2023-05-19,metro,"Washington, D.C.",Yellow Line,no,yes,,YL/BL Potomac Yard station,in-fill station
+cd42e31b,2023-05-21,s-bahn,Hamburg,S1,no,yes,,S1 Ottensen station,in-fill station
 52565eef,2023-05-27,tram,Prague,Line 17,no,yes,1.7,Line 17 Levského – Libus (1.7 km),
 0112b48c,2023-06-06,light-rail,Changchun,X,no,no,,[X] 01 June 2023 -- Shanghai,not an opening
 4c755c57,2023-06-06,light-rail,Changchun,Line 4,no,yes,4.5,Line 4 Tiangong Road – Tianxin Road (4.5 km),
 c8a616a8,2023-06-07,tram,Edinburgh,,no,yes,4.7,St. Andrew Square – Newhaven (4.7 km),
-59a62b3d,2023-06-11,s-bahn,Perth,Mandurah Line,no,yes,,Mandurah Line Lakelands station,
+59a62b3d,2023-06-11,s-bahn,Perth,Mandurah Line,no,yes,,Mandurah Line Lakelands station,in-fill station
 44f2fac2,2023-06-14,metro,Salvador,Line 1,no,yes,1.5,Line 1 Pirajá – Campinas (1.5 km),
 bb43b9f9,2023-06-16,light-rail,Los Angeles,Regional Connector,no,yes,3.0,"""Regional Connector"" Little Tokyo/Arts District – 7th St/Metro Center (3 km)",
 9b888995,2023-06-19,monorail,Bangkok,Yellow Line,yes,yes,30.4,Yellow Line Lat Phrao – Samrong (30.4 km),
@@ -1144,7 +1144,7 @@ a0d8bc25,2024-06-22,metro,Copenhagen,M4,no,yes,5.0,M4 København H – Københav
 ba481f6d,2024-06-23,metro,Singapore,Thomson–East Coast Line,no,yes,10.8,TEL Gardens by the Bay – Bayshore (10.8 km),
 be82d11f,2024-06-24,metro,Paris,M14,no,yes,14.0,M14 Mairie de St-Ouen – St-Denis-Pleyel & Olympiades – Aéroport d'Orly (14 km),
 25c6dc52,2024-06-28,metro,Changsha,Line 1,no,yes,9.9,Line 1 Kaifu District Government – Jinpenqiu (9.9 km),
-3ca0caf6,2024-06-28,metro,Ningbo,Line 5,no,yes,,Line 5 Xingzhuang Road – Luotuo Bridge,
+3ca0caf6,2024-06-28,metro,Ningbo,Line 3,no,yes,9.32,Line 5 Xingzhuang Road – Luotuo Bridge,CAMET lists this as Line 3 phase 2 (9.32 km); UrbanRail.net calls it Line 5
 b942cd13,2024-06-28,light-rail,Porto,Line D,no,yes,3.1,Line D Santo Ovídio – Vila d'Este (3.1 km),
 49199691,2024-06-28,tram,Szczecin,Line 5,no,yes,0.8,Line 5/7 Krzekowo – Osiedle Zawadzkiego (0.8 km),
 a6d03702,2024-06-29,metro,Suzhou,Line 6,yes,yes,35.0,Line 6 Suzhou Xinqu Railway Station – Sangtiandao (35 km),
@@ -1155,7 +1155,7 @@ a6d03702,2024-06-29,metro,Suzhou,Line 6,yes,yes,35.0,Line 6 Suzhou Xinqu Railway
 3efee454,2024-07-17,metro,Naples,Line 6,no,yes,3.7,Line 6 [Mostra – ] Mergellina – Municipio (3.7 km),
 83bc214d,2024-07-21,tram,Amsterdam,Line 25,no,yes,5.4,Line 25 Amstelveen Westwijk – Uithoorn Centrum (5.4 km),
 8ab03408,2024-07-22,metro,Catania,Catania Metro,no,yes,1.3,Nesima – Monte Po (1.3 km),
-27c3c4e6,2024-08-06,metro,Chicago,Green Line,no,yes,,Green Line Damen station,
+27c3c4e6,2024-08-06,metro,Chicago,Green Line,no,yes,,Green Line Damen station,in-fill station
 4ab2249b,2024-08-08,metro,Hanoi,Line 3,yes,yes,7.8,Line 3 Nhon – Cau Giay (7.8 km),
 d6b15d7a,2024-08-10,metro,Seoul,Line 8,no,yes,12.4,Line 8 Amsa – Byeollae (12.4 km),
 b740b76d,2024-08-12,tram,Helsinki,Line 13,no,yes,4.3,Line 13 Pasila (Maistraatintori) – Nihti (4.3 km),
@@ -1210,15 +1210,15 @@ x1419a2d,2024-12-01,metro,Riyadh,Purple Line,yes,yes,,Purple Line KAFD – An Na
 a36dfa5e,2024-12-09,s-bahn,Perth,Transperth,no,yes,21.0,Bayswater – Ellenbrook (21 km),
 abbe1106,2024-12-10,metro,Singapore,North East Line,no,yes,1.7,NEL Punggol – Punggol Coast (1.7 km),
 23c5d7ba,2024-12-15,metro,Beijing,Line 12,yes,yes,26.8,Line 12 Sijiqingqiao – Dongbabei (26.8 km),
-a45fce2c,2024-12-15,metro,Beijing,Changping Line,no,yes,,Changping Line Xitucheng – Jimenqiao,
+a45fce2c,2024-12-15,metro,Beijing,Changping Line,no,yes,0.7,Changping Line Xitucheng – Jimenqiao,length from CAMET
 f3b76b42,2024-12-15,metro,Beijing,Line 3,yes,yes,14.7,Line 3 Dongsi Shitiao – Dongbabei (14.7 km),
 32166eb6,2024-12-15,metro,Riyadh,Green Line,yes,yes,12.6,Green Line Ministry of Education – National Museum (12.6 km),
 83743f8d,2024-12-15,metro,Riyadh,Red Line,yes,yes,24.2,Red Line King Saud University – King Fahad Stadium (24.2 km),
-b0d79aa9,2024-12-18,metro,Qingdao,Line 2,no,yes,,Line 2 Taishan Road – Sichuan Road,
+b0d79aa9,2024-12-18,metro,Qingdao,Line 2,no,yes,3.84,Line 2 Taishan Road – Sichuan Road,length from CAMET
 4e9db565,2024-12-19,metro,Chengdu,Line 8,no,yes,7.6,Line 8 Guilong Road – Shilidian & Lianhua – Longgang (7.6 km),
 cb94f7b8,2024-12-19,metro,Chengdu,Line 27,yes,yes,24.9,Line 27 Shifo – Shuxin Road (24.9 km),
 4eba0c50,2024-12-20,tram,Sydney,Parramatta Light Rail L4,yes,yes,12.0,L4 Parramatta Light Rail Westmead – Carlingford (12 km),
-24880adc,2024-12-20,metro,Vancouver,Canada Line,no,yes,,Canada Line Capstan station,
+24880adc,2024-12-20,metro,Vancouver,Canada Line,no,yes,,Canada Line Capstan station,in-fill station
 6e2c3721,2024-12-21,metro,Daegu,Line 1,no,yes,8.7,Line 1 Ansim – Hayang (8.7 km),
 f6794bc0,2024-12-22,metro,Ho Chi Minh City,Line 1,yes,yes,19.7,Ben Thanh – Suoi Tien (19.7 km),
 0f1aba08,2024-12-26,metro,Hefei,Line 8,yes,yes,22.5,Line 8 Yilijing – Beicheng Gaotiezhan (22.5 km),
@@ -1229,14 +1229,14 @@ ecb31ae5,2024-12-27,metro,Wuhan,Line 11,no,yes,16.3,Line 11 Wuhandong Railway St
 e151f41c,2024-12-28,metro,Guangzhou,Line 11,yes,yes,44.2,Line 11 Circle Line (44.2 km),
 1817eefa,2024-12-28,s-bahn,Guiyang,S1,yes,yes,30.3,S1 Wangchengpo – Zaojiaoba (30.3 km),
 c432c10d,2024-12-28,metro,Moscow,Line 16,no,yes,,Line 16 Tyutchevskaya – Novomoskovskaya,
-dfd04742,2024-12-28,metro,Nanjing,Line 7,no,yes,,Line 7 Yingtiandajie – Mufuxilu,
+dfd04742,2024-12-28,metro,Nanjing,Line 7,no,yes,10.99,Line 7 Yingtiandajie – Mufuxilu,length from CAMET
 ff08fdd4,2024-12-28,s-bahn,Seoul,GTX-A,no,yes,,GTX-A Seoul Station – Unjeongjungang,
 2f8e7d39,2024-12-28,metro,Shenzhen,Line 3,no,yes,9.4,Line 3 Shuanglong - Pingdi Liulian (9.4 km),
 3ca4a6ee,2024-12-28,metro,Shenzhen,Line 13,yes,yes,6.4,Line 13 Shenzhen Bay Checkpoint - Hi-Tech Central (xx km),
 80aee140,2024-12-28,metro,Shenzhen,Line 11,no,yes,4.4,Line 11 Gangxia North - Huaqiang South (4.4 km),
 d30f99de,2024-12-28,metro,Shenzhen,Line 12,no,yes,8.2,Line 12 Waterlands Resort East - Songgang (8.2 km),
 dbb90276,2024-12-28,metro,Shenzhen,Line 7,no,yes,2.5,Line 7 Xili Lake - SZU Lihu Campus (2.5 km),
-eeb84e54,2024-12-28,metro,Tianjin,Line 11,no,yes,,Line 11 Dongjiangdao – Shuishanggongyuanxilu,
+eeb84e54,2024-12-28,metro,Tianjin,Line 11,no,yes,10.7,Line 11 Dongjiangdao – Shuishanggongyuanxilu,length from CAMET
 991b48d2,2024-12-29,metro,Zhengzhou,Line 7,yes,yes,26.8,Line 7 Dongzhao – Nangangliu (26.8 km),
 b77f124d,2024-12-29,metro,Zhengzhou,Line 8,yes,yes,51.8,Line 8 Tianjianhu – Lumiao (51.8 km),
 90d6d7d6,2024-12-30,metro,Minsk,Line 3,no,yes,4.1,Line 3 Kavalskaya Slabada – Slutski Gastsinets (4.1 km),
@@ -1282,13 +1282,13 @@ d88c38d4,2025-06-26,tram,Wonsan,Wonsan Tram,yes,yes,10.7,Loop Line (10.7 km),
 c0d2b13b,2025-06-27,metro,Chongqing,Line 6,no,yes,6.9,Line 6 Liujiaping – Chongqingdong Railway Station (6.9 km),
 e95d0365,2025-06-27,monorail,Moscow,Line 13,no,no,,Line 13 permanently closed,"a closure, not an opening"
 40c9f251,2025-06-28,metro,Incheon,Line 1,no,yes,,Line 1 Gyeyang – Geomdan Lake Park,
-1a2a5491,2025-06-28,metro,Nanchang,Lines 1 and 2,no,yes,,Line 1 Shuanggang – Changbei Airport & Yaohu Lake West – Maqiu Line 2 Xinjia'an – Nanchang East Railway Station,
+1a2a5491,2025-06-28,metro,Nanchang,Lines 1 and 2,no,yes,31.75,Line 1 Shuanggang – Changbei Airport & Yaohu Lake West – Maqiu Line 2 Xinjia'an – Nanchang East Railway Station,length from CAMET (16.97 + 4.36 + 10.42 km)
 21df88a7,2025-06-28,tram,Warsaw,Line 19,no,yes,0.8,Line 19 Sw. Bonifacego – Stegny (0.8 km),
 5028410c,2025-06-29,metro,Guangzhou,Line 10,yes,yes,17.2,Line 10 Xilang – Yangji East,
 xd295b90,2025-06-29,metro,Guangzhou,Line 12,yes,yes,28.8,Line 12 Xunfenggang – Guangzhou Gymnasium (west and east sections),split from a combined UrbanRail entry
 26d68db8,2025-06-30,metro,Ningbo,Line 8,yes,yes,23.3,Line 8 Kaiyuan Road – Hansong Road (23.3 km),
 102d6f42,2025-06-30,metro,Shaoxing,Line 1,no,yes,3.2,Line 1 Daqingsi – Exhibition and Convention Center (3.2 km),
-abfc11a1,2025-06-30,metro,Shenyang,Line 1,no,yes,,Line 1 Limingguangchang – Shuangma,
+abfc11a1,2025-06-30,metro,Shenyang,Line 1,no,yes,16.15,Line 1 Limingguangchang – Shuangma,length from CAMET
 5640aad6,2025-07-03,metro,Palma,M1,no,yes,1.4,M1 UIB – ParcBit (1.4 km),
 9aa37038,2025-07-08,metro,Tianjin,Line 4,no,yes,19.9,Line 4 Xiaojie – Xizhan (19.9 km),
 e0abad8c,2025-07-27,tram,Bratislava,Line 3,no,yes,3.9,Line 3 Jungmannova – Juzne mesto (3.9 km),
@@ -1299,7 +1299,7 @@ de65a404,2025-08-03,tram,Hiroshima,,no,yes,1.1,Hijiyama-shita – Hiroshima Stat
 f0d20cef,2025-08-22,tram,İzmit,,no,yes,1.4,Otogar – Sabanci MTAL (1.4 km),
 0f23d023,2025-08-29,metro,Ningbo,Line 7,yes,yes,39.4,Line 7 Yufan – Yunlong (39.4 km),
 afab0955,2025-09-01,tram,Vienna,Line 12,no,yes,2.0,Line 12 Rebhanngasse – Hillerstraße (2 km),
-b3a0bacd,2025-09-05,metro,Novosibirsk,Leninskaya Line,no,yes,,Leninskaya Sportivnaya station,
+b3a0bacd,2025-09-05,metro,Novosibirsk,Leninskaya Line,no,yes,,Leninskaya Sportivnaya station,in-fill station
 c30d812e,2025-09-06,metro,Karaj,Line 2,no,yes,6.5,Line 2 Ayatallah Taleqani – Shahid Soltani (Karaj) (6.5 km),
 c2ac8518,2025-09-10,tram,Moscow,Line 90,no,yes,1.6,Line 90 <M> Chistye Prudy – <M> Komsomolskaya (1.6 km),
 dac32845,2025-09-13,metro,Moscow,Line 16,no,yes,9.7,Line 16 Novatorskaya – ZIL (9.7 km),
@@ -1315,7 +1315,7 @@ de94b77c,2025-09-28,metro,Shenzhen,Line 6 Branch,no,yes,5.0,Line 6B Guangming �
 40274da9,2025-09-28,metro,Tianjin,Line 7,yes,yes,21.8,Line 7 Gulou – Saidalu (21.8 km),
 ded20a9b,2025-09-28,metro,Xuzhou,Line 6,yes,yes,22.9,Line 6 Xuzhou Tongshan District Hospital of TCM – Xuzhoudong Railway Station (22.9 km),
 79d47254,2025-09-29,s-bahn,Fuzhou,Binhai Express,yes,yes,61.5,Binhai Express Fuzhou Railway Station – Wenling (61.5 km),
-a8e581ee,2025-09-29,metro,Guangzhou,Lines 13 and 14,no,yes,,Line 13 Yuzhu – Tianhe Park & Line 14 Jiahewanggang – Lejia Road,
+a8e581ee,2025-09-29,metro,Guangzhou,Lines 13 and 14,no,yes,17.3,Line 13 Yuzhu – Tianhe Park & Line 14 Jiahewanggang – Lejia Road,length from CAMET (8.30 + 9.00 km)
 c792df48,2025-09-29,s-bahn,Guangzhou,Guangzhou East Ring Intercity,yes,yes,,Guangdong Intercity Baiyun Airport North – Panyu / Guangzhoulianhuashan,
 c6643dff,2025-10-06,metro,Patna,Blue Line,yes,yes,3.1,Blue Line Bhootnath – New ISBT (3.1 km),
 7a60bfc2,2025-10-06,tram,Vienna,Line 27,no,yes,2.1,Line 27 Prinzgasse – Aspern Nord (2.1 km),
@@ -1360,8 +1360,9 @@ d1083562,2025-12-21,metro,Bhopal,Orange Line,yes,yes,7.5,Orange Line Subash Naga
 4cb7f513,2025-12-27,metro,Jinan,Line 8,yes,yes,25.3,Line 8 Xingcun Lijiaoqiao East – Qingyuan Dajie (25.3 km),
 8f23e0bc,2025-12-27,metro,Jinan,Line 6,yes,yes,19.5,Line 6 Shandong University – Liangwang (19.5 km),
 19e0efe3,2025-12-27,metro,Shanghai,Line 18,no,yes,8.0,Line 18 South Changjiang Road - Kangwen Road (8 km),
-4e0ad476,2025-12-28,metro,Shenzhen,Lines 5 and 11,no,yes,,Line 5 Huangbeiling — Grand Theater & Line 11 Huaqiang South — Hongling South,
-e71d7dca,2025-12-28,metro,Shenzhen,Lines 13 and 8,no,yes,,Line 13 Hi-Tech Central — Shangwu & Line 8 Xiaomeisha — Xichong,
+4e0ad476,2025-12-28,metro,Shenzhen,Lines 5 and 11,no,yes,5.18,Line 5 Huangbeiling — Grand Theater & Line 11 Huaqiang South — Hongling South,length from CAMET (2.88 + 2.30 km)
+e71d7dca,2025-12-28,metro,Shenzhen,Line 8,no,yes,3.69,Line 8 Xiaomeisha — Xichong,length from CAMET; split from a combined UrbanRail entry
+x63b0a26,2025-12-28,metro,Shenzhen,Line 13,no,yes,16.08,Line 13 Hi-Tech Central — Shangwu,split from a combined UrbanRail entry; length from CAMET
 0101fbe0,2025-12-29,s-bahn,Guangzhou,Line 22,no,yes,11.5,Line 22 Chentougang – Fangcun (11.5 km),
 dad14cfb,2025-12-29,metro,Xi'an,Line 15,yes,yes,19.5,Line 15 Xiliu – Dongzhaoyu (19.5 km),
 bff764b6,2025-12-30,light-rail,Jinan,Jiyang Tram,yes,yes,36.1,Jiyang Line Jinan North Railway Station – Jiyang North (36.1 km),
