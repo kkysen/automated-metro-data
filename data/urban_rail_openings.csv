@@ -1181,7 +1181,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2024-12-22,Vietnam,Ho Chi Minh City,Line 1,metro,19.7,no,yes,yes,GoA2,no,,Ben Thanh – Suoi Tien (19.7 km),,f6794bc0
 2024-12-26,China,Hefei,Line 8,metro,22.5,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 8 Yilijing – Beicheng Gaotiezhan (22.5 km),,0f1aba08
 2024-12-26,China,Xi'an,Line 8,metro,50.0,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 8 Circle Line (50 km),,9c3bdfa5
-2024-12-27,China,Shanghai,Airport Link Line,suburban metro,59.0,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Airport Link Line Hongqiao Airport T2 – Pudong Airport T1&2 (59 km),,6f944651
+2024-12-27,China,Shanghai,Airport Link Line,suburban railway (railway standards),59.0,yes,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Airport Link Line Hongqiao Airport T2 – Pudong Airport T1&2 (59 km),,6f944651
 2024-12-27,China,Wuhan,Line 11,metro,16.3,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 11 Wuhandong Railway Station – Jiang'an Road (16.3 km),,ecb31ae5
 2024-12-27,Russia,Saint Petersburg,Line 4,metro,3.6,no,yes,no,GoA2,no,mode default; unverified,Line 4 Spasskaya – Gornyi Institut (3.6 km),,ba282f60
 2024-12-28,China,Guangzhou,Line 11,metro,44.2,no,yes,yes,GoA4,yes,CAMET: FAO (2024 table),Line 11 Circle Line (44.2 km),,e151f41c
@@ -1393,7 +1393,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2026-09-16,China,Xiamen,Line 4,metro,,no,yes,yes,GoA4,yes,news reports at opening: fully automatic operation,[4] Jimei Software Park North — Qianwu,,35adaf57
 2026-09-16,China,Xiamen,Line 6,metro,,no,yes,yes,GoA4,yes,news reports at opening: GoA4 fully automatic operation,[6] Jiaojiang Road — Huaqiao University,,86bd8f14
 2026-09-16,Indonesia,Jakarta,Jakarta LRT Line 1,light rail,6.0,no,yes,no,GoA2,no,,LRT Velodrome — Manggarai (6.0 km),,ab1b50b4
-2026-09-22,China,Ningbo,Line 12,suburban metro,61.5,no,yes,yes,GoA2,no,no fully automatic operation reported at opening; not yet in a CAMET table,[12] Xiaoyangjiang — Damuwan (61.5 km),,5ec5aecf
+2026-09-22,China,Ningbo,Line 12,suburban railway (railway standards),61.5,yes,yes,yes,GoA2,no,no fully automatic operation reported at opening; not yet in a CAMET table,[12] Xiaoyangjiang — Damuwan (61.5 km),,5ec5aecf
 2026-09-22,China,Qingdao,Line 8,suburban metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),[8] Qingdao North Railway Station — May 4th Square,,101b3f97
 2026-09-26,Poland,Kraków,Line 9,tram,4.3,no,no,no,GoA0,no,mode default; unverified,[9·12 · 16] TAURON Arena Kraków — Mistrzejowice (4.3 km),,f52463aa
 2026-09-27,Bosnia and Herzegovina,Sarajevo,Line 11,tram,6.2,no,no,no,GoA0,no,mode default; unverified,[11] Ilidza — Hrasnica (6.2 km),,58c6287a

@@ -13,7 +13,7 @@ Shanghai,Line 14,,,,GoA4,CAMET: FAO (2021 table)
 Shanghai,Line 15,,,,GoA4,CAMET: FAO (2021 table)
 Shanghai,Line 18,,,,GoA4,CAMET: FAO (2021 and 2025 tables)
 Shanghai,Line 17,,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
-Shanghai,Airport Link Line,suburban metro,,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
+Shanghai,Airport Link Line,suburban railway (railway standards),yes,,GoA2,CAMET: not FAO (inferred from its FAO tables and totals)
 Guangzhou,Line 18,suburban metro,,,GoA4,CAMET: designed for FAO; opened with drivers in 2021 and FAO from January 2023
 Guangzhou,Line 22,suburban metro,,,GoA4,CAMET: FAO (2022 and 2025 tables)
 Guangzhou,Line 11,,,,GoA4,CAMET: FAO (2024 table)
@@ -104,7 +104,7 @@ Changchun,Line 5,,,,GoA2,no fully automatic operation reported at opening; not y
 Changchun,Line 7,,,,GoA2,no fully automatic operation reported at opening; not yet in a CAMET table
 Xiamen,Line 4,,,,GoA4,news reports at opening: fully automatic operation
 Xiamen,Line 6,,,,GoA4,news reports at opening: GoA4 fully automatic operation
-Ningbo,Line 12,suburban metro,,,GoA2,no fully automatic operation reported at opening; not yet in a CAMET table
+Ningbo,Line 12,suburban railway (railway standards),yes,,GoA2,no fully automatic operation reported at opening; not yet in a CAMET table
 Nanjing,Line 6,,,,GoA2,no fully automatic operation reported at opening; not yet in a CAMET table
 Hong Kong,South Island Line,,,,GoA4,MTR: UTO
 Hong Kong,Kwun Tong Line,,,,GoA2,
