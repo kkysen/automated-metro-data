@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+<title id="t">Share of new metro lines in mainland China that are automated (GoA3/GoA4), by year</title>
+<desc id="d">70 of 236 new grade-separated, non-mainline urban rail lines opened from 2016 to 2026-09-29 are automated.</desc>
+<style>
+.bg{fill:#fcfcfb}.bar{fill:#2a78d6}.bar.partial{fill-opacity:.55}
+.grid{stroke:#e4e3df;stroke-width:1}.axis{stroke:#a3a29c;stroke-width:1}
+.t1{fill:#0b0b0b}.t2{fill:#52514e}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1a1a19}.bar{fill:#3987e5}.grid{stroke:#2e2e2c}.axis{stroke:#5d5c57}
+.t1{fill:#ffffff}.t2{fill:#c3c2b7}}
+</style>
+<rect class="bg" width="760" height="420" rx="8"/>
+<text class="t1" x="56" y="28" font-size="17" font-weight="600">Automated share of new metro lines, in mainland China</text>
+<text class="t2" x="56" y="50" font-size="13">GoA3/GoA4 among new-build, grade-separated, non-mainline lines; 70 of 236 (30%) since 2016</text>
+<line class="axis" x1="56" x2="744" y1="356.0" y2="356.0"/>
+<text class="t2" x="48" y="360.0" font-size="12" text-anchor="end">0%</text>
+<line class="grid" x1="56" x2="744" y1="285.0" y2="285.0"/>
+<text class="t2" x="48" y="289.0" font-size="12" text-anchor="end">25%</text>
+<line class="grid" x1="56" x2="744" y1="214.0" y2="214.0"/>
+<text class="t2" x="48" y="218.0" font-size="12" text-anchor="end">50%</text>
+<line class="grid" x1="56" x2="744" y1="143.0" y2="143.0"/>
+<text class="t2" x="48" y="147.0" font-size="12" text-anchor="end">75%</text>
+<g><title>2016: 0 of 16 new lines automated (0%)</title>
+<rect x="56.0" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M65.4,356.0 V356.0 Q65.4,356.0 65.4,356.0 H109.2 Q109.2,356.0 109.2,356.0 V356.0 Z"/>
+<text class="t1" x="87.3" y="350.0" font-size="12" text-anchor="middle">0%</text>
+</g>
+<text class="t1" x="87.3" y="374.0" font-size="12" text-anchor="middle">2016</text>
+<text class="t2" x="87.3" y="390.0" font-size="11" text-anchor="middle">0/16</text>
+<g><title>2017: 1 of 28 new lines automated (4%)</title>
+<rect x="118.5" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M127.9,356.0 V349.9 Q127.9,345.9 131.9,345.9 H167.7 Q171.7,345.9 171.7,349.9 V356.0 Z"/>
+<text class="t1" x="149.8" y="339.9" font-size="12" text-anchor="middle">4%</text>
+</g>
+<text class="t1" x="149.8" y="374.0" font-size="12" text-anchor="middle">2017</text>
+<text class="t2" x="149.8" y="390.0" font-size="11" text-anchor="middle">1/28</text>
+<g><title>2018: 1 of 13 new lines automated (8%)</title>
+<rect x="181.1" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M190.5,356.0 V338.2 Q190.5,334.2 194.5,334.2 H230.3 Q234.3,334.2 234.3,338.2 V356.0 Z"/>
+<text class="t1" x="212.4" y="328.2" font-size="12" text-anchor="middle">8%</text>
+</g>
+<text class="t1" x="212.4" y="374.0" font-size="12" text-anchor="middle">2018</text>
+<text class="t2" x="212.4" y="390.0" font-size="11" text-anchor="middle">1/13</text>
+<g><title>2019: 1 of 21 new lines automated (5%)</title>
+<rect x="243.6" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M253.0,356.0 V346.5 Q253.0,342.5 257.0,342.5 H292.8 Q296.8,342.5 296.8,346.5 V356.0 Z"/>
+<text class="t1" x="274.9" y="336.5" font-size="12" text-anchor="middle">5%</text>
+</g>
+<text class="t1" x="274.9" y="374.0" font-size="12" text-anchor="middle">2019</text>
+<text class="t2" x="274.9" y="390.0" font-size="11" text-anchor="middle">1/21</text>
+<g><title>2020: 3 of 29 new lines automated (10%)</title>
+<rect x="306.2" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M315.6,356.0 V330.6 Q315.6,326.6 319.6,326.6 H355.3 Q359.3,326.6 359.3,330.6 V356.0 Z"/>
+<text class="t1" x="337.5" y="320.6" font-size="12" text-anchor="middle">10%</text>
+</g>
+<text class="t1" x="337.5" y="374.0" font-size="12" text-anchor="middle">2020</text>
+<text class="t2" x="337.5" y="390.0" font-size="11" text-anchor="middle">3/29</text>
+<g><title>2021: 16 of 34 new lines automated (47%)</title>
+<rect x="368.7" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M378.1,356.0 V226.4 Q378.1,222.4 382.1,222.4 H417.9 Q421.9,222.4 421.9,226.4 V356.0 Z"/>
+<text class="t1" x="400.0" y="216.4" font-size="12" text-anchor="middle">47%</text>
+</g>
+<text class="t1" x="400.0" y="374.0" font-size="12" text-anchor="middle">2021</text>
+<text class="t2" x="400.0" y="390.0" font-size="11" text-anchor="middle">16/34</text>
+<g><title>2022: 7 of 22 new lines automated (32%)</title>
+<rect x="431.3" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M440.7,356.0 V269.6 Q440.7,265.6 444.7,265.6 H480.4 Q484.4,265.6 484.4,269.6 V356.0 Z"/>
+<text class="t1" x="462.5" y="259.6" font-size="12" text-anchor="middle">32%</text>
+</g>
+<text class="t1" x="462.5" y="374.0" font-size="12" text-anchor="middle">2022</text>
+<text class="t2" x="462.5" y="390.0" font-size="11" text-anchor="middle">7/22</text>
+<g><title>2023: 8 of 20 new lines automated (40%)</title>
+<rect x="493.8" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M503.2,356.0 V246.4 Q503.2,242.4 507.2,242.4 H543.0 Q547.0,242.4 547.0,246.4 V356.0 Z"/>
+<text class="t1" x="525.1" y="236.4" font-size="12" text-anchor="middle">40%</text>
+</g>
+<text class="t1" x="525.1" y="374.0" font-size="12" text-anchor="middle">2023</text>
+<text class="t2" x="525.1" y="390.0" font-size="11" text-anchor="middle">8/20</text>
+<g><title>2024: 13 of 23 new lines automated (57%)</title>
+<rect x="556.4" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M565.7,356.0 V199.5 Q565.7,195.5 569.7,195.5 H605.5 Q609.5,195.5 609.5,199.5 V356.0 Z"/>
+<text class="t1" x="587.6" y="189.5" font-size="12" text-anchor="middle">57%</text>
+</g>
+<text class="t1" x="587.6" y="374.0" font-size="12" text-anchor="middle">2024</text>
+<text class="t2" x="587.6" y="390.0" font-size="11" text-anchor="middle">13/23</text>
+<g><title>2025: 15 of 19 new lines automated (79%)</title>
+<rect x="618.9" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar" d="M628.3,356.0 V135.8 Q628.3,131.8 632.3,131.8 H668.1 Q672.1,131.8 672.1,135.8 V356.0 Z"/>
+<text class="t1" x="650.2" y="125.8" font-size="12" text-anchor="middle">79%</text>
+</g>
+<text class="t1" x="650.2" y="374.0" font-size="12" text-anchor="middle">2025</text>
+<text class="t2" x="650.2" y="390.0" font-size="11" text-anchor="middle">15/19</text>
+<g><title>2026: 5 of 11 new lines automated (45%), through 2026-09-29</title>
+<rect x="681.5" y="72" width="62.5" height="284" fill="transparent"/>
+<path class="bar partial" d="M690.8,356.0 V230.9 Q690.8,226.9 694.8,226.9 H730.6 Q734.6,226.9 734.6,230.9 V356.0 Z"/>
+<text class="t1" x="712.7" y="220.9" font-size="12" text-anchor="middle">45%</text>
+</g>
+<text class="t1" x="712.7" y="374.0" font-size="12" text-anchor="middle">2026*</text>
+<text class="t2" x="712.7" y="390.0" font-size="11" text-anchor="middle">5/11</text>
+<text class="t2" x="56" y="410" font-size="11">Below each year: automated/new lines. * 2026 through 2026-09-29. Sources: UrbanRail.net, CAMET.</text>
+</svg>

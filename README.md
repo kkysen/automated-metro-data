@@ -82,7 +82,15 @@ that are new-build, fully grade-separated, and not mainline,
 - Almost all automated lines are GoA4;
   the only GoA3 line is Jakarta's Jabodebek LRT.
 
-The numbers per year are in `data/automated_share_by_year.csv`.
+The same, split into mainland China and everywhere else
+(including Hong Kong and Macau, which CAMET doesn't cover):
+
+![Share of new metro lines in mainland China that are automated, by year](charts/automated_share_by_year_china.svg)
+
+![Share of new metro lines outside mainland China that are automated, by year](charts/automated_share_by_year_ex_china.svg)
+
+The numbers per year are in `data/automated_share_by_year.csv`,
+`data/automated_share_by_year_china.csv`, and `data/automated_share_by_year_ex_china.csv`.
 
 ### Caveats
 

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
-<title id="t">Share of new metro lines that are automated (GoA3/GoA4), by year</title>
+<title id="t">Share of new metro lines worldwide that are automated (GoA3/GoA4), by year</title>
 <desc id="d">123 of 363 new grade-separated, non-mainline urban rail lines opened from 2016 to 2026-09-29 are automated.</desc>
 <style>
 .bg{fill:#fcfcfb}.bar{fill:#2a78d6}.bar.partial{fill-opacity:.55}
@@ -10,8 +10,8 @@
 .t1{fill:#ffffff}.t2{fill:#c3c2b7}}
 </style>
 <rect class="bg" width="760" height="420" rx="8"/>
-<text class="t1" x="56" y="28" font-size="17" font-weight="600">Share of new metro lines that are automated (GoA3/GoA4)</text>
-<text class="t2" x="56" y="50" font-size="13">New-build, grade-separated, non-mainline urban rail lines worldwide; 123 of 363 (34%) since 2016</text>
+<text class="t1" x="56" y="28" font-size="17" font-weight="600">Automated share of new metro lines, worldwide</text>
+<text class="t2" x="56" y="50" font-size="13">GoA3/GoA4 among new-build, grade-separated, non-mainline lines; 123 of 363 (34%) since 2016</text>
 <line class="axis" x1="56" x2="744" y1="356.0" y2="356.0"/>
 <text class="t2" x="48" y="360.0" font-size="12" text-anchor="end">0%</text>
 <line class="grid" x1="56" x2="744" y1="285.0" y2="285.0"/>

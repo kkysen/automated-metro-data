@@ -2,9 +2,10 @@
 
 Usage: python plot_share.py
 
-Reads data/urban_rail_openings.csv and writes:
-- data/automated_share_by_year.csv: the numbers behind the chart.
-- charts/automated_share_by_year.svg: a bar chart of the share per year.
+Reads data/urban_rail_openings.csv and, for each region
+(worldwide, mainland China, and outside mainland China), writes:
+- data/automated_share_by_year{suffix}.csv: the numbers behind the chart.
+- charts/automated_share_by_year{suffix}.svg: a bar chart of the share per year.
 
 A line counts if it is new-build, fully grade-separated, and not mainline.
 """
@@ -16,8 +17,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OPENINGS = ROOT / "data" / "urban_rail_openings.csv"
-TABLE = ROOT / "data" / "automated_share_by_year.csv"
-SVG = ROOT / "charts" / "automated_share_by_year.svg"
+
+# File-name suffix: (description for the chart, which countries count).
+# Hong Kong and Macau are outside CAMET's statistics, so they count as outside China.
+REGIONS = {
+    "": ("worldwide", lambda country: True),
+    "_china": ("in mainland China", lambda country: country == "China"),
+    "_ex_china": ("outside mainland China", lambda country: country != "China"),
+}
 
 # Layout, in px.
 WIDTH = 760
@@ -33,13 +40,13 @@ def counted(r):
     return r["new_build"] == "yes" and r["grade_separated"] == "yes" and r["mainline"] == "no"
 
 
-def tally():
+def tally(in_region):
     total = Counter()
     automated = Counter()
     last_date = ""
     with open(OPENINGS, newline="") as f:
         for r in csv.DictReader(f):
-            if not counted(r):
+            if not counted(r) or not in_region(r["country"]):
                 continue
             year = r["opening_date"][:4]
             total[year] += 1
@@ -49,8 +56,8 @@ def tally():
     return [(y, total[y], automated[y]) for y in years], last_date
 
 
-def write_table(rows):
-    with open(TABLE, "w", newline="") as f:
+def write_table(rows, table):
+    with open(table, "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["year", "new_lines", "automated_lines", "automated_share"])
         for year, n, a in rows:
@@ -66,7 +73,7 @@ def bar_path(x, y, w, h, r):
     )
 
 
-def write_svg(rows, last_date):
+def write_svg(rows, last_date, svg, region):
     plot_w = WIDTH - LEFT - RIGHT
     plot_h = HEIGHT - TOP - BOTTOM
     step = plot_w / len(rows)
@@ -82,7 +89,7 @@ def write_svg(rows, last_date):
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" '
         f'width="{WIDTH}" height="{HEIGHT}" role="img" aria-labelledby="t d" '
         'font-family="system-ui, -apple-system, Segoe UI, sans-serif">',
-        '<title id="t">Share of new metro lines that are automated (GoA3/GoA4), by year</title>',
+        f'<title id="t">Share of new metro lines {region} that are automated (GoA3/GoA4), by year</title>',
         f'<desc id="d">{a_all} of {n_all} new grade-separated, non-mainline urban rail lines '
         f"opened from 2016 to {last_date} are automated.</desc>",
         "<style>",
@@ -95,9 +102,9 @@ def write_svg(rows, last_date):
         "</style>",
         f'<rect class="bg" width="{WIDTH}" height="{HEIGHT}" rx="8"/>',
         f'<text class="t1" x="{LEFT}" y="28" font-size="17" font-weight="600">'
-        "Share of new metro lines that are automated (GoA3/GoA4)</text>",
+        f"Automated share of new metro lines, {region}</text>",
         f'<text class="t2" x="{LEFT}" y="50" font-size="13">'
-        f"New-build, grade-separated, non-mainline urban rail lines worldwide; "
+        f"GoA3/GoA4 among new-build, grade-separated, non-mainline lines; "
         f"{a_all} of {n_all} ({a_all / n_all:.0%}) since 2016</text>",
     ]
     for share in (0, 0.25, 0.5, 0.75):
@@ -145,16 +152,18 @@ def write_svg(rows, last_date):
         "Sources: UrbanRail.net, CAMET.</text>"
     )
     out.append("</svg>")
-    SVG.parent.mkdir(exist_ok=True)
-    SVG.write_text("\n".join(out) + "\n")
+    svg.parent.mkdir(exist_ok=True)
+    svg.write_text("\n".join(out) + "\n")
 
 
 def main():
-    rows, last_date = tally()
-    write_table(rows)
-    write_svg(rows, last_date)
-    for year, n, a in rows:
-        print(year, n, a, f"{a / n:.0%}")
+    for suffix, (region, in_region) in REGIONS.items():
+        rows, last_date = tally(in_region)
+        write_table(rows, ROOT / "data" / f"automated_share_by_year{suffix}.csv")
+        write_svg(rows, last_date, ROOT / "charts" / f"automated_share_by_year{suffix}.svg", region)
+        print(region)
+        for year, n, a in rows:
+            print(f"  {year} {a}/{n} {a / n:.0%}")
 
 
 if __name__ == "__main__":
