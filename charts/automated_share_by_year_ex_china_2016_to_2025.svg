@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 436" width="760" height="436" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
 <title id="t">Share of new metro lines outside mainland China that are automated (above GoA2), by year</title>
-<desc id="d">53 of 116 new grade-separated, non-mainline urban rail lines opened from 2016 to 2025-12-26 are automated.</desc>
+<desc id="d">56 of 116 new grade-separated, non-mainline urban rail lines opened from 2016 to 2025-12-26 are automated.</desc>
 <style>
 .bg{fill:#fcfcfb}.bar{fill:#2a78d6}.bar.partial{fill-opacity:.55}
 .grid{stroke:#e4e3df;stroke-width:1}.axis{stroke:#a3a29c;stroke-width:1}
@@ -11,7 +11,7 @@
 </style>
 <rect class="bg" width="760" height="436" rx="8"/>
 <text class="t1" x="56" y="28" font-size="17" font-weight="600">Automated share of new metro lines, outside mainland China</text>
-<text class="t2" x="56" y="50" font-size="13">Above GoA2; new-build, grade-separated, non-mainline lines; 53 of 116 (46%) in 2016–2025</text>
+<text class="t2" x="56" y="50" font-size="13">Above GoA2; new-build, grade-separated, non-mainline lines; 56 of 116 (48%) in 2016–2025</text>
 <line class="axis" x1="56" x2="744" y1="356.0" y2="356.0"/>
 <text class="t2" x="48" y="360.0" font-size="12" text-anchor="end">0%</text>
 <line class="grid" x1="56" x2="744" y1="285.0" y2="285.0"/>
@@ -41,20 +41,20 @@
 </g>
 <text class="t1" x="228.0" y="374.0" font-size="12" text-anchor="middle">2018</text>
 <text class="t2" x="228.0" y="390.0" font-size="11" text-anchor="middle">2/6</text>
-<g><title>2019: 8 of 18 new lines automated (44%)</title>
+<g><title>2019: 9 of 18 new lines automated (50%)</title>
 <rect x="262.4" y="72" width="68.8" height="284" fill="transparent"/>
-<path class="bar" d="M272.7,356.0 V233.8 Q272.7,229.8 276.7,229.8 H316.9 Q320.9,229.8 320.9,233.8 V356.0 Z"/>
-<text class="t1" x="296.8" y="223.8" font-size="12" text-anchor="middle">44%</text>
+<path class="bar" d="M272.7,356.0 V218.0 Q272.7,214.0 276.7,214.0 H316.9 Q320.9,214.0 320.9,218.0 V356.0 Z"/>
+<text class="t1" x="296.8" y="208.0" font-size="12" text-anchor="middle">50%</text>
 </g>
 <text class="t1" x="296.8" y="374.0" font-size="12" text-anchor="middle">2019</text>
-<text class="t2" x="296.8" y="390.0" font-size="11" text-anchor="middle">8/18</text>
-<g><title>2020: 5 of 14 new lines automated (36%)</title>
+<text class="t2" x="296.8" y="390.0" font-size="11" text-anchor="middle">9/18</text>
+<g><title>2020: 6 of 14 new lines automated (43%)</title>
 <rect x="331.2" y="72" width="68.8" height="284" fill="transparent"/>
-<path class="bar" d="M341.5,356.0 V258.6 Q341.5,254.6 345.5,254.6 H385.7 Q389.7,254.6 389.7,258.6 V356.0 Z"/>
-<text class="t1" x="365.6" y="248.6" font-size="12" text-anchor="middle">36%</text>
+<path class="bar" d="M341.5,356.0 V238.3 Q341.5,234.3 345.5,234.3 H385.7 Q389.7,234.3 389.7,238.3 V356.0 Z"/>
+<text class="t1" x="365.6" y="228.3" font-size="12" text-anchor="middle">43%</text>
 </g>
 <text class="t1" x="365.6" y="374.0" font-size="12" text-anchor="middle">2020</text>
-<text class="t2" x="365.6" y="390.0" font-size="11" text-anchor="middle">5/14</text>
+<text class="t2" x="365.6" y="390.0" font-size="11" text-anchor="middle">6/14</text>
 <g><title>2021: 2 of 5 new lines automated (40%)</title>
 <rect x="400.0" y="72" width="68.8" height="284" fill="transparent"/>
 <path class="bar" d="M410.3,356.0 V246.4 Q410.3,242.4 414.3,242.4 H454.5 Q458.5,242.4 458.5,246.4 V356.0 Z"/>
@@ -69,13 +69,13 @@
 </g>
 <text class="t1" x="503.2" y="374.0" font-size="12" text-anchor="middle">2022</text>
 <text class="t2" x="503.2" y="390.0" font-size="11" text-anchor="middle">6/12</text>
-<g><title>2023: 8 of 15 new lines automated (53%)</title>
+<g><title>2023: 9 of 15 new lines automated (60%)</title>
 <rect x="537.6" y="72" width="68.8" height="284" fill="transparent"/>
-<path class="bar" d="M547.9,356.0 V208.5 Q547.9,204.5 551.9,204.5 H592.1 Q596.1,204.5 596.1,208.5 V356.0 Z"/>
-<text class="t1" x="572.0" y="198.5" font-size="12" text-anchor="middle">53%</text>
+<path class="bar" d="M547.9,356.0 V189.6 Q547.9,185.6 551.9,185.6 H592.1 Q596.1,185.6 596.1,189.6 V356.0 Z"/>
+<text class="t1" x="572.0" y="179.6" font-size="12" text-anchor="middle">60%</text>
 </g>
 <text class="t1" x="572.0" y="374.0" font-size="12" text-anchor="middle">2023</text>
-<text class="t2" x="572.0" y="390.0" font-size="11" text-anchor="middle">8/15</text>
+<text class="t2" x="572.0" y="390.0" font-size="11" text-anchor="middle">9/15</text>
 <g><title>2024: 9 of 16 new lines automated (56%)</title>
 <rect x="606.4" y="72" width="68.8" height="284" fill="transparent"/>
 <path class="bar" d="M616.7,356.0 V200.2 Q616.7,196.2 620.7,196.2 H660.9 Q664.9,196.2 664.9,200.2 V356.0 Z"/>

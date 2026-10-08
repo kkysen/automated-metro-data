@@ -62,7 +62,8 @@ A line counts as automated if its GoA is above GoA2:
   built for UTO, with GoA4-capable trains and signalling (and usually platform screen doors),
   that run with a driver in the cab who closes the doors and starts each departure.
   This is the norm for new Indian metro lines
-  (Mumbai Lines 2A, 7, 3, 2B, and 9, Bengaluru's Yellow Line, Bhopal, and Indore).
+  (Mumbai Lines 2A, 7, 3, 2B, and 9, Bengaluru's Yellow Line, Bhopal, Indore,
+  Navi Mumbai Line 1, and Delhi's Grey Line).
 
 Lines with only CBTC signalling, without those UTO features, are GoA2 and not counted.
 Lines converted to UTO long after opening, such as Guangzhou Line 7
@@ -74,23 +75,23 @@ Lines converted to UTO long after opening, such as Guangzhou Line 7
 
 Of the **361 new lines** opened from 2016-01-01 through 2026-09-29
 that are new-build, fully grade-separated, and not mainline,
-**131 (36%) are automated** above GoA2.
+**135 (37%) are automated** above GoA2.
 
 - **The share has risen sharply.**
-  It was 18% (30 of 168) for lines opened in 2016–2020,
-  52% (101 of 193) in 2021–2026,
-  and 64% (54 of 85) in 2024–2026.
+  It was 19% (32 of 168) for lines opened in 2016–2020,
+  53% (103 of 193) in 2021–2026,
+  and 65% (55 of 85) in 2024–2026.
 - **China drove the rise.**
   China opened 234 of the 361 lines.
   Its automated share went from 6% (6 of 107) in 2016–2020
   to 65% (33 of 51) in 2024–2026,
   as fully automated operation became the default for new Chinese metro lines.
 - **Elsewhere the share has been steadier and higher.**
-  Outside China, 48% of new lines (61 of 127) are automated,
-  and 54% (51 of 94) excluding India.
-  In India, 10 of 33 new lines (30%) are automated:
+  Outside China, 51% of new lines (65 of 127) are automated,
+  and 56% (53 of 94) excluding India.
+  In India, 12 of 33 new lines (36%) are automated:
   Delhi's Magenta and Pink lines at GoA4,
-  and eight recent lines at GoA2.5.
+  and ten lines at GoA2.5.
 - Almost all of the rest are GoA4;
   the only GoA3 line is Jakarta's Jabodebek LRT.
 
@@ -102,12 +103,12 @@ The same, split into mainland China and everywhere else
 ![Share of new metro lines outside mainland China that are automated, by year](charts/automated_share_by_year_ex_china_2016_to_2026.svg)
 
 Each chart also has a `2016_to_2025` version with full years only,
-in which 118 of 340 new lines (35%) are automated worldwide.
+in which 121 of 340 new lines (36%) are automated worldwide.
 Every chart also has a km version (`automated_km_share_*`),
 counting the km of every grade-separated, non-mainline opening,
 new lines and extensions alike, each extension taking its line's GoA:
-3,313 of 11,583 km (29%) opened in 2016–2026 are automated worldwide,
-23% in mainland China and 43% elsewhere.
+3,378 of 11,583 km (29%) opened in 2016–2026 are automated worldwide,
+23% in mainland China and 45% elsewhere.
 The km share is lower than the line share because extensions,
 mostly of older lines built before automation was common, add many non-automated km.
 108 openings of unknown length (35 new lines and 73 extensions,
@@ -151,10 +152,15 @@ named like the charts.
   including the Daxing Airport Express.
   The seven Chinese lines opened in the second half of 2026 aren't in a CAMET table yet;
   their GoA comes from news coverage of their openings.
-  Lines elsewhere are tagged from known operating practice.
-  Lines not individually reviewed get the default for their mode,
-  marked "mode default; unverified";
-  that covers no automated lines, but GoA1 vs. GoA2 among them is not reliable.
+  Every counted line has a source in `GoA_source`.
+  Outside China, automated lines cite Wikipedia's
+  [list of driverless train systems](https://en.wikipedia.org/wiki/List_of_driverless_train_systems)
+  or, where it gives one, the source it cites, or an operator or news report.
+  Lines missing from that list are tagged GoA2, citing the list;
+  for those, GoA1 vs. GoA2 is unverified.
+  Openings that aren't counted (extensions, trams, mainline)
+  mostly keep the default GoA for their mode,
+  marked "mode default; unverified".
 
 ## Sources
 

@@ -33,6 +33,7 @@ CHINA_SUBURBAN = ("suburban metro", "no", "yes", "GoA2")
 DEFAULT_BASIS = "mode default; unverified"
 # CAMET lists every FAO line opened since 2021, and its FAO totals
 # leave no room for unlisted ones before that.
+CAMET_SOURCE = "https://www.camet.org.cn/xytj/tjxx/ (reports in data/raw/camet/)"
 CHINA_NOT_FAO = "CAMET: not FAO (inferred from its FAO tables and totals)"
 
 FIELDS = [
@@ -48,6 +49,7 @@ FIELDS = [
     "GoA",
     "automated",
     "GoA_basis",
+    "GoA_source",
     "description",
     "note",
     "urbanrail_id",
@@ -74,8 +76,10 @@ def main():
         if e["urbanrail_mode"] == "s-bahn" and country == "China":
             mode, mainline, graded, goa = CHINA_SUBURBAN
         basis = DEFAULT_BASIS
+        source = ""
         if country == "China" and e["urbanrail_mode"] != "tram":
             basis = CHINA_NOT_FAO
+            source = CAMET_SOURCE
         override = lines.get((e["city"], e["line"]))
         if override:
             used.add((e["city"], e["line"]))
@@ -85,6 +89,7 @@ def main():
             if override["GoA"] or override["GoA_basis"]:
                 goa = override["GoA"]
                 basis = override["GoA_basis"]
+                source = override["GoA_source"] or (CAMET_SOURCE if basis.startswith("CAMET") else "")
         automated = "" if goa == "" else ("yes" if float(goa.removeprefix("GoA")) > 2 else "no")
         out.append({
             "opening_date": e["date"],
@@ -99,6 +104,7 @@ def main():
             "GoA": goa,
             "automated": automated,
             "GoA_basis": basis,
+            "GoA_source": source,
             "description": e["description"],
             "note": e["note"],
             "urbanrail_id": "" if e["id"].startswith("x") else e["id"],

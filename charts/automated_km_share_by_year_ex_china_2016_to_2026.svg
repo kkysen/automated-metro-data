@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 436" width="760" height="436" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
 <title id="t">Share of new metro lines outside mainland China that are automated (above GoA2), by year</title>
-<desc id="d">1350.1 of 3175.0000000000005 new grade-separated, non-mainline urban rail lines opened from 2016 to 2026-09-16 are automated.</desc>
+<desc id="d">1414.8999999999999 of 3175.0000000000005 new grade-separated, non-mainline urban rail lines opened from 2016 to 2026-09-16 are automated.</desc>
 <style>
 .bg{fill:#fcfcfb}.bar{fill:#2a78d6}.bar.partial{fill-opacity:.55}
 .grid{stroke:#e4e3df;stroke-width:1}.axis{stroke:#a3a29c;stroke-width:1}
@@ -11,7 +11,7 @@
 </style>
 <rect class="bg" width="760" height="436" rx="8"/>
 <text class="t1" x="56" y="28" font-size="17" font-weight="600">Automated share of new metro km, outside mainland China</text>
-<text class="t2" x="56" y="50" font-size="13">Above GoA2; grade-separated, non-mainline openings; 1350 of 3175 km (43%) in 2016–2026</text>
+<text class="t2" x="56" y="50" font-size="13">Above GoA2; grade-separated, non-mainline openings; 1415 of 3175 km (45%) in 2016–2026</text>
 <line class="axis" x1="56" x2="744" y1="356.0" y2="356.0"/>
 <text class="t2" x="48" y="360.0" font-size="12" text-anchor="end">0%</text>
 <line class="grid" x1="56" x2="744" y1="285.0" y2="285.0"/>
@@ -41,27 +41,27 @@
 </g>
 <text class="t1" x="212.4" y="374.0" font-size="12" text-anchor="middle">2018</text>
 <text class="t2" x="212.4" y="390.0" font-size="11" text-anchor="middle">89/272</text>
-<g><title>2019: 160 of 434 new km automated (37%)</title>
+<g><title>2019: 165 of 434 new km automated (38%)</title>
 <rect x="243.6" y="72" width="62.5" height="284" fill="transparent"/>
-<path class="bar" d="M253.0,356.0 V255.1 Q253.0,251.1 257.0,251.1 H292.8 Q296.8,251.1 296.8,255.1 V356.0 Z"/>
-<text class="t1" x="274.9" y="245.1" font-size="12" text-anchor="middle">37%</text>
+<path class="bar" d="M253.0,356.0 V252.3 Q253.0,248.3 257.0,248.3 H292.8 Q296.8,248.3 296.8,252.3 V356.0 Z"/>
+<text class="t1" x="274.9" y="242.3" font-size="12" text-anchor="middle">38%</text>
 </g>
 <text class="t1" x="274.9" y="374.0" font-size="12" text-anchor="middle">2019</text>
-<text class="t2" x="274.9" y="390.0" font-size="11" text-anchor="middle">160/434</text>
-<g><title>2020: 48 of 238 new km automated (20%)</title>
+<text class="t2" x="274.9" y="390.0" font-size="11" text-anchor="middle">165/434</text>
+<g><title>2020: 75 of 238 new km automated (31%)</title>
 <rect x="306.2" y="72" width="62.5" height="284" fill="transparent"/>
-<path class="bar" d="M315.6,356.0 V303.0 Q315.6,299.0 319.6,299.0 H355.3 Q359.3,299.0 359.3,303.0 V356.0 Z"/>
-<text class="t1" x="337.5" y="293.0" font-size="12" text-anchor="middle">20%</text>
+<path class="bar" d="M315.6,356.0 V270.6 Q315.6,266.6 319.6,266.6 H355.3 Q359.3,266.6 359.3,270.6 V356.0 Z"/>
+<text class="t1" x="337.5" y="260.6" font-size="12" text-anchor="middle">31%</text>
 </g>
 <text class="t1" x="337.5" y="374.0" font-size="12" text-anchor="middle">2020</text>
-<text class="t2" x="337.5" y="390.0" font-size="11" text-anchor="middle">48/238</text>
-<g><title>2021: 56 of 159 new km automated (35%)</title>
+<text class="t2" x="337.5" y="390.0" font-size="11" text-anchor="middle">75/238</text>
+<g><title>2021: 57 of 159 new km automated (36%)</title>
 <rect x="368.7" y="72" width="62.5" height="284" fill="transparent"/>
-<path class="bar" d="M378.1,356.0 V259.9 Q378.1,255.9 382.1,255.9 H417.9 Q421.9,255.9 421.9,259.9 V356.0 Z"/>
-<text class="t1" x="400.0" y="249.9" font-size="12" text-anchor="middle">35%</text>
+<path class="bar" d="M378.1,356.0 V258.1 Q378.1,254.1 382.1,254.1 H417.9 Q421.9,254.1 421.9,258.1 V356.0 Z"/>
+<text class="t1" x="400.0" y="248.1" font-size="12" text-anchor="middle">36%</text>
 </g>
 <text class="t1" x="400.0" y="374.0" font-size="12" text-anchor="middle">2021</text>
-<text class="t2" x="400.0" y="390.0" font-size="11" text-anchor="middle">56/159</text>
+<text class="t2" x="400.0" y="390.0" font-size="11" text-anchor="middle">57/159</text>
 <g><title>2022: 78 of 286 new km automated (27%)</title>
 <rect x="431.3" y="72" width="62.5" height="284" fill="transparent"/>
 <path class="bar" d="M440.7,356.0 V282.3 Q440.7,278.3 444.7,278.3 H480.4 Q484.4,278.3 484.4,282.3 V356.0 Z"/>
@@ -69,13 +69,13 @@
 </g>
 <text class="t1" x="462.5" y="374.0" font-size="12" text-anchor="middle">2022</text>
 <text class="t2" x="462.5" y="390.0" font-size="11" text-anchor="middle">78/286</text>
-<g><title>2023: 259 of 463 new km automated (56%)</title>
+<g><title>2023: 271 of 463 new km automated (58%)</title>
 <rect x="493.8" y="72" width="62.5" height="284" fill="transparent"/>
-<path class="bar" d="M503.2,356.0 V201.0 Q503.2,197.0 507.2,197.0 H543.0 Q547.0,197.0 547.0,201.0 V356.0 Z"/>
-<text class="t1" x="525.1" y="191.0" font-size="12" text-anchor="middle">56%</text>
+<path class="bar" d="M503.2,356.0 V194.1 Q503.2,190.1 507.2,190.1 H543.0 Q547.0,190.1 547.0,194.1 V356.0 Z"/>
+<text class="t1" x="525.1" y="184.1" font-size="12" text-anchor="middle">58%</text>
 </g>
 <text class="t1" x="525.1" y="374.0" font-size="12" text-anchor="middle">2023</text>
-<text class="t2" x="525.1" y="390.0" font-size="11" text-anchor="middle">259/463</text>
+<text class="t2" x="525.1" y="390.0" font-size="11" text-anchor="middle">271/463</text>
 <g><title>2024: 185 of 461 new km automated (40%)</title>
 <rect x="556.4" y="72" width="62.5" height="284" fill="transparent"/>
 <path class="bar" d="M565.7,356.0 V246.1 Q565.7,242.1 569.7,242.1 H605.5 Q609.5,242.1 609.5,246.1 V356.0 Z"/>
@@ -90,13 +90,13 @@
 </g>
 <text class="t1" x="650.2" y="374.0" font-size="12" text-anchor="middle">2025</text>
 <text class="t2" x="650.2" y="390.0" font-size="11" text-anchor="middle">138/205</text>
-<g><title>2026: 175 of 246 new km automated (71%), through 2026-09-16</title>
+<g><title>2026: 197 of 246 new km automated (80%), through 2026-09-16</title>
 <rect x="681.5" y="72" width="62.5" height="284" fill="transparent"/>
-<path class="bar partial" d="M690.8,356.0 V157.4 Q690.8,153.4 694.8,153.4 H730.6 Q734.6,153.4 734.6,157.4 V356.0 Z"/>
-<text class="t1" x="712.7" y="147.4" font-size="12" text-anchor="middle">71%</text>
+<path class="bar partial" d="M690.8,356.0 V132.8 Q690.8,128.8 694.8,128.8 H730.6 Q734.6,128.8 734.6,132.8 V356.0 Z"/>
+<text class="t1" x="712.7" y="122.8" font-size="12" text-anchor="middle">80%</text>
 </g>
 <text class="t1" x="712.7" y="374.0" font-size="12" text-anchor="middle">2026*</text>
-<text class="t2" x="712.7" y="390.0" font-size="11" text-anchor="middle">175/246</text>
+<text class="t2" x="712.7" y="390.0" font-size="11" text-anchor="middle">197/246</text>
 <text class="t2" x="56" y="412" font-size="11">Below each year: automated/new km. New lines and extensions; 63 openings of unknown length left out.</text>
 <text class="t2" x="56" y="426" font-size="11">* 2026 through 2026-09-16. Sources: UrbanRail.net, CAMET.</text>
 </svg>
