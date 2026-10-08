@@ -791,8 +791,8 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2022-03-31,Russia,Krasnodar,,tram,2.5,no,no,no,GoA0,no,mode default; unverified,Solnechnaya – Ul. Petra Metal'nikova (2.5 km),,fd54425d
 2022-04-01,China,Hangzhou,Line 7,metro,6.0,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 7 Citizen Center – Wushan Square (6 km),,2847cf83
 2022-04-01,China,Hangzhou,Line 9,metro,12.0,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 9 Coach Center – Guanyintang (12 km),,ddaad75b
-2022-04-02,India,Mumbai,Line 2A,metro,8.9,no,yes,yes,GoA2,no,mode default; unverified,Line 2A Dhanukarwadi – Dahisar East (8.9 km),,14739cb1
-2022-04-02,India,Mumbai,Line 7,metro,9.5,no,yes,yes,GoA2,no,mode default; unverified,Line 7 Dahisar East – Aarey (9.5 km),split from a combined UrbanRail entry,
+2022-04-02,India,Mumbai,Line 2A,metro,8.9,no,yes,yes,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 2A Dhanukarwadi – Dahisar East (8.9 km),,14739cb1
+2022-04-02,India,Mumbai,Line 7,metro,9.5,no,yes,yes,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 7 Dahisar East – Aarey (9.5 km),split from a combined UrbanRail entry,
 2022-04-09,Czechia,Prague,Line 5,tram,1.0,no,no,no,GoA0,no,mode default; unverified,Line 5 Sidliste Barrandov – Holyne (1 km),,58a1e39b
 2022-04-23,Poland,Poznań,Line 10,tram,1.7,no,no,no,GoA0,no,mode default; unverified,Line 10 Lechicka/Naramowicka – Blazeja (1.7 km),,44862c50
 2022-04-25,Germany,Darmstadt,Line 2,tram,1.1,no,no,no,GoA0,no,mode default; unverified,Line 2 Jahnstraße – TU-Lichtwiese (1.1 km),,8d6c0f6c
@@ -899,8 +899,8 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2023-01-09,Germany,Bochum,Line 302,tram,0.6,no,no,no,GoA0,no,mode default; unverified,302 Laar Mitte – O-Werk (0.6 km),,a0d7e643
 2023-01-18,China,Chongqing,Line 10,metro,6.0,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 10 Liyuchi – Houbao (6 km),,4bce2d4f
 2023-01-18,China,Chongqing,Line 9,metro,8.0,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 9 Xingkedadao – Huashigou (8 km),,52dbe780
-2023-01-19,India,Mumbai,Line 2A,metro,9.0,no,yes,no,GoA2,no,mode default; unverified,Line 2A Dahanukarwadi – Andheri West (9 km),,9fcbd08e
-2023-01-19,India,Mumbai,Line 7,metro,6.2,no,yes,no,GoA2,no,mode default; unverified,Line 7 Aarey – Gundavali (6.2 km),,0dceff42
+2023-01-19,India,Mumbai,Line 2A,metro,9.0,no,yes,no,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 2A Dahanukarwadi – Andheri West (9 km),,9fcbd08e
+2023-01-19,India,Mumbai,Line 7,metro,6.2,no,yes,no,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 7 Aarey – Gundavali (6.2 km),,0dceff42
 2023-01-22,Turkey,Istanbul,M11,airport express metro,34.0,no,yes,yes,GoA4,yes,UTO,Line 11 Kagithane – Istanbul Havalimani (Kargo Terminali) (34 km),,313909bb
 2023-01-23,Mauritius,Port Louis,Metro Express,light rail,,no,no,no,GoA1,no,,& Port Louis Victora – Pl. d'Armes,,b5d8cf14
 2023-01-23,Mauritius,Port Louis,Metro Express,light rail,3.2,no,no,no,GoA1,no,,Rose Hill – Mahatma Gandhi (3.2 km),,c65ff89c
@@ -1139,7 +1139,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2024-09-29,China,Chengdu,Line S3 (Ziyang Line),metro,38.7,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line S3 Futian – Ziyang Bei Station (38.7 km),,c081ee1f
 2024-09-29,India,Pune,Purple Line,metro,3.3,no,yes,no,GoA2,no,mode default; unverified,Line 1 District Court – Swargate (3.3 km),,459de9d6
 2024-10-01,China,Wuhan,Line 7,metro,15.1,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 7 Hengdian – Huangpi Square (15.1 km),,b2a02a70
-2024-10-07,India,Mumbai,Line 3,metro,12.7,no,yes,yes,GoA2,no,UTO-ready but run with drivers,Line 3 Aarey JVLR – Bandra-Kurla Complex (12.7 km),,b8a80753
+2024-10-07,India,Mumbai,Line 3,metro,12.7,no,yes,yes,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 3 Aarey JVLR – Bandra-Kurla Complex (12.7 km),,b8a80753
 2024-10-12,Italy,Milan,M4,metro,7.8,no,yes,no,GoA4,yes,UTO,M4 San Babila – San Cristoforo (7.8 km),,950540ef
 2024-10-15,Nigeria,Lagos,Red Line,commuter rail,27.0,no,yes,yes,GoA1,no,dedicated commuter railway,"Red Line Oyingbo – Agbado (27 km, limited service)",dedicated commuter railway alongside the Lagos–Kano corridor,3c55f3af
 2024-10-18,Germany,Stuttgart,U5,light rail,0.7,no,no,no,GoA1,no,mode default; unverified,U5 Leinfelden Bahnhof – Leinfelden Neuer Markt (0.7 km),,21d2bf9b
@@ -1221,13 +1221,13 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2025-04-27,India,Ahmedabad,Red Line,metro,2.4,no,yes,no,GoA2,no,mode default; unverified,Line 2 Gandhinagar Sector 1 – Sachivalaya (2.4 km),,5a65f8a4
 2025-04-28,Belgium,Liège,Liège Tramway,tram,11.0,no,no,yes,GoA0,no,mode default; unverified,T1 Standard – Place Coronmeuse / Liège Expo (11 km),,8a813c80
 2025-05-03,Iran,Mashhad,Line 2,metro,,no,yes,no,GoA2,no,mode default; unverified,Line 2 Shahid Kaveh – Shahid Fakouri,,6669f583
-2025-05-10,India,Mumbai,Line 3,metro,9.8,no,yes,no,GoA2,no,UTO-ready but run with drivers,Line 3 Bandra-Kurla Complex – Acharya Atre Chowk (9.8 km),,38dee6b6
+2025-05-10,India,Mumbai,Line 3,metro,9.8,no,yes,no,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 3 Bandra-Kurla Complex – Acharya Atre Chowk (9.8 km),,38dee6b6
 2025-05-10,United States,Seattle,2 Line,light rail,5.4,no,no,no,GoA1,no,,Line 2 Redmond Technology – Downtown Redmond (5.4 km),,099d940d
 2025-05-16,China,Ningbo,Line 4,metro,2.5,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 4 Dongqian Lake - International Conference Center (2.5 km),,b074b5f2
 2025-05-20,Thailand,Bangkok,Pink Line,monorail,2.8,no,yes,no,GoA4,yes,UTO,Pink Line Mueang Thong Thani – Lake Mueang Thong Thani (2.8 km),,f9c1a9c6
 2025-05-23,France,Nantes,Line 1,tram,1.4,no,no,no,GoA0,no,mode default; unverified,Line 1 Ranzay – Babinière (1.4 km),,356dca63
 2025-05-30,India,Kanpur,Orange Line,metro,7.3,no,yes,no,GoA2,no,mode default; unverified,Orange Line Moti Jheel - Kanpur Central (7.3 km),,c116e51a
-2025-05-31,India,Indore,Yellow Line,metro,5.9,no,yes,yes,GoA2,no,mode default; unverified,Yellow Line Veerangana Jhalkari Bai (Super Corridor 3) – Devi Ahilya Bai Holkar Terminal (Gandhinagar) (5.9 km),,ec359b4c
+2025-05-31,India,Indore,Yellow Line,metro,5.9,no,yes,yes,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Yellow Line Veerangana Jhalkari Bai (Super Corridor 3) – Devi Ahilya Bai Holkar Terminal (Gandhinagar) (5.9 km),,ec359b4c
 2025-06-06,United States,Los Angeles,K Line,light rail,1.9,no,no,no,GoA1,no,,K/C Westchester/Veterans – Aviation/Century (1.9 km),,1fbffd7f
 2025-06-07,United States,Phoenix,Line B,tram,7.7,no,no,no,GoA0,no,mode default; unverified,Line B Downtown Phoenix Hub – Baseline/Central Ave (7.7 km),,44c3d81a
 2025-06-09,Australia,Perth,Transperth,commuter rail,14.5,yes,no,no,GoA1,no,mode default; unverified,Thornlie – Cockburn Central (14.5 km),,0ad77e28
@@ -1248,7 +1248,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2025-07-27,Slovakia,Bratislava,Line 3,tram,3.9,no,no,no,GoA0,no,mode default; unverified,Line 3 Jungmannova – Juzne mesto (3.9 km),,e0abad8c
 2025-08-03,Japan,Hiroshima,,tram,1.1,no,no,no,GoA0,no,mode default; unverified,Hijiyama-shita – Hiroshima Station (1.1 km),,de65a404
 2025-08-06,China,Nanjing,Line 5,metro,24.0,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 5 Wenjinglu – Fangjiaying (24 km),,010d9d0d
-2025-08-10,India,Bengaluru,Yellow Line,metro,18.8,no,yes,yes,GoA2,no,UTO-ready but run with drivers,Yellow Line Rashtreeya Vidyalaya Road – Delta Electronics Bommasandra (18.8 km),,3d55c381
+2025-08-10,India,Bengaluru,Yellow Line,metro,18.8,no,yes,yes,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Yellow Line Rashtreeya Vidyalaya Road – Delta Electronics Bommasandra (18.8 km),,3d55c381
 2025-08-22,India,Kolkata,Yellow Line,metro,,no,yes,yes,GoA2,no,mode default; unverified,YL Noapara – Jai Hind Bimanbandar (Green and Orange lines extended the same day),split from a combined UrbanRail entry,5e9b71c0
 2025-08-22,Turkey,İzmit,,tram,1.4,no,no,no,GoA0,no,mode default; unverified,Otogar – Sabanci MTAL (1.4 km),,f0d20cef
 2025-08-29,China,Ningbo,Line 7,metro,39.4,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 7 Yufan – Yunlong (39.4 km),,0f23d023
@@ -1273,7 +1273,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2025-09-29,China,Guangzhou,Lines 13 and 14,metro,,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 13 Yuzhu – Tianhe Park & Line 14 Jiahewanggang – Lejia Road,,a8e581ee
 2025-10-06,Austria,Vienna,Line 27,tram,2.1,no,no,no,GoA0,no,mode default; unverified,Line 27 Prinzgasse – Aspern Nord (2.1 km),,7a60bfc2
 2025-10-06,India,Patna,Blue Line,metro,3.1,no,yes,yes,GoA2,no,mode default; unverified,Blue Line Bhootnath – New ISBT (3.1 km),,c6643dff
-2025-10-09,India,Mumbai,Line 3,metro,11.0,no,yes,no,GoA2,no,UTO-ready but run with drivers,Line 3 Acharya Atre Chowk – Cuffe Parade (11 km),,5f2d577a
+2025-10-09,India,Mumbai,Line 3,metro,11.0,no,yes,no,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 3 Acharya Atre Chowk – Cuffe Parade (11 km),,5f2d577a
 2025-10-13,Australia,Perth,Transperth,commuter rail,6.9,yes,no,no,GoA1,no,mode default; unverified,(Beckenham – ) Armadale – Byford (6.9 km),,4cb8e07a
 2025-10-14,Turkey,İzmit,,tram,2.6,no,no,no,GoA0,no,mode default; unverified,Sabanci MTAL – Kocaeli Stadyum (2.6 km),,718909cd
 2025-10-16,Italy,Milan,Line 7,tram,1.4,no,no,no,GoA0,no,mode default; unverified,Line 7 Parmenide – Quartiere Adriano (Adriano/Vipiteno) (1.4 km),,d17f6dbe
@@ -1302,7 +1302,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2025-12-19,China,Nanjing,Line 10,metro,13.3,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 10 Andemen — Dongqilu (13.3 km),,338bd6dd
 2025-12-19,China,Nanjing,Line 3,metro,3.3,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Line 3 Mozhoudonglu — Moling (3.3 km),,619868d1
 2025-12-20,France,Montpellier,Montpellier Tramway T5,tram,,no,no,yes,GoA0,no,mode default; unverified,T5 Clapiers – Saint-Éloi - Docteur Pezet & Gambetta - Saint-Denis – Grés de Montpellier (4.4+6.3 km),,b2e35de4
-2025-12-21,India,Bhopal,Orange Line,metro,7.5,no,yes,yes,GoA2,no,mode default; unverified,Orange Line Subash Nagar — AIIMS (7.5 km),,d1083562
+2025-12-21,India,Bhopal,Orange Line,metro,7.5,no,yes,yes,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Orange Line Subash Nagar — AIIMS (7.5 km),,d1083562
 2025-12-22,Poland,Warsaw,Line 19,tram,0.9,no,no,no,GoA0,no,mode default; unverified,Line 19 Goworka — Pole Mokotowskie (0.9 km),,106905a4
 2025-12-24,Russia,Saint Petersburg,Line 2,tram,4.7,no,no,no,GoA0,no,mode default; unverified,Line 2 Metro Kupchino ( Balkanskiy) — Valdayskaya ulitsa (4.7 km),,12559c6a
 2025-12-26,China,Hefei,Line 6,metro,34.4,no,yes,yes,GoA4,yes,CAMET: FAO (2025 table),Line 6 (Qinglonggang – ) Beiyanhu – Longtang (34.4 km),,027b6770
@@ -1343,8 +1343,8 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2026-03-28,United States,Seattle,2 Line,light rail,12.8,no,no,no,GoA1,no,,Line 2 International District/Chinatown — South Bellvue (12.8 km),,2f60aef6
 2026-03-31,Brazil,São Paulo,Line 17,monorail,6.0,no,yes,yes,GoA4,yes,UTO,Line 17 Morumbi — Aeroporto de Congonhas (6 km; limited service),,8b2fb83f
 2026-04-05,United Kingdom,Birmingham,,tram,0.5,no,no,no,GoA0,no,mode default; unverified,Bull St/Corporation St — Millennium Point (0.5 km),,f3a578ea
-2026-04-08,India,Mumbai,Line 2B,metro,5.4,no,yes,yes,GoA2,no,mode default; unverified,Line 2B Diamond Garden — Mandale (5.4 km),first opening of Line 2B,ea398fee
-2026-04-08,India,Mumbai,Line 9,metro,3.6,no,yes,yes,GoA2,no,mode default; unverified,Line 9 Dahisar East — Kashigaon (3.6 km),"first opening of Line 9, numbered and planned as its own line though it continues Line 7",87b7e23f
+2026-04-08,India,Mumbai,Line 2B,metro,5.4,no,yes,yes,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 2B Diamond Garden — Mandale (5.4 km),first opening of Line 2B,ea398fee
+2026-04-08,India,Mumbai,Line 9,metro,3.6,no,yes,yes,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 9 Dahisar East — Kashigaon (3.6 km),"first opening of Line 9, numbered and planned as its own line though it continues Line 7",87b7e23f
 2026-04-18,Czechia,Prague,,tram,0.5,no,no,no,GoA0,no,mode default; unverified,Lihovar — Dvorce/Kublov (0.5 km),,437d8ade
 2026-04-22,China,Nanjing,S2,suburban metro,54.2,no,yes,yes,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),S2 Xishanqiao — Taibai (54.2 km),,db797a9e
 2026-04-26,China,Jinhua,Jinyi Line,suburban metro,3.6,no,yes,no,GoA2,no,CAMET: not FAO (inferred from its FAO tables and totals),Lingyun — Yiwu Railway Station (3.6 km),,77378f52
@@ -1373,7 +1373,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2026-07-31,China,Guangzhou,Guangzhou–Shenzhen Intercity,intercity rail,48.2,yes,yes,no,GoA1,no,mainline intercity,Guangzhou-Shenzhen Intercity Zhuliao – Xintang South (48.2 km),,4be7dadc
 2026-08-09,Australia,Gold Coast,,tram,6.8,no,no,no,GoA0,no,mode default; unverified,Broadbeach South — Burleigh Heads (6.8 km),,2234ac5f
 2026-08-10,Germany,Mainz,,tram,0.3,no,no,no,GoA0,no,mode default; unverified,Hauptbahnhof West — Münsterplatz (0.3 km),,85fc36f7
-2026-08-13,India,Mumbai,Line 2B,metro,1.0,no,yes,no,GoA2,no,mode default; unverified,Line 2B Diamond Garden – Chembur (1 km),,b8a36dd6
+2026-08-13,India,Mumbai,Line 2B,metro,1.0,no,yes,no,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Line 2B Diamond Garden – Chembur (1 km),,b8a36dd6
 2026-08-14,Bulgaria,Sofia,M3,metro,3.2,no,yes,no,GoA2,no,,M3 Hadzhi Dimitar — Gen. Vladimir Vazov (3.2 km),,0cdb4254
 2026-08-21,Israel,Jerusalem,Line 3,tram,7.0,no,no,no,GoA0,no,mode default; unverified,L3 HaTurim — Malha Menachat (7 km),,d0c60764
 2026-08-22,Denmark,Copenhagen,,tram,13.9,no,no,no,GoA0,no,mode default; unverified,Letbane Rødovre Nord — Lundtofte (13.9 km),,9052e41c
@@ -1386,7 +1386,7 @@ opening_date,country,city,line,mode,km,mainline,grade_separated,new_build,GoA,au
 2026-09-04,Germany,Düsseldorf,U80,light rail,1.8,no,no,no,GoA1,no,mode default; unverified,[U80/81] Freiligrathplatz — Flughafen Terminal (1.8 km),,3a06efb7
 2026-09-05,Austria,Vienna,Line 18,tram,2.2,no,no,no,GoA0,no,mode default; unverified,[18] Schlachthausgasse — Stadion U/Handelskai (2.2 km),,63bf74e8
 2026-09-05,Russia,Moscow,Line 17 (Rublyovo-Arkhangelskaya),metro,5.2,no,yes,yes,GoA2,no,mode default; unverified,[17] (Delovoy Tsentr — ) Shelepikha — Bul. Generala Karbysheva (~5.2 km),,4f5db9de
-2026-09-06,India,Indore,Yellow Line,metro,11.2,no,yes,no,GoA2,no,mode default; unverified,Yellow Line Veerangana Jhalkari Bai — Malviya Nagar Chowraha (Radisson Sq) (11.2 km),,df9a2b02
+2026-09-06,India,Indore,Yellow Line,metro,11.2,no,yes,no,GoA2.5,yes,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab,Yellow Line Veerangana Jhalkari Bai — Malviya Nagar Chowraha (Radisson Sq) (11.2 km),,df9a2b02
 2026-09-09,Turkey,Konya,Line 2,tram,1.4,no,no,no,GoA0,no,mode default; unverified,[2] Adliye — Sehir Hastanesi (1.4 km),,1cfd5236
 2026-09-13,New Zealand,Auckland,City Rail Link,commuter rail,3.5,yes,no,no,GoA1,no,mode default; unverified,City Rail Link Waitemata — Maungawhau (3.5 km),new mainline tunnel,074e3a6d
 2026-09-15,Turkey,İzmit,,tram,1.4,no,no,no,GoA0,no,mode default; unverified,Kocaeli Stadyum — Kartepe (1.4 km),,9e099de6

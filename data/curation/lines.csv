@@ -267,5 +267,11 @@ Hanoi,Line 3,,,,GoA2,
 Ho Chi Minh City,Line 1,,,,GoA2,
 Dhaka,Line 6,,,,GoA2,
 Lahore,Orange Line,,,,GoA2,
-Mumbai,Line 3,,,,GoA2,UTO-ready but run with drivers
-Bengaluru,Yellow Line,,,,GoA2,UTO-ready but run with drivers
+Mumbai,Line 3,,,,GoA2.5,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab
+Bengaluru,Yellow Line,,,,GoA2.5,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab
+Bhopal,Orange Line,,,,GoA2.5,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab
+Indore,Yellow Line,,,,GoA2.5,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab
+Mumbai,Line 2A,,,,GoA2.5,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab
+Mumbai,Line 2B,,,,GoA2.5,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab
+Mumbai,Line 7,,,,GoA2.5,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab
+Mumbai,Line 9,,,,GoA2.5,GoA2.5: built for UTO (GoA4-capable trains and signalling) but run with a driver in the cab

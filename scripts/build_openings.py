@@ -85,7 +85,7 @@ def main():
             if override["GoA"] or override["GoA_basis"]:
                 goa = override["GoA"]
                 basis = override["GoA_basis"]
-        automated = "" if goa == "" else ("yes" if int(goa.removeprefix("GoA")) >= 3 else "no")
+        automated = "" if goa == "" else ("yes" if float(goa.removeprefix("GoA")) > 2 else "no")
         out.append({
             "opening_date": e["date"],
             "country": country,
