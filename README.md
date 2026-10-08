@@ -187,7 +187,12 @@ named like the charts.
   `cities.csv` (city and country names),
   and `lines.csv` (per-line mode, mainline, grade separation, and GoA).
 - `data/urbanrail_events.csv` and `data/camet_new_lines.csv`: parsed source data.
-- `data/raw/`: downloaded source pages and reports.
+- `data/camet_text/`: the text of the CAMET report pages relied on,
+  such as the new-line tables and FAO sections.
+- `data/raw/urbanrail/`: the downloaded UrbanRail.net pages.
+  The CAMET reports, about 30 MB, are downloaded into `data/raw/camet/` but not committed;
+  `scripts/download_camet.sh` falls back to archived copies
+  and checks them against `data/camet_sha256sums.txt`.
 - `scripts/`: download, parse, build, and chart scripts.
 
 ## Rebuilding
@@ -197,6 +202,7 @@ named like the charts.
 ./scripts/download_camet.sh
 uv run --with beautifulsoup4 python scripts/parse_urbanrail.py data/urbanrail_events.csv data/raw/urbanrail/*.htm
 uv run --with pdfplumber python scripts/parse_camet.py data/camet_new_lines.csv data/raw/camet/camet-*.pdf
+./scripts/extract_camet_text.sh
 uv run python scripts/build_openings.py
 uv run python scripts/plot_share.py
 ```
