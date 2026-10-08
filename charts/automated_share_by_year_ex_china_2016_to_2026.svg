@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 436" width="760" height="436" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
 <title id="t">Share of new metro lines outside mainland China that are automated (above GoA2), by year</title>
 <desc id="d">61 of 127 new grade-separated, non-mainline urban rail lines opened from 2016 to 2026-09-05 are automated.</desc>
 <style>
@@ -9,9 +9,9 @@
 .bg{fill:#1a1a19}.bar{fill:#3987e5}.grid{stroke:#2e2e2c}.axis{stroke:#5d5c57}
 .t1{fill:#ffffff}.t2{fill:#c3c2b7}}
 </style>
-<rect class="bg" width="760" height="420" rx="8"/>
+<rect class="bg" width="760" height="436" rx="8"/>
 <text class="t1" x="56" y="28" font-size="17" font-weight="600">Automated share of new metro lines, outside mainland China</text>
-<text class="t2" x="56" y="50" font-size="13">Above GoA2 among new-build, grade-separated, non-mainline lines; 61 of 127 (48%) in 2016–2026</text>
+<text class="t2" x="56" y="50" font-size="13">Above GoA2; new-build, grade-separated, non-mainline lines; 61 of 127 (48%) in 2016–2026</text>
 <line class="axis" x1="56" x2="744" y1="356.0" y2="356.0"/>
 <text class="t2" x="48" y="360.0" font-size="12" text-anchor="end">0%</text>
 <line class="grid" x1="56" x2="744" y1="285.0" y2="285.0"/>
@@ -97,5 +97,6 @@
 </g>
 <text class="t1" x="712.7" y="374.0" font-size="12" text-anchor="middle">2026*</text>
 <text class="t2" x="712.7" y="390.0" font-size="11" text-anchor="middle">8/11</text>
-<text class="t2" x="56" y="410" font-size="11">Below each year: automated/new lines. * 2026 through 2026-09-05. Sources: UrbanRail.net, CAMET.</text>
+<text class="t2" x="56" y="412" font-size="11">Below each year: automated/new lines.</text>
+<text class="t2" x="56" y="426" font-size="11">* 2026 through 2026-09-05. Sources: UrbanRail.net, CAMET.</text>
 </svg>

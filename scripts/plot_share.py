@@ -4,8 +4,11 @@ Usage: python plot_share.py
 
 Reads data/urban_rail_openings.csv and, for each region
 (worldwide, mainland China, and outside mainland China), writes:
-- data/automated_share_by_year{suffix}_{range}.csv: the numbers behind the chart.
-- charts/automated_share_by_year{suffix}_{range}.svg: a bar chart of the share per year.
+- data/automated{measure}_share_by_year{suffix}_{range}.csv: the numbers behind the chart.
+- charts/automated{measure}_share_by_year{suffix}_{range}.svg: a bar chart of the share per year.
+The measure is either line count (no {measure} part, for continuity)
+or km (`km`), the length of each line at its first opening;
+lines without a known length are left out of the km charts.
 Each comes in two ranges: 2016_to_2025 (full years only)
 and 2016_to_2026 (including the current, partial year).
 
@@ -31,11 +34,11 @@ REGIONS = {
 
 # Layout, in px.
 WIDTH = 760
-HEIGHT = 420
+HEIGHT = 436
 LEFT = 56
 RIGHT = 16
 TOP = 72
-BOTTOM = 64
+BOTTOM = 80
 BAR_GAP = 0.3
 
 
@@ -43,9 +46,10 @@ def counted(r):
     return r["new_build"] == "yes" and r["grade_separated"] == "yes" and r["mainline"] == "no"
 
 
-def tally(in_region, last_year):
+def tally(in_region, last_year, by_km):
     total = Counter()
     automated = Counter()
+    unknown_km = 0
     last_date = ""
     with open(OPENINGS, newline="") as f:
         for r in csv.DictReader(f):
@@ -54,19 +58,28 @@ def tally(in_region, last_year):
             year = r["opening_date"][:4]
             if year > last_year:
                 continue
-            total[year] += 1
-            automated[year] += r["automated"] == "yes"
             last_date = max(last_date, r["opening_date"])
+            if by_km and not r["km"]:
+                unknown_km += 1
+                continue
+            weight = float(r["km"]) if by_km else 1
+            total[year] += weight
+            automated[year] += weight if r["automated"] == "yes" else 0
     years = sorted(total)
-    return [(y, total[y], automated[y]) for y in years], last_date
+    return [(y, total[y], automated[y]) for y in years], last_date, unknown_km
 
 
-def write_table(rows, table):
+def write_table(rows, table, unit):
     with open(table, "w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["year", "new_lines", "automated_lines", "automated_share"])
+        w.writerow(["year", f"new_{unit}", f"automated_{unit}", "automated_share"])
         for year, n, a in rows:
-            w.writerow([year, n, a, f"{a / n:.3f}"])
+            w.writerow([year, fmt(n), fmt(a), f"{a / n:.3f}"])
+
+
+def fmt(x):
+    """Format a line count or a length in km."""
+    return f"{x:.0f}" if x == int(x) or x >= 10 else f"{x:.1f}"
 
 
 def bar_path(x, y, w, h, r):
@@ -78,7 +91,7 @@ def bar_path(x, y, w, h, r):
     )
 
 
-def write_svg(rows, last_date, svg, region):
+def write_svg(rows, last_date, svg, region, unit, unknown_km):
     plot_w = WIDTH - LEFT - RIGHT
     plot_h = HEIGHT - TOP - BOTTOM
     step = plot_w / len(rows)
@@ -110,10 +123,11 @@ def write_svg(rows, last_date, svg, region):
         "</style>",
         f'<rect class="bg" width="{WIDTH}" height="{HEIGHT}" rx="8"/>',
         f'<text class="t1" x="{LEFT}" y="28" font-size="17" font-weight="600">'
-        f"Automated share of new metro lines, {region}</text>",
+        f"Automated share of new metro {'km' if unit == 'km' else 'lines'}, {region}</text>",
         f'<text class="t2" x="{LEFT}" y="50" font-size="13">'
-        f"Above GoA2 among new-build, grade-separated, non-mainline lines; "
-        f"{a_all} of {n_all} ({a_all / n_all:.0%}) in {first_year}–{last_year}</text>",
+        f"Above GoA2; new-build, grade-separated, non-mainline lines; "
+        f"{fmt(a_all)} of {fmt(n_all)}{' km' if unit == 'km' else ''} "
+        f"({a_all / n_all:.0%}) in {first_year}–{last_year}</text>",
     ]
     for share in (0, 0.25, 0.5, 0.75):
         y = y_of(share)
@@ -129,7 +143,7 @@ def write_svg(rows, last_date, svg, region):
         y = y_of(share)
         cx = x + bar_w / 2
         partial = year == partial_year
-        label = f"{year}: {a} of {n} new lines automated ({share:.0%})"
+        label = f"{year}: {fmt(a)} of {fmt(n)} new {unit} automated ({share:.0%})"
         if partial:
             label += f", through {last_date}"
         out.append(f"<g><title>{escape(label)}</title>")
@@ -152,14 +166,19 @@ def write_svg(rows, last_date, svg, region):
         )
         out.append(
             f'<text class="t2" x="{cx:.1f}" y="{y_of(0) + 34:.1f}" font-size="11" '
-            f'text-anchor="middle">{a}/{n}</text>'
+            f'text-anchor="middle">{fmt(a)}/{fmt(n)}</text>'
         )
-    out.append(
-        f'<text class="t2" x="{LEFT}" y="{HEIGHT - 10}" font-size="11">'
-        "Below each year: automated/new lines. "
-        + (f"* {partial_year} through {last_date}. " if last_year == partial_year else "")
-        + "Sources: UrbanRail.net, CAMET.</text>"
+    footer = [f"Below each year: automated/new {unit}."]
+    if unit == "km":
+        footer[0] += f" Length at first opening; {unknown_km} lines of unknown length left out."
+    footer.append(
+        (f"* {partial_year} through {last_date}. " if last_year == partial_year else "")
+        + "Sources: UrbanRail.net, CAMET."
     )
+    for i, line in enumerate(footer):
+        out.append(
+            f'<text class="t2" x="{LEFT}" y="{HEIGHT - 24 + 14 * i}" font-size="11">{line}</text>'
+        )
     out.append("</svg>")
     svg.parent.mkdir(exist_ok=True)
     svg.write_text("\n".join(out) + "\n")
@@ -169,13 +188,16 @@ def main():
     for last_year in ("2025", "2026"):
         span = f"2016_to_{last_year}"
         for suffix, (region, in_region) in REGIONS.items():
-            rows, last_date = tally(in_region, last_year)
-            name = f"automated_share_by_year{suffix}_{span}"
-            write_table(rows, ROOT / "data" / f"{name}.csv")
-            write_svg(rows, last_date, ROOT / "charts" / f"{name}.svg", region)
-            n = sum(n for _, n, _ in rows)
-            a = sum(a for _, _, a in rows)
-            print(f"{name}: {a}/{n} {a / n:.0%}")
+            for by_km in (False, True):
+                unit = "km" if by_km else "lines"
+                rows, last_date, unknown_km = tally(in_region, last_year, by_km)
+                measure = "_km" if by_km else ""
+                name = f"automated{measure}_share_by_year{suffix}_{span}"
+                write_table(rows, ROOT / "data" / f"{name}.csv", unit)
+                write_svg(rows, last_date, ROOT / "charts" / f"{name}.svg", region, unit, unknown_km)
+                n = sum(n for _, n, _ in rows)
+                a = sum(a for _, _, a in rows)
+                print(f"{name}: {fmt(a)}/{fmt(n)} {a / n:.0%}")
 
 
 if __name__ == "__main__":

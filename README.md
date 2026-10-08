@@ -103,7 +103,13 @@ The same, split into mainland China and everywhere else
 
 Each chart also has a `2016_to_2025` version with full years only,
 in which 118 of 340 new lines (35%) are automated worldwide.
-The numbers per year are in `data/automated_share_by_year*.csv`,
+Every chart also has a km version (`automated_km_share_*`),
+weighting each line by its length at first opening:
+2,660 of 7,903 km (34%) are automated worldwide in 2016–2026,
+29% in mainland China and 53% elsewhere.
+The 35 lines whose length UrbanRail.net doesn't give are left out of those,
+and lines opened in stages count only their first section.
+The numbers per year are in `data/automated*_share_by_year*.csv`,
 named like the charts.
 
 ### Caveats
@@ -162,8 +168,9 @@ named like the charts.
 ## Layout
 
 - `data/urban_rail_openings.csv`: the full openings list, sorted by date.
-- `data/automated_share_by_year*.csv`: the numbers behind the charts.
-- `charts/automated_share_by_year*.svg`: the charts,
+- `data/automated*_share_by_year*.csv`: the numbers behind the charts.
+- `charts/automated*_share_by_year*.svg`: the charts,
+  by line count or by km (`_km`),
   worldwide, for mainland China (`_china`), and for everywhere else (`_ex_china`),
   each for 2016–2025 (`_2016_to_2025`) and 2016–2026 (`_2016_to_2026`).
 - `data/curation/`: the hand-kept tables the openings list is built from:
