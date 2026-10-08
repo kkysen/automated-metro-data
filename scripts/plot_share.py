@@ -6,6 +6,8 @@ Reads data/urban_rail_openings.csv and, for each region
 (worldwide, mainland China, and outside mainland China), writes:
 - data/automated{measure}_share_by_year{suffix}_{range}.csv: the numbers behind the chart.
 - charts/automated{measure}_share_by_year{suffix}_{range}.svg: a bar chart of the share per year.
+- charts/png/automated{measure}_share_by_year{suffix}_{range}.png: the same at 2x, for apps without SVG support.
+  These aren't committed, and need ImageMagick (`magick`).
 The measure is either the count of new lines (no {measure} part)
 or km (`_km`) of all openings, new lines and extensions alike;
 openings without a known length are left out of the km charts.
@@ -16,6 +18,8 @@ A line counts if it is new-build, fully grade-separated, and not mainline.
 """
 
 import csv
+import shutil
+import subprocess
 from collections import Counter
 from datetime import date
 from html import escape
@@ -193,7 +197,17 @@ def write_svg(rows, last_date, svg, region, unit, unknown_km):
     svg.write_text("\n".join(out) + "\n")
 
 
+def write_png(svg):
+    png = svg.parent / "png" / svg.with_suffix(".png").name
+    png.parent.mkdir(exist_ok=True)
+    # 192 dpi is twice the SVG's size, so it stays sharp on high-DPI screens.
+    subprocess.run(["magick", "-density", "192", svg, png], check=True)
+
+
 def main():
+    png = shutil.which("magick") is not None
+    if not png:
+        print("magick not found, so not writing PNGs")
     for last_year in ("2025", "2026"):
         span = f"2016_to_{last_year}"
         for suffix, (region, in_region) in REGIONS.items():
@@ -203,7 +217,10 @@ def main():
                 measure = "_km" if by_km else ""
                 name = f"automated{measure}_share_by_year{suffix}_{span}"
                 write_table(rows, ROOT / "data" / f"{name}.csv", unit)
-                write_svg(rows, last_date, ROOT / "charts" / f"{name}.svg", region, unit, unknown_km)
+                svg = ROOT / "charts" / f"{name}.svg"
+                write_svg(rows, last_date, svg, region, unit, unknown_km)
+                if png:
+                    write_png(svg)
                 n = sum(n for _, n, _ in rows)
                 a = sum(a for _, _, a in rows)
                 print(f"{name}: {fmt(a)}/{fmt(n)} {a / n:.0%}")
