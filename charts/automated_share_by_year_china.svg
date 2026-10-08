@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
-<title id="t">Share of new metro lines in mainland China that are automated (GoA3/GoA4), by year</title>
+<title id="t">Share of new metro lines in mainland China that are automated (above GoA2), by year</title>
 <desc id="d">70 of 236 new grade-separated, non-mainline urban rail lines opened from 2016 to 2026-09-29 are automated.</desc>
 <style>
 .bg{fill:#fcfcfb}.bar{fill:#2a78d6}.bar.partial{fill-opacity:.55}
@@ -11,7 +11,7 @@
 </style>
 <rect class="bg" width="760" height="420" rx="8"/>
 <text class="t1" x="56" y="28" font-size="17" font-weight="600">Automated share of new metro lines, in mainland China</text>
-<text class="t2" x="56" y="50" font-size="13">GoA3/GoA4 among new-build, grade-separated, non-mainline lines; 70 of 236 (30%) since 2016</text>
+<text class="t2" x="56" y="50" font-size="13">Above GoA2 among new-build, grade-separated, non-mainline lines; 70 of 236 (30%) since 2016</text>
 <line class="axis" x1="56" x2="744" y1="356.0" y2="356.0"/>
 <text class="t2" x="48" y="360.0" font-size="12" text-anchor="end">0%</text>
 <line class="grid" x1="56" x2="744" y1="285.0" y2="285.0"/>

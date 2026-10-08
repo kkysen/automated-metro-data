@@ -1,4 +1,4 @@
-"""Chart the share of new lines that are automated (GoA3 or GoA4), by year.
+"""Chart the share of new lines that are automated (above GoA2), by year.
 
 Usage: python plot_share.py
 
@@ -89,7 +89,7 @@ def write_svg(rows, last_date, svg, region):
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" '
         f'width="{WIDTH}" height="{HEIGHT}" role="img" aria-labelledby="t d" '
         'font-family="system-ui, -apple-system, Segoe UI, sans-serif">',
-        f'<title id="t">Share of new metro lines {region} that are automated (GoA3/GoA4), by year</title>',
+        f'<title id="t">Share of new metro lines {region} that are automated (above GoA2), by year</title>',
         f'<desc id="d">{a_all} of {n_all} new grade-separated, non-mainline urban rail lines '
         f"opened from 2016 to {last_date} are automated.</desc>",
         "<style>",
@@ -104,7 +104,7 @@ def write_svg(rows, last_date, svg, region):
         f'<text class="t1" x="{LEFT}" y="28" font-size="17" font-weight="600">'
         f"Automated share of new metro lines, {region}</text>",
         f'<text class="t2" x="{LEFT}" y="50" font-size="13">'
-        f"GoA3/GoA4 among new-build, grade-separated, non-mainline lines; "
+        f"Above GoA2 among new-build, grade-separated, non-mainline lines; "
         f"{a_all} of {n_all} ({a_all / n_all:.0%}) since 2016</text>",
     ]
     for share in (0, 0.25, 0.5, 0.75):

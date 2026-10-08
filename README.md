@@ -1,7 +1,7 @@
 # Automated Metro Data
 
 What share of the new metro lines opened worldwide in the last decade
-are automated at GoA3 or GoA4?
+are automated above GoA2?
 
 This repo collects every new urban rail line opened since 2016-01-01
 that is fully grade-separated and not part of the mainline railway,
@@ -45,17 +45,22 @@ are out of scope.
 
 ### What counts as automated
 
-A line counts as automated if it was designed and opened for
-GoA3 (driverless, with an attendant on board) or GoA4 (unattended) operation.
-That includes Chinese lines designated as fully automated operation (FAO) by CAMET,
-which are built for unattended operation,
-but often start out with a driver or attendant on board.
+A line counts as automated if its GoA is above GoA2:
 
-Lines that are only "UTO-ready" are **not** counted.
-These usually have CBTC signalling
-but lack the obstacle and track-intrusion detection, FAO depots, and safety certification
-that unattended operation needs,
-and conversions to full automation are rare.
+- **GoA4**: unattended train operation (UTO),
+  including lines built for it that start out with staff on board.
+  That covers Chinese lines designated as fully automated operation (FAO) by CAMET,
+  which often open with a driver or attendant on board.
+- **GoA3**: driverless, with an attendant on board who doesn't drive.
+- **GoA2.5**: not an official grade, but used here for lines
+  built for UTO, with GoA4-capable trains and signalling (and usually platform screen doors),
+  that run with a driver in the cab who closes the doors and starts each departure.
+  This is the norm for new Indian metro lines
+  (Mumbai Lines 2A, 7, 3, 2B, and 9, Bengaluru's Yellow Line, Bhopal, and Indore).
+
+Lines with only CBTC signalling, without those UTO features, are GoA2 and not counted.
+Lines converted to UTO long after opening, such as Guangzhou Line 7
+(opened 2016, FAO from December 2024), keep the GoA they opened with.
 
 ## Findings
 
@@ -63,23 +68,24 @@ and conversions to full automation are rare.
 
 Of the **363 new lines** opened from 2016-01-01 through 2026-09-29
 that are new-build, fully grade-separated, and not mainline,
-**123 (34%) are automated** at GoA3 or GoA4.
+**131 (36%) are automated** above GoA2.
 
 - **The share has risen sharply.**
   It was 18% (30 of 168) for lines opened in 2016–2020,
-  48% (93 of 195) in 2021–2026,
-  and 55% (48 of 87) in 2024–2026.
+  52% (101 of 195) in 2021–2026,
+  and 62% (54 of 87) in 2024–2026.
 - **China drove the rise.**
   China opened 236 of the 363 lines.
   Its automated share went from 6% (6 of 107) in 2016–2020
   to 62% (33 of 53) in 2024–2026,
   as fully automated operation became the default for new Chinese metro lines.
 - **Elsewhere the share has been steadier and higher.**
-  Outside China, 42% of new lines (53 of 127) are automated,
-  and 54% (51 of 94) excluding India,
-  whose new lines run with drivers
-  except for Delhi's Magenta and Pink lines.
-- Almost all automated lines are GoA4;
+  Outside China, 48% of new lines (61 of 127) are automated,
+  and 54% (51 of 94) excluding India.
+  In India, 10 of 33 new lines (30%) are automated:
+  Delhi's Magenta and Pink lines at GoA4,
+  and eight recent lines at GoA2.5.
+- Almost all of the rest are GoA4;
   the only GoA3 line is Jakarta's Jabodebek LRT.
 
 The same, split into mainland China and everywhere else
