@@ -23,6 +23,26 @@ A line is counted if it is:
 Lines are counted **by line**, not by km,
 though the length at first opening is kept where known.
 
+### The full openings list
+
+To decide which openings are new lines, every opening has to be classified anyway,
+so `data/openings.csv` lists **every** urban rail opening since 2016-01-01
+that UrbanRail.net records (metro, light rail, tram, monorail, people mover,
+and purpose-built suburban rail), one row per opened line or section,
+sorted by opening date.
+Besides the date, country, city, line, length, and GoA,
+each row records:
+
+- `mode`: what the line calls itself (metro, light rail, tram, monorail, commuter rail, and so on).
+- `mainline`: whether it runs on or as part of the mainline railway.
+- `grade_separated`: whether it is fully grade-separated.
+- `new_build`: whether it is an entirely new line (yes) or an extension or in-fill (no).
+
+The headline share is a filter of this list:
+`new_build`, `grade_separated`, and not `mainline`.
+Mainline openings that UrbanRail.net doesn't track, such as high-speed and intercity lines,
+are out of scope.
+
 ### What counts as automated
 
 A line counts as automated if it was designed and opened for
