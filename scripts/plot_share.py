@@ -1,13 +1,16 @@
+# /// script
+# dependencies = ["resvg-py"]
+# ///
 """Chart the share of new lines that are automated (above GoA2), by year.
 
-Usage: python plot_share.py
+Usage: uv run scripts/plot_share.py
 
 Reads data/urban_rail_openings.csv and, for each region
 (worldwide, mainland China, and outside mainland China), writes:
 - data/automated{measure}_share_by_year{suffix}_{range}.csv: the numbers behind the chart.
 - charts/automated{measure}_share_by_year{suffix}_{range}.svg: a bar chart of the share per year.
 - charts/automated{measure}_share_by_year{suffix}_{range}.png: the same at 2x, for apps without SVG support.
-  These aren't committed, and need ImageMagick (`magick`).
+  These aren't committed.
 The measure is either the count of new lines (no {measure} part)
 or km (`_km`) of all openings, new lines and extensions alike;
 openings without a known length are left out of the km charts.
@@ -18,12 +21,12 @@ A line counts if it is new-build, fully grade-separated, and not mainline.
 """
 
 import csv
-import shutil
-import subprocess
 from collections import Counter
 from datetime import date
 from html import escape
 from pathlib import Path
+
+import resvg_py
 
 ROOT = Path(__file__).resolve().parent.parent
 OPENINGS = ROOT / "data" / "urban_rail_openings.csv"
@@ -122,7 +125,7 @@ def write_svg(rows, last_date, svg, region, unit, unknown_km):
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" '
         f'width="{WIDTH}" height="{HEIGHT}" role="img" aria-labelledby="t d" '
-        'font-family="system-ui, -apple-system, Segoe UI, sans-serif">',
+        'font-family="system-ui, -apple-system, Segoe UI, DejaVu Sans, sans-serif">',
         f'<title id="t">Share of new metro lines {region} that are automated (&gt; GoA2), by year</title>',
         f'<desc id="d">{fmt(a_all)}/{fmt(n_all)} new grade-separated, non-mainline urban rail lines '
         f"opened in 2016 to {last_date} are automated.</desc>",
@@ -199,14 +202,11 @@ def write_svg(rows, last_date, svg, region, unit, unknown_km):
 
 def write_png(svg):
     png = svg.with_suffix(".png")
-    # 192 dpi is twice the SVG's size, so it stays sharp on high-DPI screens.
-    subprocess.run(["magick", "-density", "192", svg, png], check=True)
+    # Twice the SVG's size, so it stays sharp on high-DPI screens.
+    png.write_bytes(bytes(resvg_py.svg_to_bytes(svg_path=str(svg), zoom=2)))
 
 
 def main():
-    png = shutil.which("magick") is not None
-    if not png:
-        print("magick not found, so not writing PNGs")
     for last_year in ("2025", "2026"):
         span = f"2016_to_{last_year}"
         for suffix, (region, in_region) in REGIONS.items():
@@ -218,8 +218,7 @@ def main():
                 write_table(rows, ROOT / "data" / f"{name}.csv", unit)
                 svg = ROOT / "charts" / f"{name}.svg"
                 write_svg(rows, last_date, svg, region, unit, unknown_km)
-                if png:
-                    write_png(svg)
+                write_png(svg)
                 n = sum(n for _, n, _ in rows)
                 a = sum(a for _, _, a in rows)
                 print(f"{name}: {fmt(a)}/{fmt(n)} {a / n:.0%}")
