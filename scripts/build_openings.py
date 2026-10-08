@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CURATION = ROOT / "data" / "curation"
 OUT = ROOT / "data" / "urban_rail_openings.csv"
+UNKNOWN_LENGTH = ROOT / "data" / "unknown_length_openings.csv"
 
 # (mode, mainline, grade_separated, GoA) for each UrbanRail.net mode icon.
 # Trams run on sight (GoA0); other lines default to the most common level.
@@ -118,6 +119,18 @@ def main():
         w.writeheader()
         w.writerows(out)
     print(f"wrote {len(out)} rows to {OUT.relative_to(ROOT)}")
+    # Openings the km charts leave out for lack of a length.
+    unknown = [
+        r for r in out
+        if r["grade_separated"] == "yes" and r["mainline"] == "no"
+        and not r["km"] and "in-fill" not in r["note"]
+    ]
+    fields = ["opening_date", "country", "city", "line", "new_build", "GoA", "description"]
+    with open(UNKNOWN_LENGTH, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(unknown)
+    print(f"wrote {len(unknown)} rows to {UNKNOWN_LENGTH.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
