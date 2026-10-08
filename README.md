@@ -100,6 +100,17 @@ The numbers per year are in `data/automated_share_by_year.csv`,
 
 ### Caveats
 
+- **2026 is a partial year,** through UrbanRail.net's last entry (2026-09-29),
+  and is skewed toward lines opened outside China.
+  Chinese cities rush to open lines before the year ends,
+  so 25–64% of each year's new Chinese lines open in December;
+  none of 2026's December openings are in yet.
+  With only 11 Chinese lines so far,
+  a few non-automated ones (Changchun Lines 5 and 7, Nanjing Line 6,
+  and three suburban lines) pull its share down to 45%,
+  against 79% in 2025.
+  The GoA of Chinese lines opened since July 2026 also comes from news coverage of their openings,
+  since CAMET's next per-line table (around January 2027) isn't out yet.
 - **The line list is only as complete as UrbanRail.net.**
   China's lines were cross-checked against CAMET's per-year counts
   and per-line tables (2023 onward),
