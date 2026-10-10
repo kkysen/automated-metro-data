@@ -177,6 +177,9 @@ named like the charts.
 ## Layout
 
 - `data/urban_rail_openings.csv`: the full openings list, sorted by date.
+- `data/metro_like_openings.csv`: the openings that are new-build, fully grade-separated, and not mainline,
+  the new lines the line-count charts count.
+- `data/automated_metro_like_openings.csv`: those of them that are automated above GoA2.
 - `data/automated*_share_by_year*.csv`: the numbers behind the charts.
 - `charts/automated*_share_by_year*.svg`: the charts,
   by line count or by km (`_km`),
