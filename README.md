@@ -46,6 +46,8 @@ each row records:
 
 The headline share is a filter of this list:
 `new_build`, `grade_separated`, and not `mainline`.
+For easier reading, those openings are also in `data/metro_like_openings.csv`,
+and the automated ones among them in `data/automated_metro_like_openings.csv`.
 Mainline openings that UrbanRail.net doesn't track, such as high-speed and intercity lines,
 are out of scope.
 
@@ -76,6 +78,8 @@ Lines converted to UTO long after opening, such as Guangzhou Line 7
 Of the **361 new lines** opened from 2016-01-01 through 2026-09-29
 that are new-build, fully grade-separated, and not mainline,
 **135 (37%) are automated** above GoA2.
+They're listed in `data/metro_like_openings.csv`
+and `data/automated_metro_like_openings.csv`.
 
 - **The share has risen sharply.**
   It was 19% (32 of 168) for lines opened in 2016–2020,
