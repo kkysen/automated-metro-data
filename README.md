@@ -32,7 +32,7 @@ though the length at first opening is kept where known.
 ### The full openings list
 
 To decide which openings are new lines, every opening has to be classified anyway,
-so `data/urban_rail_openings.csv` lists **every** urban rail opening since 2016-01-01
+so [`data/urban_rail_openings.csv`](data/urban_rail_openings.csv) lists **every** urban rail opening since 2016-01-01
 that UrbanRail.net records (metro, light rail, tram, monorail, people mover,
 and purpose-built suburban rail), one row per opened line or section,
 sorted by opening date.
@@ -46,8 +46,8 @@ each row records:
 
 The headline share is a filter of this list:
 `new_build`, `grade_separated`, and not `mainline`.
-For easier reading, those openings are also in `data/metro_like_openings.csv`,
-and the automated ones among them in `data/automated_metro_like_openings.csv`.
+For easier reading, those openings are also in [`data/metro_like_openings.csv`](data/metro_like_openings.csv),
+and the automated ones among them in [`data/automated_metro_like_openings.csv`](data/automated_metro_like_openings.csv).
 Mainline openings that UrbanRail.net doesn't track, such as high-speed and intercity lines,
 are out of scope.
 
@@ -78,8 +78,8 @@ Lines converted to UTO long after opening, such as Guangzhou Line 7
 Of the **361 new lines** opened from 2016-01-01 through 2026-09-29
 that are new-build, fully grade-separated, and not mainline,
 **135 (37%) are automated** above GoA2.
-They're listed in `data/metro_like_openings.csv`
-and `data/automated_metro_like_openings.csv`.
+They're listed in [`data/metro_like_openings.csv`](data/metro_like_openings.csv)
+and [`data/automated_metro_like_openings.csv`](data/automated_metro_like_openings.csv).
 
 - **The share has risen sharply.**
   It was 19% (32 of 168) for lines opened in 2016–2020,
@@ -116,7 +116,7 @@ new lines and extensions alike, each extension taking its line's GoA:
 The km share is lower than the line share because extensions,
 mostly of older lines built before automation was common, add many non-automated km.
 108 openings of unknown length (35 new lines and 73 extensions,
-listed in `data/unknown_length_openings.csv`) are left out.
+listed in [`data/unknown_length_openings.csv`](data/unknown_length_openings.csv)) are left out.
 The numbers per year are in `data/automated*_share_by_year*.csv`,
 named like the charts.
 
@@ -180,27 +180,27 @@ named like the charts.
 
 ## Layout
 
-- `data/urban_rail_openings.csv`: the full openings list, sorted by date.
-- `data/metro_like_openings.csv`: the openings that are new-build, fully grade-separated, and not mainline,
+- [`data/urban_rail_openings.csv`](data/urban_rail_openings.csv): the full openings list, sorted by date.
+- [`data/metro_like_openings.csv`](data/metro_like_openings.csv): the openings that are new-build, fully grade-separated, and not mainline,
   the new lines the line-count charts count.
-- `data/automated_metro_like_openings.csv`: those of them that are automated above GoA2.
+- [`data/automated_metro_like_openings.csv`](data/automated_metro_like_openings.csv): those of them that are automated above GoA2.
 - `data/automated*_share_by_year*.csv`: the numbers behind the charts.
 - `charts/automated*_share_by_year*.svg`: the charts,
   by line count or by km (`_km`),
   worldwide, for mainland China (`_china`), and for everywhere else (`_ex_china`),
   each for 2016–2025 (`_2016_to_2025`) and 2016–2026 (`_2016_to_2026`).
-- `data/curation/`: the hand-kept tables the openings list is built from:
-  `events.csv` (each UrbanRail.net opening, reviewed),
-  `cities.csv` (city and country names),
-  and `lines.csv` (per-line mode, mainline, grade separation, and GoA).
-- `data/urbanrail_events.csv` and `data/camet_new_lines.csv`: parsed source data.
-- `data/camet_text/`: the text of the CAMET report pages relied on,
+- [`data/curation/`](data/curation/): the hand-kept tables the openings list is built from:
+  [`events.csv`](data/curation/events.csv) (each UrbanRail.net opening, reviewed),
+  [`cities.csv`](data/curation/cities.csv) (city and country names),
+  and [`lines.csv`](data/curation/lines.csv) (per-line mode, mainline, grade separation, and GoA).
+- [`data/urbanrail_events.csv`](data/urbanrail_events.csv) and [`data/camet_new_lines.csv`](data/camet_new_lines.csv): parsed source data.
+- [`data/camet_text/`](data/camet_text/): the text of the CAMET report pages relied on,
   such as the new-line tables and FAO sections.
-- `data/raw/urbanrail/`: the downloaded UrbanRail.net pages.
+- [`data/raw/urbanrail/`](data/raw/urbanrail/): the downloaded UrbanRail.net pages.
   The CAMET reports, about 30 MB, are downloaded into `data/raw/camet/` but not committed;
-  `scripts/download_camet.sh` falls back to archived copies
-  and checks them against `data/camet_sha256sums.txt`.
-- `scripts/`: download, parse, build, and chart scripts.
+  [`scripts/download_camet.sh`](scripts/download_camet.sh) falls back to archived copies
+  and checks them against [`data/camet_sha256sums.txt`](data/camet_sha256sums.txt).
+- [`scripts/`](scripts/): download, parse, build, and chart scripts.
 
 ## Rebuilding
 
@@ -215,5 +215,5 @@ uv run scripts/plot_share.py
 ```
 
 Re-parsing UrbanRail.net keeps each event's ID,
-so the reviews in `data/curation/events.csv` still apply;
+so the reviews in [`data/curation/events.csv`](data/curation/events.csv) still apply;
 new events need reviewing and adding there.
